@@ -15,7 +15,8 @@ Read the notes by simply clicking on each of the notes. They can be downloaded a
 
 ## Work in progress 
 
-- [ ] Change all KaTeX formulas to SVG images 
+- [ ] Change all KaTeX formulas to SVG images
+	- Currently all KaTeX formulas are displayed verbatim as $$s which look horrible 
 - [ ] Full documentation on how to edit, modify or use GitHub with notes
 
 ## Contribution
