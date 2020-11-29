@@ -13,6 +13,11 @@ Currently, notes are available for the following subjects:
 
 Read the notes by simply clicking on each of the notes. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well.
 
+## Work in progress 
+
+- [ ] Change all KaTeX formulas to SVG images 
+- [ ] Full documentation on how to edit, modify or use GitHub with notes
+
 ## Contribution
 
 Contribution is really simple. You just need two things: a bit of time, and a text editor.
