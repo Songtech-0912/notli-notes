@@ -292,3 +292,6 @@ $$
   * This is because the number of energy levels _increases_ as you go down the Periodic Table
 
 > 8 outermost electrons, also called an *octet*, is a very stable configuration. This results in a very high ionization energy (effectively impossible to achieve in real life). So, we can consider 8 outer shell electrons as unmovable.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
+-->
