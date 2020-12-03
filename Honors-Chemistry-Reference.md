@@ -21,6 +21,7 @@ These are quick-reference notes for Honors Chemistry. They are organized into se
 * [Nuclear Equations](#nuclear-equations)
 * [Calculating Half Life](#calculating-half-life)
 * [Ionization Energy](#ionization-energy)
+* [Electrical Conductors and Insulators](#electrical-conductors-and-insulators)
 
 ## Required Formulas
 
@@ -292,6 +293,15 @@ $$
   * This is because the number of energy levels _increases_ as you go down the Periodic Table
 
 > 8 outermost electrons, also called an *octet*, is a very stable configuration. This results in a very high ionization energy (effectively impossible to achieve in real life). So, we can consider 8 outer shell electrons as unmovable.
+
+## Electrical Conductors and Insulators
+
+* Electrical conductivity is only displayed in substances that both **have ions** and are within a state that allows their **ions to freely move** (such as an aqueous solution or in liquid state)
+
+* Three main types of solutions can conduct electricity (making them **electrolytes**) - acids (e.g. ascorbic acid), bases (e.g. aqueous sodium bicarbonate), and salts (e.g. aqueous sodium chloride)
+
+* Covalent compounds (made of non-metals) cannot be electrolytes, because they do not have ions 
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
 -->
