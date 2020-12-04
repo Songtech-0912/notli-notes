@@ -294,11 +294,39 @@ $$
 
 > 8 outermost electrons, also called an *octet*, is a very stable configuration. This results in a very high ionization energy (effectively impossible to achieve in real life). So, we can consider 8 outer shell electrons as unmovable.
 
+## Electronegativity
+
+* **Electronegativity** is a measure of the *attractiveness of an atom* for an electron of another atom
+
+* Electronegativity determines whether a compound is ionic or covalent
+
+* Some compounds are highly electronegative, such as oxygen, fluorine, and chlorine
+
+* Other compounds are highly *electropositive* (the opposite of electronegative), such as sodium, potassium and cesium
+
+## Electron Affinity
+
+* **Electron Affinity** is the energy change that occurs when an atom gains an electron and becomes a negative ion (anion)
+
+* An atom with a high electron affinity is highly attracted to other electrons, while atoms with low electron affinity (e.g. noble gases) are only slightly attracted to other electrons
+
+* In the Periodic Table, there are 2 major trends for electron affinity:
+  
+  * Electron affinity *increases* from left to right
+  
+  * This is because the electronegativity of atoms *increases* towards the right of the Periodic Table
+  
+  * Electron affinity *decreases* from top to down
+  
+  * This is because the electronegativity of atoms *decreases* as you go down the periodic table
+
 ## Electrical Conductors and Insulators
 
-* Electrical conductivity is only displayed in substances that both **have ions** and are within a state that allows their **ions to freely move** (such as an aqueous solution or in liquid state)
+* Electrical conductivity is only displayed in substances that both **have ions** and are within a state that allows their **ions to freely move** (such as an aqueous solution or in liquid state, or are metallically bonded)
 
-* Three main types of solutions can conduct electricity (making them **electrolytes**) - acids (e.g. ascorbic acid), bases (e.g. aqueous sodium bicarbonate), and salts (e.g. aqueous sodium chloride)
+* Three main types of **solutions** can conduct electricity (making them **electrolytes**) - acids (e.g. ascorbic acid), bases (e.g. aqueous sodium bicarbonate), and salts (e.g. aqueous sodium chloride)
+
+* In addition, pure metals can conduct electricity as metal atoms bond with **metallic bonds**, which allow their electrons to freely move in a *"sea of electrons"*
 
 * Covalent compounds (made of non-metals) cannot be electrolytes, because they do not have ions 
 

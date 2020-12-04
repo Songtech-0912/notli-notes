@@ -27,4 +27,3 @@ Stick to these ground rules as much as possible:
 - Make contributions to better the community.
 
 - No other rules!
-
