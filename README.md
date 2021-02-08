@@ -4,32 +4,30 @@
 
 Everyone knows the craziness of exam time - suddenly, you're dying to find revision books you've never bothered to read, and you can't go without a day without your notebook. But what if you lose your notebook? What if your notes go missing? You forgot to take notes on an important topic? It's easy to panic if that happens - it's happened to me many times before.
 
-That's why I've decided to electrify all of my notebooks and school notes. Just like the open-source community and the open design movement, I've decided to make all of my notes free to use and modify. Hopefully, once others benefit from these notes, they can also contribute to the notes on their own.
+That's why I've decided to digitize all of my notebooks and school notes. Just like the open-source community and the open design movement, I've decided to make all of my notes free to use and modify. Hopefully, once others benefit from these notes, they can also contribute to the notes on their own.
 
 ## Quick Start
 
 Currently, notes are available for the following subjects:
 
-- [Honors Chemistry](Honors-Chemistry-Reference.md)
+- [Honors Chemistry](src/Honors-Chemistry-Reference.md)
 
-Read the notes by simply clicking on each of the notes. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well. 
+Read the notes by going to <https://songtech-0912.github.io/Exam-Reference-Sheets/>. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well. 
 
 ## Download
 
-You can download these notes as PDFs if you wish. Here's how to do so:
+You can download these notes as PDFs if you wish.
 
-1. Something...
-
-2. Something...
-
-3. Something...
+> This will be implemented soon, but you can't right now
 
 ## Work in progress
 
-- [ ] Switch to using mdBook for the notes, which can display the KaTeX formulas properly
-  - Currently all KaTeX formulas are displayed verbatim as $$s which look horrible, which is why mdBook is necessary
-  - In addition, mdBook allows for PDF export 
+- [x] Display formulas properly with Mathjax
+  - Currently all LaTeX formulas are displayed verbatim as $$s which look horrible, which is why this is neccesary
+- [x] Host the notes online with a website
+- [x] Integrate TailwindCSS Typography to make notes look nice
 - [ ] Full documentation on how to edit, modify or use GitHub with notes
+- [ ] Publish PDF versions in GitHub Releases
 
 ## Contribution
 
@@ -39,4 +37,4 @@ Firstly, **before you do anything**, read the [code of conduct](CODE_OF_CONDUCT.
 
 Next, start editing and writing! These notes are written in Markdown, which is very easy and fast to write, and can use a lot of themes. I personally use the [stackedit](https://stackedit.io) editor to edit these notes. Use whatever you see fit.
 
-Remember that any contribution falls under the project's [license](LICENSE.md), to ensure that the project can remain free for all. 
+Remember that any contribution falls under the project's [license](LICENSE.md), to ensure that the project can remain free and open-source for all. 
