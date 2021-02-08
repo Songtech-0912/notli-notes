@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Markdown + KaTeX + Tailwind Testbed</title>
+<link rel='stylesheet' href='./libs/css/tailwind.output.css'>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="alternate icon" href="/favicon.ico">
+
+</head>
+<body>
+<!-- markdown block -->
+<div id="markdown" class="hidden">
 # Honors Chemistry Notes
 
 *An unofficial collection of chemistry notes*
@@ -620,3 +633,20 @@ eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
 * Take, for instance, this balanced reaction: $\mathrm{2KClO_3(s)}\rightarrow \mathrm{2KCl(s)} + \mathrm{3O_2}$
 
 * We can see that there are 2 potassium atoms on both sides of the equation, 2 chlorine atoms on both side of the equation, and 6 oxygen atoms on both sides of the equation
+</div>
+<div id="content" class="mx-auto py-12 prose lg:prose-xl">
+</div>
+<!-- We always load MarkedJS and the markdown-to-html script FIRST -->
+<!-- This is because the script.js contains the MathJax global config which must be loaded BEFORE mathjax itself -->
+<script src='./libs/js/marked.min.js'></script>
+<script  src="./script.js"></script>
+
+<!-- Then we load the polyfill library to maximise browser support -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<!-- Finally we load Mathjax ASYNC (to not interfere with loading) -->
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+</body>
+</html>
