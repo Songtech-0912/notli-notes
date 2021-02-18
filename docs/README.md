@@ -2,7 +2,7 @@
 
 This is a fully static website that renders the source markdown files wonderfully (thanks to Tailwind and Marked and Mathjax).
 
-View it live: <https://github.com/songtech-0912.github.io/exam-reference-sheets>
+View it live: <https://songtech-0912.github.io/Exam-Reference-Sheets/>
 
 ## Run it from source
 
