@@ -684,11 +684,11 @@ eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
   * The mass (in *g*) of 1 mole of Carbon Dioxide is *equal* to its atomic mass (in *AMU*)
   * That means **the AMU of Carbon Dioxide is 44.01, and 1 mole of Carbon Dioxide has a mass of 44.01g**
 * We can also use the mole to convert between mass and the number of particles, using this formula:
-  * $n_{mol} = \frac{M}{M_r}$
-  * in which:
+  * $n_{mol} = \frac{M}{M_r}$ 
+  * *The number of moles of a certain quantity of a compound is equivalent to the mass of the compound (in grams) divided by the molar mass of the compound*
   * $n_{mol}$ is the number of moles
   * $M$ is the mass, expressed in grams
-  * $M_r$ is the total atomic mass, expressed in AMU 
+  * $M_r$ is the total atomic mass, expressed in AMU
 * For instance, we have 5.72 grams of $\mathrm{C_6 H_12 O_6}$ (glucose), and we want to find its number of atoms:
   * We know that the mass is 5.72g
   * We know that the total atomic mass is $12.0107 \cdot 6 + 1.00794 \cdot 12 + 15.9994 \cdot 6$ which is 180.15588
