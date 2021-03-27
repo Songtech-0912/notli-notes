@@ -677,21 +677,227 @@ eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
   * So we can say there are "a dozen eggs" to mean that there are *12 eggs*, or there are "a mole of eggs" to mean that there are *602,210,000,000,000,000,000,000 eggs*
 * The mole is used to provide a simple **measurement** to account for the massive numbers of atoms in matter
 * It allows us to find the mass of a certain quantity of matter from the number of particle it has, and vice-versa
-* For instance, say we want to find the number of atoms in a carbon dioxide atom ($\mathrm{CO_2}$)
+* For instance, say we want to find the molar mass of carbon dioxide ($\mathrm{CO_2}$)
   * We know that Carbon has an atomic mass of 12.01 on the periodic table
   * We know that Oxygen has an atomic mass of 16.00 on the periodic table
   * So, the total mass in atomic mass units (AMU) would be $12.01 + (2 \cdot 16) = 44.01\ \mathrm{AMU}$
   * The mass (in *g*) of 1 mole of Carbon Dioxide is *equal* to its atomic mass (in *AMU*)
   * That means **the AMU of Carbon Dioxide is 44.01, and 1 mole of Carbon Dioxide has a mass of 44.01g**
-* We can also use the mole to convert between mass and the number of particles, using this formula:
-  * $n_{mol} = \frac{M}{M_r}$ 
+  * In stoichiometry terms, the molar mass of carbon dioxide is **44.01g/mol**
+
+### Molar Conversions
+
+* We can also use the mole to convert between mass and moles, using this formula:
+  
+  $$
+  n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}
+  $$
+  
   * *The number of moles of a certain quantity of a compound is equivalent to the mass of the compound (in grams) divided by the molar mass of the compound*
   * $n_{mol}$ is the number of moles
   * $M$ is the mass, expressed in grams
-  * $M_r$ is the total atomic mass, expressed in AMU
-* For instance, we have 5.72 grams of $\mathrm{C_6 H_12 O_6}$ (glucose), and we want to find its number of atoms:
+  * $m_r$ is the total atomic mass, expressed in AMU
+
+* For instance, we have 5.72 grams of $\mathrm{C_6 H_{12} O_6}$ (glucose), and we want to find its number of molecules:
+  
   * We know that the mass is 5.72g
-  * We know that the total atomic mass is $12.0107 \cdot 6 + 1.00794 \cdot 12 + 15.9994 \cdot 6$ which is 180.15588
-  * So, the number of moles would be ~1030.49 moles
-  * Each mol contains $6.03 \cdot 10^{23}$ atoms, so 1030.49 moles would contain $6.2138547 \cdot 10^{26}$ atoms
-  * Thus, there are $6.2138547 \cdot 10^{26}$ atoms in 5.72 grams of glucose
+  * We know that the total atomic mass is $12.0107 \cdot 6 + 1.00794 \cdot 12 + 15.9994 \cdot 6$ which is $180.15588$
+  * Because we know the atomic mass, we also know that the molar mass is $180.15588\ \mathrm{g/mol}$
+  * So, we can now plug the numbers into the formula:
+  
+  $$
+  n_{mol} = 5.72\ \mathrm{g} \cdot \frac{1\ \mathrm{mol}}{180.15588\ \mathrm{g/mol}}
+  $$
+  
+  * So, the number of moles in 5.62 grams of glucose would be ~0.032 moles
+  
+  * Each mol contains $6.03 \cdot 10^{23}$ molecules, so $0.032$ moles would contain $1.93 \cdot 10^{22}$ molecules
+  
+  * We know that in one atom of glucose, there are 6 carbon atoms, 12 hydrogen atoms, and 6 oxygens, so that means there are 24 atoms in total
+  
+  * Therefore, because 5.72 grams of glucose is $1.93 \cdot 10^{22}$ molecules, and each molecules contains 24 atoms, the total number of atoms is $24 \cdot (1.93 \cdot 10^{22})$ which is $4.632 \cdot 10^{23}$
+
+* We can use the mole to convert into volume (for gases) as well, using this formula:
+
+$$
+n_{mol} \cdot 22.4\mathrm{L/mol} = n_l
+$$
+
+* Essentially, the number of liters is equal to the number of moles multiplied by 22.4 liters/mol, which is based on the ideal gas formula
+
+### Stoichiometry in Chemical Reactions
+
+* Suppose we are conducting a reaction that produces water from the combusion of hydrogen and oxygen gas, like this:
+
+$$
+\mathrm{2H_2} (g) + \mathrm{O_2}(g) \rightarrow \mathrm{2H_2O} (g)
+$$
+
+* You have 10 grams of hydrogen gas, and you want to find how many grams of  water you can produce
+
+* To figure that out, you can use stoichiometry:
+  
+  * First, **balance the equation** (if it isn't balanced already)
+  
+  * Second, find out the **ratios of the reactant to the product**
+    
+    * There are 2 moles of our reactant, hydrogen, in $\mathrm{2H_2}$
+    
+    * There are 2 moles of our product, water, in $\mathrm{2H_2 O}$
+  
+  * That means the ratio is 2 moles to 2 moles or $2 \ratio 2$
+  
+  * Third, find the **molar mass of your reactant**
+    
+    * Our reactant is $\mathrm{H_2}$
+    
+    * Its total atomic mass in AMU is $2\cdot 1 = 2\ \mathrm{AMU}$ 
+    
+    * So its molar mass is $2\ \mathrm{g/mol}$
+  
+  * Forth, find the **number of moles** of your reactant
+    
+    * Use the formula $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$
+    
+    * Here, $M$ is 10 grams, and $m_r$ is $2\ \mathrm{g/mol}$, so the number of moles is $10 \cdot \frac{1\ \mathrm{mol}}{2\ \mathrm{g/mol}}$ which is 5 moles
+    
+    * So we have 5 moles of hydrogen gas as the reactant
+  
+  * Fifth, use the **ratio of reactant to product** to find the number of moles of your product
+    
+    * Use this formula:
+
+$$
+P_{mol} = n_{mol} \cdot \frac{P_m}{N_m}
+$$
+
+* This means that the number of moles of the product $P_{mol}$ is equal to the number of moles of the reactant $n_{mol}$ multiplied by the ratio of reactant to product $\frac{P_m}{N_m}$
+  
+  * For our equation, we already know that $n_{mol}$ is 5 moles
+  
+  * We also know that the ratio is $2 \ratio 2$
+  
+  * Putting these into the formula, that means the final formula is:
+  
+  $$
+  P_{mol} = 5\ \mathrm{mol} \cdot \frac{2\ \mathrm{mol}\ \mathrm{H_2O}}{2\ \mathrm{mol}\ \mathrm{H_2}}
+  $$
+  
+  * After solving the equation, we find that $P_{mol}$ is 5 moles of water
+
+* Now, we need to convert moles back to grams
+  
+  * Recall that our formula for getting grams into moles is $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$, and if we rearrange the formula, we also find that $M = n_{mol} \cdot \frac{m_r}{1\ \mathrm{mol}}$
+  
+  * We can simplify that into $M = n_{mol} \cdot m_r$
+  
+  * The molar mass ($m_r$) of water is approximately $18\ \mathrm{g/mol}$
+  
+  * We have 5 moles of water
+  
+  * So the total number of grams is $5 \cdot 18\ \mathrm{g/mol}$ which is **90 grams** of water produced from 10 grams of hydrogen gas
+
+But what if we're not trying to find the amount of product produced? What if we wanted to find how many grams of hydrogen ($\mathrm{H_2}$) will **completely react with our 10 grams of oxygen gas**? Here's how:
+
+* First, we have to establish the ratio between hydrogen and oxygen using the formula
+  
+  * We already have a balanced formula: $\mathrm{2H_2} (g) + \mathrm{O_2}(g) \rightarrow \mathrm{2H_2O} (g)$
+  
+  * From that, we know that hydrogen and oxygen are in a $2 \ratio 1$ ratio (we always list the unknown quantity first in a stoichiometric ratio, so don't mistakenly write 1:2!)
+
+* Second, we determine the number of moles of hydrogen from the given amount of oxygen
+  
+  * 10 grams of oxygen is **~0.56 moles** of oxygen, using the formula $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$
+  
+  * Then, we find the number of moles of hydrogen corresponding to 0.56 moles of oxygen, using this formula:
+  
+  $$
+  U_{mol} = N_{mol} \cdot \frac{U_m}{N_m}
+  $$
+
+* Essentially, we find the number of moles of the unknown quantity ($U_{mol}$) from the known quantity ($N_m$) by multiplying the ratio between the two quantities
+  
+  * We know that the ratio is $2 \ratio 1$
+  
+  * So, our fomula is $0.56\ \mathrm{mol} \cdot \frac{2}{1} = 1.12\ \mathrm{mol}\ \mathrm{H_2}$
+
+* Last, we convert moles back to grams
+  
+  * 1.12 moles of hydrogen gas, which has a molar mass of $2\ \mathrm{g/mol}$, is $1.12 \cdot 2 = 2.24\ \mathrm{g}$
+  
+  * Thus, we now know that 10 grams of oxygen will completely react with **2.24 grams of hydrogen**!
+
+### Stoichiometry and Formula Units
+
+Sometimes, you would be asked to give the number of **formula units** of a substance. That means you should provide the number of particles of the substance, based on its empirical formula. To do this, follow these steps:
+
+* Find the reaction's empirical formula
+  
+  * For instance, we will first balance the equation describing the combustion of glucose, which (in balanced form) is $\mathrm{C_6 H_{12} O_6} (s) + 6\mathrm{O_2}(g) \rightarrow 6\mathrm{CO_2} (g) + 6\mathrm{H_2 O} (g)$
+  
+  * Now, find the largest coefficient; here, our largest coefficient is 6
+  
+  * We divide everything now by 6, so now we have: $\frac{1}{6} \mathrm{C_6 H_12 O_6} (s) + 1\mathrm{O_2}(g) \rightarrow 1\mathrm{CO_2} (g) + 1\mathrm{H_2 O} (g)$
+  
+  * This is our **empirical formula**
+
+* Now, we can find the formula units of glucose
+  
+  * Glucose has a coefficient of $\dfrac{1}{6}$
+  
+  * The formula unit of glucose is its coefficient, multiplied by Avogadro's Number, which is $\frac{1}{6} \cdot 6.02 \times 10^{23}$
+  
+  * Solving that, we find that there are $\approx 1.003 \times 10^{23}$ units of glucose are formed; this is the formula unit of glucose
+
+### Common Stoichiometry Mistakes
+
+#### Mistake 1
+
+When converting between mass and moles, with this formula:
+
+$$
+n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}
+$$
+
+Remember that you always have 1 mole in the numerator! You cannot do this:
+
+$$
+n_{mol} \neq M \cdot \frac{20\ \mathrm{mol}}{m_r}
+$$
+
+This would yield an incorrect number of moles!
+
+## Thermodynamics
+
+### Heat Changes
+
+### Specific Heat Capacity
+
+* **Enthalpy** is a measure of 
+
+* $Q$ is the the symbol for enthalpy in 
+
+* We can calculate enthalpy with the specific heat formula $Q = mc\Delta t$
+
+To be completed...
+
+### Heating and Cooling Curves
+
+* Changes of state are fundamentally rrelated by energy changes in matter, which can be shown as substances undergo phrase transitions at their melting and boiling points - in other words, a **heating curve**
+
+* Below is a graph of temperature versus heat as matter changes state
+
+* Note that a cooling curve is basically just the exact same graph flipped horizontally
+
+![](/home/songtech/.config/marktext/images/2021-03-23-22-13-56-image.png)
+
+* Each area of the heating curve (and cooling curve) has specific properties, as shown below:
+
+|                                               | Solid                                                         | Solid + Liquid                                                                                          | Liquid                                                          | Liquid + Gas                                                                                        | Gas                                                       |
+| --------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| **What happens in this region?**              | Temperature increases as heat is absorbed                     | Temperature remains constant as heat is used in the phase change until all solid has melted into liquid | Temperature increases as heat is absorbed                       | Temperature remains constant as heat is used in the phase change until all liquid has boiled to gas | Temperature increases as heat is absorbed                 |
+| **What is the equation for the heat change?** | Specific heat capacity of a solid - $Q = mc_{\mathrm{solid}}$ | Latent heat of fusion - $Q = mc\Delta t$ or more simply $Q = mc (t_2 - t_a)$                            | Specific heat capacity of a liquid - $Q = mc_{\mathrm{liquid}}$ | Latent heat of vaporization - $\Delta H_{\mathrm{vap}} = \Delta U_{\mathrm{vap}} + p\Delta V$       | Specific heat capacity of a gas - $Q = mc_{\mathrm{gas}}$ |
+
+### Endothermic Reactions
+
+### Exothermic Reactions
