@@ -101,7 +101,7 @@ The Frontier offered Americans...
 
 * Also known as the "Second Red Scare", in reference to the **first red scare**, the wave of attacks on radicals and immigrants following WW I
 
-#### McCarthyism
+#### McCarthyism and conformity in the 50s
 
 ### The GI Bill of Rights
 
@@ -207,6 +207,82 @@ The Frontier offered Americans...
   * Johnson passed the Gulf of Tonkin Resolution unanimously - allow US action to protect themselves from attack under "whatever force necessary"
   * However, because the Gulf of Tonkin Resolution was not a declaration of war, it had no restrictions on what LBJ could do with it
 * Viet Cong (Vietnamese Communists) in the south of Vietnam used asymmetric warfare methods to deter an American offensive
-  * Chu Chi Tunnels - massive underground tunnel complex to strike from shelter
+  * Chu Chi Tunnels - massive underground tunnel complex made by the Viet Cong to strike from shelter
+* 1968: A Pivotal Year - Nation is totally different after the years end
+  * Jan - Tet Offensive in Vietnam, a surprise attack on US troops
+  * Mar - LBJ doesn't seek re-election
+  * Apr - MLK is asssassinated, riots follow
+  * Jun - Presidential candidate Bobby Kennedy is asssassinated
+  * Aug - Chicago Democratic National Convention
+  * Oct - 2 African-American athletes give black power salute at 1968 Olympics
+  * Nov - Nixon elected president
+* Nixon and Vietnamization
+  * Silent majority allowed Nixon got elected - he campaigned for end of Vietnam War
+  * Ho Chi Minh Trail - Viet Cong escaped to Cambodia
+  * Nixon decided to bomb Cambodia as a result - Christmas Bombings
+  * Massive public outrage
+  * Vietnam was the first *telivized war* - allowed people to form their opinions of what they were seeing e.g. My Lai massacre
+  * Federal government tries to mislead people with the Pentagon Papers - told civilians one thing, actually did something else entirely different
+  * High mistrust of government
+  * 1975: US defeated, 58,000 soldiers are killed, and 365,000 Americans were wounded
+  * Americans didn't welcome home the vets warmly and spat on them; many had PTSD and were not recognized for their services
+  
+## Women's Rights Movement
 
+* Women's Rights Movement protested for women to gain the rights they were previously denied
+  * Started with Betty Friedan's *The Feminine Mystique*
+  * Many women identified with the issues pointed out in Betty Friedan's book
+  * 1966: formation of National Organization of Women (NOW)
+  * 1963 Equal Pay Act
+  * 1964 Civil Rights Act
+  * 1973 Roe v. Wade
+* Reasons for the Women's Rights Movement
+  * Increase in number of college-educated women
+  * More women worked
+  * Women were involved in the Civil Rights Movement and saw that they did not have the rights they were protesting for
+* Opposition
+  * Conservatism
+  * Fundamentalist Christianity
+  * Misogynistic men
+  * Large very divided group (half of population)
+  
+## Nixon's Presidency and the 70's
+
+* Nixon's presidency marked a shift towards conservative values
+* Aimed at "Silent Majority" - ordinary Americans who don't want to take part in gender issues/social issues/racial issues, and want to go back to traditional values, who felt they were being ignored
+* Rebirth of Conservative Ideas
+  * Christian values instead of "moral decay"
+  * Tradition instead of "excessive individualism"
+  * Government should be an agent of moral regulation
+* Nixon's foreign policy
+  * Used the CIA to remove Allende from power and implement Pinochet as a right-wing dictator - "if he's not a communist, he's ok"
+  * De-armament: treaties with the USSR: SALT, Anti-Ballistic Missile Treaty
+* Watergate Scandal
+  * Several burglars who were working for Nixon were caught at the Watergate building in 1972
+  * The burglars were caught wiretapping phones, stealing documents, and creating lists of political enemies
+  * Secret tapes were found to be produced by Nixon
+  * Hearings begin on the Nixon Administration
+  * Nixon refuses to admit guilt and continues cover-up
+  * Ultimately, he loses support and eventually resigns
+* War Powers Act of 1973
+  * Aimed to prevent another Gulf of Tonkin Resolution from ever occurring again - that gave the president a "blank check" which allowed the president to "use all force necessary"
+  * Presidents were now required to notify Congress within 48 hours of committing troops
+  * If forces are launched without Congressional approval, the Act gave a 90 day window for the president to direct troops, of which the last 30 days were required to withdraw forces
+  * Essentially a "check" on the executive branch's power (presidency)
+  * Nixon vetoed it, but Congress passed it anyway
+* End of 1970s - mainstream American people felt betrayed by the government, confused, and had very little faith
+
+## Carter Administration
+* High point - Camp David accords
+* Low point - Iran Hostage Crisis
+  * USA/UK used secret forces to overthrow Mossadegh after he tried to nationalize Iran's oil industry - Eisenhower doctrine
+  * They replaced Mossadegh with Shah Pahvali, an absolute monarch, and a pro-west ruler
+  * Shah however was disconnected from his people and cared very little for his people
+  * Savak secret police repressed political opposition
+  * Iranian revolution
+  * Islamic fundamentalist began to rise with Ayatollah Khomeini's growing influence
+  * Anti-American spirit grows after the US refuses to extradite the exiled Shah and his family
+  * Americans at American embassy were taken hostage by Iranian forces
+  * Carter failed to rescue the hostages until the day he left office
+    
 ## Exam Tips
