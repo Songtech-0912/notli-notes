@@ -11,6 +11,11 @@ That's why I've decided to digitize all of my notebooks and school notes. Just l
 Currently, notes are available for the following subjects:
 
 - [Honors Chemistry](src/Honors-Chemistry-Reference.md)
+- [AP US History](src/AP-US-History-Reference.md)
+- [Honors Algebra](src/Honors-Algebra-Reference.md)
+- [AP Lang & Composition](src/AP-Lang+Composition-Reference.md)
+
+⚠ Note that many of these notes are still incomplete due to lapses in development.
 
 Read the notes by going to <https://songtech-0912.github.io/Exam-Reference-Sheets/>. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well. 
 
