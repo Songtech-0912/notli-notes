@@ -152,9 +152,31 @@ If you were given the expression $\tan \frac{5\pi}{2}$, we can find its exact va
 * The difference between $\frac{5\pi}{2}$ and $\frac{4\pi}{2}$ is $\frac{\pi}{2}$ which is $45^\circ$
 * Thus, we know that the reference angle of $\tan \frac{5\pi}{2}$ is $\tan \frac{4\pi}{2}$ or 360 degrees
 
+## Trigonometric Identities
+
+* The trigonometric identities are a series of ratios between trig functions; unfortunately, you'll need to memorize them!
+
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+$$
+
+$$
+\tan^2 \theta + 1 = \sec^2 \theta
+$$
+
+$$
+\cot^2 \theta + 1 = \csc^2 \theta
+$$
+
+$$
+\tan \theta = \frac{\sin \theta}{\cos \theta}
+$$
+
+## Sine vs Cosine Graphs
+
 ## Transformations of Sine/Cosine Graphs
 
-![](/home/songtech/.config/marktext/images/2021-03-27-01-26-05-image.png)
+<img src="file:///home/songtech/.config/marktext/images/2021-03-27-01-26-05-image.png" title="" alt="" data-align="center">
 
 ### Sine/Cosine Graph General Equation
 
@@ -171,3 +193,67 @@ In this equation:
 * $k$ is distance between two maximums of the graph, which you can find from the period $P$ using the equation $k = 2\pi/P$
 
 * $c$ is how far the graph is shifted to the left or right (it is negative if the graph is shifted to the left, positive when shifted to the right)
+
+* $d$ is how far the graph is shifted up or down
+
+* The maximum of a sinosoid graph is $(d+A)$, and the minimum is $(d+-A)$
+
+* The range of a sinosoid graph is $(d+-A) \leq y \leq (d+A)$, and the range is always $[-\infty, \infty]$
+
+## Solving Problems with Sinusoidal Graphs
+
+* Sinosoidal graphs are often useful (and sometimes required!) in solving word problems
+
+* Example: The Ferris wheel at the Puyallup Fair has a diameter of about 70 feet and takes 3 minutes to complete a full rotation. Passengers board from a platform 10 feet above the ground. Write an equation for a rider’s height above ground over time.
+
+<img src="images/puyallup-ferris-wheel-problem.png" title="" alt="" data-align="center">
+
+* To solve this problem, we need to find the horizontal stretch (amplitude), horizontal shift, vertical stretch (period), and vertical shift
+* Amplitude, or $A$, can be found with this formula:
+
+$$
+A = \frac{H_{max}-H_{min}}{2}
+$$
+
+* To find $H_{max}$, we simply need to find how high from the ground we will be when we get to the top of the Ferris wheel. We know that the Ferris wheel is 10 feet above the ground, and is 70 feet high (because its diameter is 70 feet), so $H_{max} = 70 + 10 = 80\ \mathrm{ft.}$
+
+* To find $H_{min}$, we just need the lowest point of the Ferris wheel. The lowest point on the Ferris wheel is at 0 feet, but the Ferris wheel is also 10 feet above the ground, so its lowest point $H_{min} = 10+ 0 = 10\ \mathrm{ft.}$
+
+* Using the amplitude formula with our values of $H_{max}$ and $H_{min}$, we find that our amplitude is $\frac{80 - 10}{2}=\frac{70}{2}$
+
+* The period is the amount of time we need for a complete revolution, so in this case, it would be 3 minutes, or simply 3
+
+* To find out $k$, we simply use this formula:
+
+$$
+k = \frac{2\pi}{P}; P = \frac{2\pi}{k}
+$$
+
+* So we know that $k = \frac{2\pi}{3}$
+
+* There is no horizontal shift, but there is a vertical shift $d$ because the Ferris wheel is above the ground, and it is determined with this formula:
+
+$$
+d = \frac{H_{max} + H_{min}}{2}
+$$
+
+* Using this formula, $d = \frac{80 + 10}{2} = 45$
+
+* Now, we can plug all of those numbers into our formula of $y = A \sin (k(x)) + d$
+
+* Because our graph goes up, but doesn't pass its starting point (see the chart below for details), we won't be writing $y = A \sin (k(x)) + d$; instead, we will be using the inverse cosine graph, so our equation changes to $y = -A \cos (k(x)) + d$
+
+* Then, just plug in the numbers to get $y = -\frac{70}{2}\cos \left(\frac{2\pi}{3}x\right) + 45$
+
+* Graph it out, and you'll get this!
+
+[ADD GRAPH HERE]
+
+### What equation do I use for a sinusoidal graph?
+
+| If the graph goes like...                                                                                      | And it looks like...          | Then its formula is... | And you're looking at a...                                          |
+| -------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- | ------------------------------------------------------------------- |
+| Starts at $(0,Y_{min})$, and goes up first, but never goes **lower** than its starting point                   | ![](images/cos-graph.png)     | $y = - \cos x$         | Inverse cosine graph (most commonly found in ferris wheel problems) |
+| Starts at $(0, Y_{max})$, and goes down first, but never goes **higher** than its starting point               | ![](images/inv-cos-graph.png) | $y = \cos x$           | Cosine graph                                                        |
+| Starts at $(0, Y_{midline})$, and goes up first, then goes **both higher and lower** than its starting point   | ![](images/sin-graph.png)     | $y = \sin x$           | Sine graph                                                          |
+| Starts at $(0, Y_{midline})$, and goes down first, then goes **both higher and lower** than its starting point | ![](images/inv-sin-graph.png) | $y = -\sin x$          | Inverse sine graph                                                  |
