@@ -869,17 +869,19 @@ This would yield an incorrect number of moles!
 
 ## Thermodynamics
 
-### Heat Changes
-
 ### Specific Heat Capacity
 
-* **Enthalpy** is a measure of 
+* **Enthalpy** is a measure of the sum of all internal energy in a reaction
 
 * $Q$ is the the symbol for enthalpy in 
 
 * We can calculate enthalpy with the specific heat formula $Q = mc\Delta t$
+  
+  * $\Delta T$ is the final temperature, subtracted from the starting temperature, and can be negative
 
-To be completed...
+* High specific heat means that an object will gain or lose energy very slowly, and is made of a material that is a thermal insulator
+
+* Low specific heat means that an object will gain or lose energy very quickly, and is made of a material that is a thermal conductor
 
 ### Heating and Cooling Curves
 
@@ -898,6 +900,219 @@ To be completed...
 | **What happens in this region?**              | Temperature increases as heat is absorbed                     | Temperature remains constant as heat is used in the phase change until all solid has melted into liquid | Temperature increases as heat is absorbed                       | Temperature remains constant as heat is used in the phase change until all liquid has boiled to gas | Temperature increases as heat is absorbed                 |
 | **What is the equation for the heat change?** | Specific heat capacity of a solid - $Q = mc_{\mathrm{solid}}$ | Latent heat of fusion - $Q = mc\Delta t$ or more simply $Q = mc (t_2 - t_a)$                            | Specific heat capacity of a liquid - $Q = mc_{\mathrm{liquid}}$ | Latent heat of vaporization - $\Delta H_{\mathrm{vap}} = \Delta U_{\mathrm{vap}} + p\Delta V$       | Specific heat capacity of a gas - $Q = mc_{\mathrm{gas}}$ |
 
+### Calculating Heat Changes
+
+* The basic formula of finding heat changes in a reaction is:
+
+$$
+A_{E_{loss}} = B_{E_{gain}}
+$$
+
+* In other terms, when two substances are placed about one another, the loss of heat of one and the gain of heat of another is equal
+
+* Or, in equation terms, $m_1 \cdot c_1 \cdot (T_1-T) = m_2 \cdot c_2 \Delta(T_2+T)$
+
+* Here, $T$ is the final temperature, also known as the **equilibrium temperature**
+
+#### Examples
+
+* How do we find the final temperature, when 60.0 gram of warm water at 60.0 C° is mixed with 40.0 grams of cold
+  water at 10.0 C°
+
+* We can find $T$, the final temperature, like this:
+
+$$
+m_1 \cdot c_1 \Delta T = m_2 \cdot c_2 \Delta T
+$$
+
+* We know that the specific heat $c$ of both quantities of water is the same, so we can omit it:
+
+$$
+m_1 \Delta T = m_2 \Delta T
+$$
+
+* Because the final temperature $T$ is unknown, we have to
+
+$$
+(60\ \mathrm{g})(60^\circ -T) = (40g) (T-10^\circ)
+$$
+
+$$
+T = 40.0^\circ
+$$
+
+* So the final temperature would be 40 degrees
+
+* For example, suppose a question asked to to find the final temperature of a 50.0 gram piece of iron (specific heat = $0.45\ \mathrm{J/g\cdot C^\circ}$) that is heated to 100 C° in boiling water and then dropped into 80.0 grams of water at 20.0 C°
+
+* We would setup the equation in this way:
+
+$$
+(50\ \mathrm{g})(0.45)(100^\circ -T) = (80\ \mathrm{g})(4.18)(T-20^\circ)
+$$
+
 ### Endothermic Reactions
 
+* A reaction is **endothermic** when energy is absorbed from the surroudings and used to initiate and maintain the reaction, generating a net loss of energy in the surroundings
+
+* In an endothermic reaction, products have more potential energy than reactants
+
+* $\Delta H$ is *positive* in an endothermic reaction
+
 ### Exothermic Reactions
+
+* A reaction is **exothermic** when energy is taken from the reactants and released to the surroundings, generating a net increase of energy in the surroundings
+
+* In an exothermic reaction, reactants have more potential energy than products
+
+* $\Delta H$ is *negative* in an exothermic reaction
+
+## Thermochemistry Calculations
+
+We often want to find the change in heat energy, $\Delta H$, within a reaction.
+
+### Calculating Bond Energy
+
+## Using Hess's Law of Summation
+
+* Hess's Law of Summation states that changes in enthalpy in a reaction ($\Delta H$) are independent of the pathway taken by the reactants to form the products:
+
+$$
+\Delta H = \sum \Delta H_{{{\mathrm  f}\,(reactants)}}
+$$
+
+* This means that enthalpy changes are cumulative, and can be added after every reaction
+
+### Hess's Law Example
+
+* Suppose we want to find out the enthalpy change in the reaction $\mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \mathrm{6H_2O}$
+
+* We don't know the bond energies of any of the reactants or the products
+
+* We do know, however, of the enthalpy changes in several other reactions:
+
+$$
+\begin{cases}
+① \mathrm{N_2} + \mathrm{3H_2} \rightarrow \mathrm{2NH_3}, \:\Delta H =-92\mathrm{kJ} \\ 
+② \mathrm{H_2} + \frac{1}{2}\mathrm{O_2} \rightarrow, \:\Delta H = +286\mathrm{kJ}
+\end{cases}
+
+$$
+
+* With Hess's Law, we can solve for our enthalpy change, using the provided equation
+
+* The basic idea is to match the equations where we know the enthalpy, with the equation that we don't know
+
+* Let's start with our first equation
+  
+  * Notice how the first equation has $\mathrm{N_2}$, and our original equation also has $\mathrm{2N_2}$:
+
+$$
+\begin{cases}
+① \underline\mathrm{N_2} + \mathrm{3H_2} \rightarrow \mathrm{2NH_3} \\ 
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \underline\mathrm{2N_2} + \mathrm{6H_2O}\end{cases}
+$$
+
+* Unforunately, the two nitrogens are on different sides of the equation
+
+* We can deal with that by flipping equation 1 around
+  
+  * Every time we flip an equation, we are going to reverse the sign of its enthalpy
+  
+  * If the enthalpy was positive, we change it to negative, and vice-versa
+  
+  * So, our flipped equation 1 has an enthalpy of $+92\mathrm{kJ}$ rather than $-92\mathrm{kJ}$
+
+$$
+\begin{cases}
+① \mathrm{2NH_3} \rightarrow \underline\mathrm{N_2} + \mathrm{3H_2}, \: \Delta H = +92\mathrm{kJ}\\ 
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \underline\mathrm{2N_2} + \mathrm{6H_2O}\end{cases}
+$$
+
+* Now that they are on the same side, we now need to make $\mathrm{N_2}$ into $\mathrm{2N_2}$ by multiplying equation 1 by 2:
+
+$$
+\begin{cases}
+① \mathrm{2\times 2NH_3} \rightarrow \underline\mathrm{2\times N_2} + \mathrm{2 \times 3H_2}, \: \Delta H = 2 \times +92\mathrm{kJ}\\ 
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \underline\mathrm{2N_2} + \mathrm{6H_2O}\end{cases}
+$$
+
+$$
+\begin{cases}
+① \mathrm{4NH_3} \rightarrow \underline\mathrm{2N_2} + \mathrm{6H_2}, \: \Delta H = +184\mathrm{kJ}\\ 
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \underline\mathrm{2N_2} + \mathrm{6H_2O}\end{cases}
+$$
+
+* As we did before, we'll multiply the enthalpy by 2 as well
+
+* So the final form of our first equation is $\mathrm{4NH_3} \rightarrow \mathrm{2N_2} + \mathrm{6H_2}, \: \Delta H = +184\mathrm{kJ}$
+
+* We can move on to do our second equation
+  
+  * Notice how the second equation has $\mathrm{H_2O}$, and our original equation has $6H_2O$
+
+$$
+\begin{cases}
+① \underline\mathrm{H_2O} \rightarrow \mathrm{H_2} + \frac{1}{2}\mathrm{O_2} \\
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \underline\mathrm{6H_2O}\end{cases}
+$$
+
+* As with before, we have $\mathrm{H_2O}$ in both equations, just on different sides
+
+* We have to flip the equation and change its enthalpy sign, to this:
+
+$$
+\begin{cases}
+① \mathrm{H_2} + \frac{1}{2}\mathrm{O_2} \rightarrow \underline\mathrm{H_2O}, \:\Delta H = \underline{-286\mathrm{kJ}} \\
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \underline\mathrm{6H_2O}\end{cases}
+$$
+
+* Then, to change $\mathrm{H_2O}$ to $\mathrm{6H_2O}$, we need to multiply by 6, like this:
+
+$$
+\begin{cases}
+① \mathrm{6 \times H_2} + 6 \times \frac{1}{2}\mathrm{O_2} \rightarrow \underline\mathrm{6 \times H_2O}, \:\Delta H = 6 \times -286\mathrm{kJ} \\
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \underline\mathrm{6H_2O}\end{cases}
+$$
+
+$$
+\begin{cases}
+① \mathrm{6H_2} + 3\mathrm{O_2} \rightarrow \underline\mathrm{6H_2O}, \:\Delta H = -1716\mathrm{kJ} \\
+② \mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \underline\mathrm{6H_2O}\end{cases}
+$$
+
+* So the final form of our second equation is $\mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \mathrm{6H_2O}$
+
+* Lastly, we add equations ① and ② together
+
+$$
+\begin{array}{lcl}
+&\mathrm{4NH_3} \rightarrow \mathrm{2N_2} + \mathrm{6H_2}, \: \Delta H = +184\mathrm{kJ} \\ 
++ \: &\mathrm{6H_2} + 3\mathrm{O_2} \rightarrow \mathrm{6H_2O}, \:\Delta H = -1716\mathrm{kJ}
+\end{array}
+$$
+
+* And this is the result (we cancel out terms that appear both in the products and the reactants):
+
+$$
+\mathrm{4NH_3} + \cancel\mathrm{6H_2} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \cancel\mathrm{6H_2}+\mathrm{6H_2O, \:\Delta H = }-1532\mathrm{kJ}
+$$
+
+$$
+\mathrm{4NH_3} + \mathrm{3O_2} \rightarrow \mathrm{2N_2} + \mathrm{6H_2O, \:\Delta H = }-1532\mathrm{kJ}
+$$
+
+## Gibbs Free Energy
+
+* Gibbs free energy (often represented by $\Delta G$) tells us whether a reaction is spontaneous or non-spontaneous
+* Spontaneous reactions happen because the reactants have enough activation energy to form the activation complex, but they don't necessarily have to go fast
+* Non-spontaneous reactions don't have enough activation energy - they won't react until we do something to it
+* **Entropy** is the tendency of a thermodynamic system, such as a chemical reaction, to shift toward a state of disorder
+* Solids have the least amount of entropy; gases have the greatest amount of entropy
+* Entropy is represented by $\Delta S$
+* Temperature in thermodynamics is given in Kelvin units, and is represented by $T$
+* The Gibbs free energy equation relates enthalpy, entropy, and Gibbs free energy, with the following formula:
+
+$$
+\Delta G = \Delta H - T(\Delta S)
+$$
