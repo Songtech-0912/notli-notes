@@ -25,12 +25,14 @@ You can download these notes as PDFs if you wish.
 
 > This will be implemented soon, but you can't right now
 
-## Work in progress
+## Roadmap/Work in progress
 
 - [x] Display formulas properly with Mathjax
   - Currently all LaTeX formulas are displayed verbatim as $$s which look horrible, which is why this is neccesary
 - [x] Host the notes online with a website
 - [x] Integrate TailwindCSS Typography to make notes look nice
+- [ ] Switch to KaTeX for correct chemical/mathematical equation rendering; currently work-in-progress
+- [ ] Auto-format Markdown and HTML code with Prettier
 - [ ] Full documentation on how to edit, modify or use GitHub with notes
 - [ ] Publish PDF versions in GitHub Releases
 
