@@ -18,5 +18,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // • rendering keys, e.g.:
     throwOnError: false,
     newLineInDisplayMode: true,
+    macros: {
+      "’": "'",
+      "\\:": "\medspace",
+    }
   });
 });
