@@ -1116,3 +1116,7 @@ $$
 $$
 \Delta G = \Delta H - T(\Delta S)
 $$
+
+* If $\Delta G$ is negative, the reaction is spontaneous
+* If $\Delta G$ is positive, the reaction is non-spontaneous
+* If $\Delta G$ is 0, the reaction is at equilibrium
