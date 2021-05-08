@@ -1,4 +1,4 @@
-# Honors Algebra Exam Reference Notes
+o# Honors Algebra Exam Reference Notes
 
 *An unofficial guide from the notes of Jacky Song, a.k.a. @Songtech-0912*
 
@@ -257,3 +257,71 @@ $$
 | Starts at $(0, Y_{max})$, and goes down first, but never goes **higher** than its starting point               | ![](images/inv-cos-graph.png) | $y = \cos x$           | Cosine graph                                                        |
 | Starts at $(0, Y_{midline})$, and goes up first, then goes **both higher and lower** than its starting point   | ![](images/sin-graph.png)     | $y = \sin x$           | Sine graph                                                          |
 | Starts at $(0, Y_{midline})$, and goes down first, then goes **both higher and lower** than its starting point | ![](images/inv-sin-graph.png) | $y = -\sin x$          | Inverse sine graph                                                  |
+
+## Conic Sections
+
+![Conic Sections](https://upload.wikimedia.org/wikipedia/commons/1/11/Conic_Sections.svg)![Conics](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Conic_Sections.svg/512px-Conic_Sections.svg.png)
+
+* There are four main types of conic section: parabolas, hyperbolas, ellipses, and circles
+
+* All can be defined in terms of a **directex** (a fixed line) and a **focus** (a fixed point)
+
+<img src="./images/parabola-equidistant-from-focus-directrix-animation-70percent.gif" title="" alt="Directex-And-Focus-Example" data-align="center">
+
+| Does it have?                                                      | Then it is a... | And its equation is...                                                      | Its vertex form equation is...                                                                                                                                                                                                                                | It is defined as...                                                                                                                                                                                    | Graph on Coordinate Grid |
+| ------------------------------------------------------------------ | --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| 1 squared variable                                                 | Parabola        | Standard (smiley/frowny face): $x^2 = \pm 4ay$ if sideways: $y^2 = \pm 4ax$ | Standard (smiley/frowny face): $(x-h)^2 = 4a(y-k)$ if sideways: $(y-k)^2 = 4a(x-h)$ (remember to use the sideways form whever you encounter an equation where $y$ is squared or in the form $(y-n)^2$)                                                        | The section of a right circular cone by a plane parallel to a generator of the cone **OR** the locus of points equidistant from a focus and a directrix                                                |                          |
+| 2 squared variables with the same signs and different coefficients | Ellipse         | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} + \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) | The section of a right circular cone by a plane that is not perpendicular to the axis of symmetry and does not intersect the cone’s base **OR** the locus of points equidistant from two foci (points) |                          |
+| 2 squared variables with opposite signs                            | Hyperbola       | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} - \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) |                                                                                                                                                                                                        |                          |
+| 2 squared variables with the same signs and same coefficients      | Circle          | Standard form: $x^2 + y^2 = r^2$                                            |                                                                                                                                                                                                                                                               |                                                                                                                                                                                                        |                          |
+
+### Focus, Vertex, and Directex
+
+If we put a **parabola** in the vertex form $y=a(x−h)^2+k$ or $(x-h)^2 = 4a(y-k)$ by completing the square, we can find its focus, directex, and vertex like so:
+
+* The focus of any parabola at $(h, k+a)$ if the conic section is vertical (facing up), or at $(h+a, k)$ if the conic section is horizontal (facing sideways) - you can tell that it's vertical if there is a $(x-n)^2$ and it's vertical if there is a $(y-n)^2$
+
+* The directex of any parabola has the equation $y=k-a$ if the conic section is vertical (facing up), or $x=h-a$ if the conic section is horizontal
+
+* The vertex of any parabola can be found at $(h, k)$
+
+* The axis of symmetry of any parabola is at $x = -\frac{b}{2a}$
+
+* The length of the *latus rectum* of any parabola is equal to $4a$, and correspondingly $a = \frac{1}{4}_{latus\ rectum}$
+
+If we put an **ellipse** in the vertex form of $\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$ or $\frac{(x-h)^2}{b^2} + \frac{(y-k)^2}{a^2} = 1$, we can find its center, focus, directex, and vertex like so:
+
+* The center is at $(h,k)$
+
+* The two vertices are at $(h+a, k)$ and $(h-a, k)$, or if the ellipse is oriented sideways, it would be at $(h, k\pm a)$
+
+* The foci (there is not one singular focus, but two [plural] foci) is at $(h + c, k), (h-c, k)$ where $c = \sqrt{a^2 - b^2}$, or if the ellipse is oriented sideways, the foci are at $(h, k\pm c)$ where $c = \sqrt{b^2 - a^2}$
+
+* $c$ is equal to the distance between the focus and $h$ (in a normal graph) or the distance between the focus and $k$ (in a sideways graph)
+
+* $a$ is equal to the distance between the vertex and center, and $a$ is always greater than $b$
+
+* The major axis $L$ is equal to $a+b$, and the two vertices are given by $\left(h + \frac{L}{2}, k\right)$ and $\left(h - \frac{L}{2}, k\right)$
+
+* The minor axis is equal to $\sqrt{(a+b)^2 - f^2}$, where $f$ is the distance between the two foci
+
+### Expanded form to standard form
+
+* In some cases, you will be asked to graph a conic section from its expanded (full) form rather than its standard form
+
+* The equation would be in the form $ax^2 + by^2 + cx + dy + e = n$, but you need to convert it to standard form to be able to locate the focus, center, and vertices
+
+* So, we use ***completing the square*** to convert expanded form to standard form
+
+**Example:** convert the equation $4x^2 + 9y^2 -48x + 72y + 144 = 0$ to standard form
+
+| Explanation                                                                                                                                                                                                                                                                                         | Equation                                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| First, move the constant to the other side                                                                                                                                                                                                                                                          | $4x^2 + 9y^2 -48x + 72y = -144$                                  |
+| Then, combine the terms with the same variables                                                                                                                                                                                                                                                     | $(4x^2 -48x) + (9y^2 + 72y) = -144$                              |
+| Then, factor out the terms                                                                                                                                                                                                                                                                          | $4(x^2 -12x) + 9(y^2 + 8y) = -144$                               |
+| Then, divide by the factor 4                                                                                                                                                                                                                                                                        | $(x^2 - 12x) - \frac{9}{4}(y^2 + 8y) = -36$                      |
+| Then, divide by the factor 9                                                                                                                                                                                                                                                                        | $\frac{1}{9}(x^2 - 12x) - \frac{1}{4}(y^2 + 8y) = -4$            |
+| Take half of the coefficients of the first-degree terms (and don't forget their signs!), square them, and add the squares into the appropriate spaces on both sides of the equation $(\frac{b^2}{2})$. Carry over the added squares to the other side of the equation, together with their factors. | ![Image](https://www.purplemath.com/modules/square/ellips06.gif) |
+| Simplify on the right, and convert to squared form on the left.                                                                                                                                                                                                                                     | $\frac{(x-6)^2}{9} + \frac{(y+4)^2}{4} = -4 + 4 + 4$             |
+| Divide by 4 (or whatever value you have on the right hand side)                                                                                                                                                                                                                                     | $\frac{(x-6)^2}{36} + \frac{(y+4)^2}{16} = 1$                    |
