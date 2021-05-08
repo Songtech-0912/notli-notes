@@ -1116,3 +1116,21 @@ $$
 $$
 \Delta G = \Delta H - T(\Delta S)
 $$
+
+## Solutions
+
+For solids to dissolve more quickly:
+
+* Add heat energy (which is why solids dissolve more quickly in hot water than cold water)
+	* Note that gases typically dissolve more quickly in cold solutions than hot solutions
+	* That is what allows fish to breath even while the water surface is frozen in wintertime
+* Increase the surface area by crushing up the solute
+* Agitate the solution (stirring)
+
+
+
+Measuring the concentrations of solution
+
+* Percent by mass: the mass of the solute, divided by the mass of the solution
+* Percent by volume: the volume of the solute, divided by the volume of the solution
+* Molarity ($M$): the moles of solute, divided by liters of solution
