@@ -2,6 +2,8 @@
 
 *Unofficial crash-dive into US history, collected from my APUSH notes*
 
+Warning: These notes are still being transcribed and are likely to change every few hours as I add to them. However, they are incomplete as of the moment, so it would be best to also consult other revision sources.
+
 ## The Gilded Age
 
 ### The Frontier Thesis
@@ -270,9 +272,10 @@ The Frontier offered Americans...
   * If forces are launched without Congressional approval, the Act gave a 90 day window for the president to direct troops, of which the last 30 days were required to withdraw forces
   * Essentially a "check" on the executive branch's power (presidency)
   * Nixon vetoed it, but Congress passed it anyway
-* End of 1970s - mainstream American people felt betrayed by the government, confused, and had very little faith
+* End of 1970s - mainstream American people felt betrayed by the government, confused, and were losing faith
 
 ## Carter Administration
+
 * High point - Camp David accords
 * Low point - Iran Hostage Crisis
   * USA/UK used secret forces to overthrow Mossadegh after he tried to nationalize Iran's oil industry - Eisenhower doctrine
@@ -284,5 +287,166 @@ The Frontier offered Americans...
   * Anti-American spirit grows after the US refuses to extradite the exiled Shah and his family
   * Americans at American embassy were taken hostage by Iranian forces
   * Carter failed to rescue the hostages until the day he left office
+  
+## Reagan and Conservatism
+
+* Context
+  * Economic decline domestically
+  * International Crises
+    * Iranian Revolution
+    * Russian invasion of Afghanistan
+  * Backlash against social movements
+    * Anti-Civil Rights
+    * Anti-Feminism
+    * Anti-Gay Rights
+* Reagan's Conservative Coalition
+  * Neo-conservatives
+    * Originated with the Sharon Statement
+    * Cut domestic spending on social programs
+    * Harsher foregin policy against the USSR
+    * Very minimal and non-interventionist government
+  * Religious Right
+    * Promotion of "Christian values"
+    * Opposition to "sexual revolution"
+    * Televangelists
+  * Issues he opposed:
+    * Gay rights
+    * Equal Rights Amendment
+    * Roe v. Wade
+* Reagan's candidacy
+  * Very calming persona - reassured public
+  * Asked voters "are you better off now than you were 4 years ago?"
+  * Won by a landslide on both terms
+* Reagan economics
+  * Theory of "supply side" economics
+  * A retreat from principle of progressive taxation
+  * Hostile to government regulation and union power
+  * Cuts to social programs BUT a lot more spending on defense
+  * Resulted in:
+    * A harsh recession initially, then prolonged expansion
+    * Robust stock market, low inflation, high profits, and technological advances
+    * Manufacturing moved overseas, and economic inequality rose
+    * However, budget deficits and national debt grew exponentially
+* Culture in the 1980s
+  * A revival of "Gilded Age" values - *"greed is good"* and a re-emergence of the roaring 20s in the form of an explosion of wealth at Wall Street
+  * Best and brightest go from being engineers and skilled workers to being bankers and traders
+  * Increase of materialism and opulence
+* Reagan as the Great Communicator
+  * Promoted the image of a better, more prosperous America than four years ago
+  * Emphasized on the importance of the nuclear family and traditional values
+  * Used the tactic of using overly positive rhetoric that glossed over practical issues of the US
+  * Masters the technique of shifting his audience's perception while not directly attacking his opponents
+  * Case Study: Reagan's "Evil Empire" speech, made just as the original "Star Wars" was showing on HBO
+  * Americans made the connection!
+* Reagan's foreign policy
+  * Grenada - Reagan sends troops to topple a Marxist regime loyal to Castro
+  * Lebanaon - 1983 bombing of Marine Barracks by Iranian forces
+    * Lead to removal of US peacekeeping forces
+  * Military aid
+    * To pro-U.S. dictators
+    * To pro-U.S. insurgencies
+  * Iran Contra
+    * Reagan bypasses Congress and illegally sends money to the Contras in Nicaragua
+    * Reagan gets off scot-free
+* End of Reagan's Presidency
+    * Misquotes John Winthrop's serman famously as "the shining city upon a hill"
+    * He culminated his second term with a speech that restated his belief that America had realized the ideal of "a [shining] city upon a hill"
+    * **Core theme: The *City upon a Hill* as an example of American exceptionalism**
+
+## Bush Sr. and Clinton Era
+
+* Persian Gulf Wars
+    * Saddam Hussein's forces refused to remove troops that were invading neighboring Kuwait
+    * American forces led by German Norman Schwarzkopf pushed back Iraqi forces and liberated Kuwait within one month
+    * "Hate the war - love the soldiers" - National atonement for the nation's poor treatment of soldiers after the Vietnam War
+* Bush Administration
+    * He made a promise to not raise taxes in his campaign: "Read my lips - *no* more taxes!"
+    * But he then had to retract this promise, causing him trouble
+* Clinton's Appeal
+    * Clinton had a poor background, but was an incredibly determined person
+    * Clinton and his wife especially appealed to the younger generation, African Americans and those hurt by the economic recession
+    * "It's the economy, stupid" - said by Clinton to tie all problems of the Bush administration to the economy
+    * Clinton had a lot of potential but also tended to make many terrible decisions that damages his reputation
+    * His personality causes him many problems
+* The 90s
+    * Clinton wins again
+    * Rise of MTV (music television) among youth culture and televangelists
+    * Very successful presidency:
+    	* More peace and prosperity than any other time in American history
+      * Lowest inflation in 30 years
+* AIDS Epidemic
+    * AIDS was an incurable disease that caused the deaths of hundreds of thousands of Americans
+    * Disproportionally affected gay men
+    * Federal attention only came to AIDs once notable Americans and politicans contracted AIDS and began taking action
     
+## Bush Jr. and Obama
+
+* 2000 Presidential Election
+  * Bush and Al Gore had both not achieved enough popular votes to gain the electoral vote in any state except Florida
+  * Very narrow margin; Al gore got 900 less popular votes in the state of Florida, but he demanded a recount
+  * 19 days past election day, the recount still had not finished
+  * The Supreme Court ordered the end of the recount, and Al Gore conceded
+  * Bush became president
+* 9/11 Attacks
+  * Terrorists overtook 4 commercial airliners and crashed 2 into the World Trade Centers, 1 into the Pentagon, and 1 into the White House
+  * Nearly 3,000 civilians were killed, and 25,000 were injured
+  * The nation was frightened
+  * Osama bin Laden was a well-known anti-American terrorist who orchestrated the attack
+    * He trained Al-Qaeda under a supportive Taliban regime (who overthrew the Afghan government in 1996 and imposed a totalitarian regime there)
+    * Bin Laden was living in Afghanistan, causing a US invasion of Afghanistan
+  * Following the attack, George W. Bush's approval rating soars to 90%, the highest in US history
+  * Bush orders three countries enemies of the US - the *Axis of Evil* as he put it - and begins an invasion of Iraq
+    * Iraq War was a pre-emptive strike - US invaded without Iraq counterattack
+    * US coalition forces toppled Saddam Hussein's dictatorial regime within days
+  * Bush also passes the PATRIOT Act into law - Mass surveillance network to catch suspected terrorists
+* Hurricane Katrina
+  * New Orleans was a city located below sea level and relied on sea levies to keep out the sea
+  * During the Bush Administration's final term, Hurricane Katrina struck New Orleans and rendered 80% of the city uninhabitable for weeks
+  * "George Bush doesn't care about black people" - anger against Bush for his federal response to the disaster of Katrina
+* 2008 Economic Crisis - famously known as *"The Great Recession"*
+  * The worst economic recession since the 1930s
+  * Major banks and insurance companies fell
+  * Unemployment at 10%
+  * The federal government decides to bail out Wall Street (big banks) rather than directly billing citizens
+  * Bush's approval rating fell very quickly
+* Obama in the 2008 presidential election
+  * Obama found common ground with the people and appealed to hope in his campaign
+  * Legalization of same-sex marriage with Supreme Court ruling in *Obergefell v. Hodges*
+  * Assassination of Osama Bin Laden for his involvement in the 9/11 attacks
+  
+## Trump and Biden
+
+
 ## Exam Tips
+
+### Break-down of Exam
+
+| Type of Question                  | Time Allocated | Score Weight |
+|-----------------------------------|----------------|--------------|
+| 55 multiple choice questions      | 55 minutes     | 40%          |
+| 3 short-answer questions          | 40 minutes     | 20%          |
+| 1 document-based question (essay) | 60 minutes     | 25%          |
+| 2 short-answer questions          | 40 minutes     | 15%          |
+
+* The short-answer questions may include sources with data sets and focuses on historical developments between 1754-1980
+* The DBQ focuses on topics between 1754-1980
+
+### Relative Importance of Course Material
+
+| Unit                     | Exam Weighting |
+|--------------------------|----------------|
+| **Unit 1:** 1491-1607    | 4-6%           |
+| **Unit 2:** 1607-1754    | 6-8%           |
+| **Unit 3:** 1754-1800    | 10-17%         |
+| **Unit 4:** 1800-1848    | 10-17%         |
+| **Unit 5:** 1844-1877    | 10-17%         |
+| **Unit 6:** 1865-1898    | 10-17%         |
+| **Unit 7:** 1890-1945    | 10-17%         |
+| **Unit 8:** 1945-1980    | 10-17%         |
+| **Unit 9:** 1980-Present | 4-6%           |
+
+
+### Important Reminders
+
+* Make sure you read the question **carefully**! Students can often mess up time periods!
+  * For instance, the "19th century" is NOT the same as the 1900s!
