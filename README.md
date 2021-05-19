@@ -35,6 +35,8 @@ You can download these notes as PDFs if you wish.
 - [ ] Auto-format Markdown and HTML code with Prettier
 - [ ] Full documentation on how to edit, modify or use GitHub with notes
 - [ ] Publish PDF versions in GitHub Releases
+- [ ] Include a search bar to easily find key terms in each of the notes
+- [ ] Improve UI of website and do redesign
 
 ## Contribution
 
