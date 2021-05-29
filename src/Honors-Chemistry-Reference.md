@@ -138,7 +138,7 @@ Electrons orbit around the nucleus in discrete orbitals (shells) based on their 
 ### Isotopes
 
 - To calculate the relative abundance of an isotope, use this formula:
-
+  
   $$
   \begin{cases} A =  I_1x+I_2y \\ x+y=1 \end{cases}
   $$
@@ -185,7 +185,7 @@ $$
 - The energy released is in the form of visible light
 
 - We can detect the element based on the light emitted
-
+  
   ### Practical Knowledge
 
 - The most common flame tests:
@@ -206,11 +206,11 @@ $$
   - Liquid
   - Gas
 
-|        | Appearance                                                         |                   Change of State                   | Intermolecular Forces (IMF) |
-| :----- | :----------------------------------------------------------------- | :-------------------------------------------------: | --------------------------: |
-| Solid  | Has unique shape independent of container, and has definite volume |     Melting, Freezing; Sublimation, Deposition      |                      Strong |
-| Liquid | Takes shape of container, but has definite volume                  |                Vaporization, Melting                |                      Strong |
-| Gas    | Has no defined volume nor shape; can be colorless                  | Vaporization, Condensation; Sublimation, Deposition |                        Weak |
+|        | Appearance                                                         | Change of State                                     | Intermolecular Forces (IMF) |
+|:------ |:------------------------------------------------------------------ |:---------------------------------------------------:| ---------------------------:|
+| Solid  | Has unique shape independent of container, and has definite volume | Melting, Freezing; Sublimation, Deposition          | Strong                      |
+| Liquid | Takes shape of container, but has definite volume                  | Vaporization, Melting                               | Strong                      |
+| Gas    | Has no defined volume nor shape; can be colorless                  | Vaporization, Condensation; Sublimation, Deposition | Weak                        |
 
 - Changes of State occur when an element gains or loses heat energy
 
@@ -332,13 +332,13 @@ Where:
 - In general, elements with **more** outer shell electrons have **higher** ionization energy
 
 - In the Periodic Table, there are 2 major trends for ionization energy:
-
+  
   - Ionization Energy _increases_ from left to right
-
+  
   - This is because the number of _protons_ are increasing towards the right of the Periodic Table
-
+  
   - Ionization Energy _decreases_ from top to down
-
+  
   - This is because the number of energy levels _increases_ as you go down the Periodic Table
 
 > 8 outermost electrons, also called an _octet_, is a very stable configuration. This results in a very high ionization energy (effectively impossible to achieve in real life). So, we can consider 8 outer shell electrons as unmovable.
@@ -360,13 +360,13 @@ Where:
 - An atom with a high electron affinity is highly attracted to other electrons, while atoms with low electron affinity (e.g. noble gases) are only slightly attracted to other electrons
 
 - In the Periodic Table, there are 2 major trends for electron affinity:
-
+  
   - Electron affinity _increases_ from left to right
-
+  
   - This is because the electronegativity of atoms _increases_ towards the right of the Periodic Table
-
+  
   - Electron affinity _decreases_ from top to down
-
+  
   - This is because the electronegativity of atoms _decreases_ as you go down the periodic table
 
 ## Electrical Conductors and Insulators
@@ -505,46 +505,46 @@ eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
 -->
 
 - There are 6 main categories of hybridization:
-
+  
   - $sp$ hybridization
-
+  
   - $sp^2$ hybridization
-
+  
   - $sp^3$ hybridization
-
+  
   - $sp^3d$ hybridization
-
+  
   - $sp^3d^2$ hybridization
-
+  
   - $sp^3d^3$ hybridization
-
+  
   > Note: below section is the hard work of [byju](https://byjus.com/jee/hybridization/), not my work. I will take no credit for this section.
-
+  
   ### $sp$ Hybridization
-
+  
   sp hybridization is observed when one s and one p orbital in the same
   main shell of an atom mix to form two new equivalent orbitals. The new
   orbitals formed are called **sp hybridized orbitals.** It forms linear molecules with an angle of 180°
-
+  
   - This type of hybridization involves the mixing of one ‘s’ orbital
     and one ‘p’ orbital of equal energy to give a new hybrid orbital known
     as a sp hybridized orbital.
   - sp hybridization is also called diagonal hybridization.
   - Each sp hybridized orbital has an equal amount of s and p character, i.e., 50% s and p character.
-
+  
   ![sp Hybridization](https://cdn1.byjus.com/wp-content/uploads/2019/04/sp-Hybridization.jpg "sp Hybridization")
-
+  
   #### Examples of sp Hybridization:
-
+  
   - All [compounds of beryllium](https://byjus.com/chemistry/beryllium/) like BeF2, BeH2, BeCl2
   - All compounds of carbon-containing [triple Bond](https://byjus.com/chemistry/single-bond-double-bond-and-triple-bond/) like C2H2.
-
+  
   ### $sp^2$ Hybridization
-
+  
   **sp2 hybridization** is observed when one s
   and two p orbitals of the same shell of an atom mix to form 3 equivalent
   orbital. The new orbitals formed are called **sp2 hybrid orbitals.**
-
+  
   - hy2 bridization is also called trigonal hybridization.
   - It involves mixing of one ‘s’ orbital and two ‘p’ orbital’s of equal energy to give a new hybrid orbital known as sp2.
   - A mixture of s and p orbital formed in trigonal symmetry and is maintained at 1200.
@@ -552,48 +552,48 @@ eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
     of 120° with one another. Each of the hybrid orbitals formed has 33.33% s
     character and 66.66% ‘p’ character.
   - The [molecules](https://byjus.com/chemistry/atoms-and-molecules/) in which the central atom is linked to 3 atoms and is sp2 hybridized have a triangular planar shape.
-
+  
   ![sp2 Hybridization](https://cdn1.byjus.com/wp-content/uploads/2019/04/sp2-hybridization.jpg "sp2 Hybridization")
-
+  
   #### Examples of sp2 Hybridization
-
+  
   - All the compounds of Boron i.e. BF3, BH3
   - All the [compounds of carbon](https://byjus.com/chemistry/carbon-compounds/) containing a carbon-carbon double bond, Ethylene (C2H4)
-
+  
   ### $sp^3$ Hybridization
-
+  
   When one ‘s’ orbital and 3 ‘p’ orbitals belonging to the same shell
   of an atom mix together to form four new equivalent orbital, the type of
   hybridization is called a **tetrahedral hybridization or sp3**. The new orbitals formed are called **sp3 hybrid orbitals.**
-
+  
   - These are directed towards the four corners of a regular [tetrahedron](https://byjus.com/regular-tetrahedron-formula/) and make an angle of 109°28’ with one another.
   - The angle between the sp3 hybrid orbitals is 109.280
   - Each sp3 hybrid orbital has 25% s character and 75% p character.
   - Example of sp3 hybridization: [ethane](https://byjus.com/jee/conformations-of-ethane-and-butane/) (C2H6), methane.
-
+  
   ![sp3 Hybridization](https://cdn1.byjus.com/wp-content/uploads/2019/04/sp3-hybridization.jpg "sp3 Hybridization")
-
+  
   ### $sp^3d$ Hybridization
-
+  
   sp3d hybridization involves the mixing of 3p orbitals and
   1d orbital to form 5 sp3d hybridized orbitals of equal energy. They have
   trigonal bipyramidal geometry.
-
+  
   - The mixture of s, p and d orbital forms trigonal bipyramidal symmetry.
   - Three hybrid orbitals lie in the horizontal plane inclined at an angle of 120° to each other known as the equatorial orbitals.
   - The remaining two orbitals lie in the vertical plane at 90 degrees plane of the equatorial orbitals known as axial orbitals.
   - **Example:** [Hybridization in Phosphorus pentachloride (PCl5)](https://byjus.com/chemistry/pcl5-hybridization/)
-
+  
   ![sp3d Hybridization](https://cdn1.byjus.com/wp-content/uploads/2019/04/spd3-Hybridization.jpg "sp3d Hybridization")
-
+  
   ### $sp^3d^2$ Hybridization
-
+  
   - Sp3d2 hybridization has 1s, 3p and 2d orbitals, that undergo intermixing to form 6 identical sp3d2 hybrid orbitals.
   - These 6 orbitals are directed towards the corners of an octahedron.
   - They are inclined at an angle of 90 degrees to one another.
-
+  
   ## Key Features of Hybridization
-
+  
   - Atomic orbitals with equal energies undergo hybridization.
   - The number of hybrid orbitals formed is equal to the number of atomic orbitals mixing.
   - It is not necessary that all the half-filled orbitals must
@@ -603,59 +603,58 @@ eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
   - The shape of the molecule can be predicted if hybridization of the molecule is known.
   - The bigger lobe of the hybrid orbital always has a positive sign,
     while the smaller lobe on the opposite side has a negative sign.
-
+  
   ## Chemical Reactions And Equations
-
+  
   ### Types of Chemical Reactions
-
+  
   - The main types of chemical reaction are: **decomposition reactions**, **double replacement reactions**, **single replacement reactions**, **synthesis reactions**, **combustion reactions**, and **redox reactions**
-
   * A decomposition reaction results in the breakdown of the individual chemical components within the reactants
-
+  
   * Such a reaction usually takes the form $AB \rightarrow A + B$
-
+  
   * For instance: $2H_2O_2 \rightarrow O_2 + 2H_2O$
-
+  
   * A catalyst can be used to speed up a decomposition reaction, _but_ it is _not part_ of the equation (we usually write those on top of the arrow instead)
-
+  
   * A double replacement reaction results in the formation of two new chemical substances, each composed of the individual chemical components of the reactants
-
+  
   * Such a reaction usually takes the form $AB + CD \rightarrow AC + BD$
-
+  
   * For instance: $K_2CrO_4 + 2AgNO_3 \rightarrow 2KNO_3 + Ag_2CrO_4$
-
+  
   * A combustion reaction results in the formation of a new chemical substance via a reaction with oxygen gas
-
+  
   * Such a reaction usually takes the form $AB + O_2 \rightarrow AO_2 + BO_2$
-
+  
   * For instance: $C_2H_6O + 3O_2 \rightarrow 2CO_2 + 3H_2O$
-
+  
   * A single replacement reaction results in the formation of one new chemical substance, composed of the individual chemical components of the reactant, which is usually one element
-
+  
   * Such a reaction usually takes the form $A + BC \rightarrow AB + C$
-
+  
   * Single replacement reactions most frequently produce nonmetal elements in gaseous form
-
+  
   * For instance: $Zn + HCl \rightarrow ZnCl_2 + H_2$
-
+  
   * A synthesis reaction results in the formation of a new chemical compound from two or more simpler chemical reactants
-
+  
   * Such a reaction usually takes the form $A + B \rightarrow AB$
-
+  
   * For instance: $Fe + S \rightarrow FeS$
-
+  
   * A combustion reaction is _any_ reaction that has the element oxygen as a reactant
-
+  
   * For instance: $H_2 + O_2 \rightarrow 2H_2O$
-
+  
   * A redox reaction results in the loss of electrons for the metal in an ionic compound, and the gain of electrons for the nonmetal in an ionic compound
-
+  
   * For instance: $\mathrm{Zn^{2+}O^{2-}} + \mathrm{C} \rightarrow \mathrm{Zn} + \mathrm{CO}$
-
+    
     ![Redox reaction](https://chemicalnote.com/wp-content/uploads/2020/09/word-image-111.png)
-
+    
     ![Redox reaction](https://chemicalnote.com/wp-content/uploads/2020/09/word-image-112.png)
-
+  
   * All forms of electrolysis and electrochemical reactions are considered redox reactions
 
 ### Balancing Equations
@@ -689,33 +688,33 @@ eyJoaXN0b3J5IjpbLTEwNTA4MzA4NzBdfQ==
 ### Molar Conversions
 
 - We can also use the mole to convert between mass and moles, using this formula:
-
+  
   $$
   n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}
   $$
-
+  
   - _The number of moles of a certain quantity of a compound is equivalent to the mass of the compound (in grams) divided by the molar mass of the compound_
   - $n_{mol}$ is the number of moles
   - $M$ is the mass, expressed in grams
   - $m_r$ is the total atomic mass, expressed in AMU
 
 - For instance, we have 5.72 grams of $\mathrm{C_6 H_{12} O_6}$ (glucose), and we want to find its number of molecules:
-
+  
   - We know that the mass is 5.72g
   - We know that the total atomic mass is $12.0107 \cdot 6 + 1.00794 \cdot 12 + 15.9994 \cdot 6$ which is $180.15588$
   - Because we know the atomic mass, we also know that the molar mass is $180.15588\ \mathrm{g/mol}$
   - So, we can now plug the numbers into the formula:
-
+  
   $$
   n_{mol} = 5.72\ \mathrm{g} \cdot \frac{1\ \mathrm{mol}}{180.15588\ \mathrm{g/mol}}
   $$
-
+  
   - So, the number of moles in 5.62 grams of glucose would be ~0.032 moles
-
+  
   - Each mol contains $6.03 \cdot 10^{23}$ molecules, so $0.032$ moles would contain $1.93 \cdot 10^{22}$ molecules
-
+  
   - We know that in one atom of glucose, there are 6 carbon atoms, 12 hydrogen atoms, and 6 oxygens, so that means there are 24 atoms in total
-
+  
   - Therefore, because 5.72 grams of glucose is $1.93 \cdot 10^{22}$ molecules, and each molecules contains 24 atoms, the total number of atoms is $24 \cdot (1.93 \cdot 10^{22})$ which is $4.632 \cdot 10^{23}$
 
 - We can use the mole to convert into volume (for gases) as well, using this formula:
@@ -737,35 +736,35 @@ $$
 - You have 10 grams of hydrogen gas, and you want to find how many grams of water you can produce
 
 - To figure that out, you can use stoichiometry:
-
+  
   - First, **balance the equation** (if it isn't balanced already)
-
+  
   - Second, find out the **ratios of the reactant to the product**
-
+    
     - There are 2 moles of our reactant, hydrogen, in $\mathrm{2H_2}$
-
+    
     - There are 2 moles of our product, water, in $\mathrm{2H_2 O}$
-
+  
   - That means the ratio is 2 moles to 2 moles or $2 \ratio 2$
-
+  
   - Third, find the **molar mass of your reactant**
-
+    
     - Our reactant is $\mathrm{H_2}$
-
+    
     - Its total atomic mass in AMU is $2\cdot 1 = 2\ \mathrm{AMU}$
-
+    
     - So its molar mass is $2\ \mathrm{g/mol}$
-
+  
   - Forth, find the **number of moles** of your reactant
-
+    
     - Use the formula $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$
-
+    
     - Here, $M$ is 10 grams, and $m_r$ is $2\ \mathrm{g/mol}$, so the number of moles is $10 \cdot \frac{1\ \mathrm{mol}}{2\ \mathrm{g/mol}}$ which is 5 moles
-
+    
     - So we have 5 moles of hydrogen gas as the reactant
-
+  
   - Fifth, use the **ratio of reactant to product** to find the number of moles of your product
-
+    
     - Use this formula:
 
 $$
@@ -773,59 +772,59 @@ P_{mol} = n_{mol} \cdot \frac{P_m}{N_m}
 $$
 
 - This means that the number of moles of the product $P_{mol}$ is equal to the number of moles of the reactant $n_{mol}$ multiplied by the ratio of reactant to product $\frac{P_m}{N_m}$
-
+  
   - For our equation, we already know that $n_{mol}$ is 5 moles
-
+  
   - We also know that the ratio is $2 \ratio 2$
-
+  
   - Putting these into the formula, that means the final formula is:
-
+  
   $$
   P_{mol} = 5\ \mathrm{mol} \cdot \frac{2\ \mathrm{mol}\ \mathrm{H_2O}}{2\ \mathrm{mol}\ \mathrm{H_2}}
   $$
-
+  
   - After solving the equation, we find that $P_{mol}$ is 5 moles of water
 
 - Now, we need to convert moles back to grams
-
+  
   - Recall that our formula for getting grams into moles is $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$, and if we rearrange the formula, we also find that $M = n_{mol} \cdot \frac{m_r}{1\ \mathrm{mol}}$
-
+  
   - We can simplify that into $M = n_{mol} \cdot m_r$
-
+  
   - The molar mass ($m_r$) of water is approximately $18\ \mathrm{g/mol}$
-
+  
   - We have 5 moles of water
-
+  
   - So the total number of grams is $5 \cdot 18\ \mathrm{g/mol}$ which is **90 grams** of water produced from 10 grams of hydrogen gas
 
 But what if we're not trying to find the amount of product produced? What if we wanted to find how many grams of hydrogen ($\mathrm{H_2}$) will **completely react with our 10 grams of oxygen gas**? Here's how:
 
 - First, we have to establish the ratio between hydrogen and oxygen using the formula
-
+  
   - We already have a balanced formula: $\mathrm{2H_2} (g) + \mathrm{O_2}(g) \rightarrow \mathrm{2H_2O} (g)$
-
+  
   - From that, we know that hydrogen and oxygen are in a $2 \ratio 1$ ratio (we always list the unknown quantity first in a stoichiometric ratio, so don't mistakenly write 1:2!)
 
 - Second, we determine the number of moles of hydrogen from the given amount of oxygen
-
+  
   - 10 grams of oxygen is **~0.56 moles** of oxygen, using the formula $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$
-
+  
   - Then, we find the number of moles of hydrogen corresponding to 0.56 moles of oxygen, using this formula:
-
+  
   $$
   U_{mol} = N_{mol} \cdot \frac{U_m}{N_m}
   $$
 
 - Essentially, we find the number of moles of the unknown quantity ($U_{mol}$) from the known quantity ($N_m$) by multiplying the ratio between the two quantities
-
+  
   - We know that the ratio is $2 \ratio 1$
-
+  
   - So, our fomula is $0.56\ \mathrm{mol} \cdot \frac{2}{1} = 1.12\ \mathrm{mol}\ \mathrm{H_2}$
 
 - Last, we convert moles back to grams
-
+  
   - 1.12 moles of hydrogen gas, which has a molar mass of $2\ \mathrm{g/mol}$, is $1.12 \cdot 2 = 2.24\ \mathrm{g}$
-
+  
   - Thus, we now know that 10 grams of oxygen will completely react with **2.24 grams of hydrogen**!
 
 ### Stoichiometry and Formula Units
@@ -833,21 +832,21 @@ But what if we're not trying to find the amount of product produced? What if we 
 Sometimes, you would be asked to give the number of **formula units** of a substance. That means you should provide the number of particles of the substance, based on its empirical formula. To do this, follow these steps:
 
 - Find the reaction's empirical formula
-
+  
   - For instance, we will first balance the equation describing the combustion of glucose, which (in balanced form) is $\mathrm{C_6 H_{12} O_6} (s) + 6\mathrm{O_2}(g) \rightarrow 6\mathrm{CO_2} (g) + 6\mathrm{H_2 O} (g)$
-
+  
   - Now, find the largest coefficient; here, our largest coefficient is 6
-
+  
   - We divide everything now by 6, so now we have: $\frac{1}{6} \mathrm{C_6 H_12 O_6} (s) + 1\mathrm{O_2}(g) \rightarrow 1\mathrm{CO_2} (g) + 1\mathrm{H_2 O} (g)$
-
+  
   - This is our **empirical formula**
 
 - Now, we can find the formula units of glucose
-
+  
   - Glucose has a coefficient of $\dfrac{1}{6}$
-
+  
   - The formula unit of glucose is its coefficient, multiplied by Avogadro's Number, which is $\frac{1}{6} \cdot 6.02 \times 10^{23}$
-
+  
   - Solving that, we find that there are $\approx 1.003 \times 10^{23}$ units of glucose are formed; this is the formula unit of glucose
 
 ### Common Stoichiometry Mistakes
@@ -877,7 +876,7 @@ This would yield an incorrect number of moles!
 - $Q$ is the the symbol for enthalpy in
 
 - We can calculate enthalpy with the specific heat formula $Q = mc\Delta t$
-
+  
   - $\Delta T$ is the final temperature, subtracted from the starting temperature, and can be negative
 
 - High specific heat means that an object will gain or lose energy very slowly, and is made of a material that is a thermal insulator
@@ -1006,7 +1005,7 @@ $$
 - The basic idea is to match the equations where we know the enthalpy, with the equation that we don't know
 
 - Let's start with our first equation
-
+  
   - Notice how the first equation has $\mathrm{N_2}$, and our original equation also has $\mathrm{2N_2}$:
 
 $$
@@ -1018,11 +1017,11 @@ $$
 - Unforunately, the two nitrogens are on different sides of the equation
 
 - We can deal with that by flipping equation 1 around
-
+  
   - Every time we flip an equation, we are going to reverse the sign of its enthalpy
-
+  
   - If the enthalpy was positive, we change it to negative, and vice-versa
-
+  
   - So, our flipped equation 1 has an enthalpy of $+92\mathrm{kJ}$ rather than $-92\mathrm{kJ}$
 
 $$
@@ -1050,7 +1049,7 @@ $$
 - So the final form of our first equation is $\mathrm{4NH_3} \rightarrow \mathrm{2N_2} + \mathrm{6H_2}, \: \Delta H = +184\mathrm{kJ}$
 
 - We can move on to do our second equation
-
+  
   - Notice how the second equation has $\mathrm{H_2O}$, and our original equation has $6H_2O$
 
 $$
@@ -1125,16 +1124,216 @@ $$
 
 ## Solutions
 
-For solids to dissolve more quickly:
+* When we have a mixtures where one substance is dissolved in another substance, we call it a **solution**
 
-- Add heat energy (which is why solids dissolve more quickly in hot water than cold water)
-  - Note that gases typically dissolve more quickly in cold solutions than hot solutions
-  - That is what allows fish to breath even while the water surface is frozen in wintertime
-- Increase the surface area by crushing up the solute
-- Agitate the solution (stirring)
+* The **solute** is the dissolved substance, and is also the part of the solution in lesser quantity
+  
+  * Some common solutes include salt (sodium chloride) and sugar (glucose)
 
-Measuring the concentrations of solution
+* The **solvent** is the substance that dissolves the solute, and is also the part of the solution in greater volume
 
+* A certain amount of a solvent can only dissolve a certain quantity of solute
+
+* A solvent is considered **saturated** if it can dissolve no more solute
+
+* To make a solvent dissolve more solute, we could do the following:
+  
+  -   Add heat energy (which is why solids dissolve more quickly in hot water than cold water)
+    
+    - Note that gases typically dissolve more quickly in cold solutions than hot solutions
+    - That is what allows fish to breath (from oxygen dissolved in water) even while the water surface is frozen in wintertime
+  
+  - Increase the surface area by crushing up the solute
+  
+  - Agitate the solution (stirring)
+
+* The concentration of a solution is the qualit
+
+* There are numerous ways to measure the **concentration** of a solution
 - Percent by mass: the mass of the solute, divided by the mass of the solution
+
 - Percent by volume: the volume of the solute, divided by the volume of the solution
-- Molarity ($M$): the moles of solute, divided by liters of solution
+
+- Molarity (represented by $M$): the moles of solute, divided by liters of solution, and the preferred unit in chemistry
+
+### Calculating molarity of a solution
+
+The general formula for the molarity of a solution is:
+
+$$
+M = \frac{M_s}{V_s}
+$$
+
+* $M$, as we know, is the molarity of a solution, measured in the unit $M$
+
+* $M_s$ is the molar mass of the solute, measured in moles
+
+* $V_s$ is the total volume of the solution, measured in liters
+
+#### Solution molarity question examples
+
+* You might encounter a question like this: *Determine the molarity of a solution made by dissolving 33.0 grams of $\mathrm{CaCl_2}$ in enough water to make 600.0 ml of solution.*
+
+* To solve this question, we need to find the molar mass of the solute and the solution volume
+  
+  * While we don't know the molar mass $(M_s)$, we do know that the solute is calcium chloride, and that its mass is 33 grams
+    
+    * We know that we can convert grams to moles with the formula $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$
+    
+    * The molar mass of calcium chloride can be calculated from its atomic mass, which would be 110 g/mol
+    
+    * So 33 grams is equal to $33 \cdot \frac{1\ \mathrm{mol}}{100\ \mathrm{g/mol}}$, which is **0.3 mol**
+    
+    * Therefore, $M_s$ is equal to 0.3 mol
+  
+  * We are told that there are 600 ml of total solution
+    
+    * The total volume of the solution $V_s$ needs to be in liters though, and 600 ml is 0.6 liters
+    
+    * So $V_s$ is equal to **0.6 L**
+  
+  * Now, we just need to plug our values of $M_s$ and $V_s$ into the equation
+    
+    * $M = \frac{M_s}{V_s}=\frac{0.3\ \mathrm{mol}}{0.6\ \mathrm{L}}$
+    
+    * Therefore, $M = 0.5\ \mathrm{M}$
+  
+  * Our solution has a molarity of **0.5 M**
+
+### Determining Percent Mass
+
+* **Percent mass** is the percentage of a solute's mass in a solution's total mass
+
+* If we had 1 gram of salt dissolved in 100 grams of solution, for example, then we would say that salt made up 1% of the solution's mass
+
+* So the percent mass of salt would be 1%
+
+* However, what if we had 1 gram of salt, dissolved in 49 grams of water?
+  
+  * We don't know the total mass of the solution
+  
+  * But since we know that the total mass of the solution is equal to the mass of the solute plus the mass of the solvent, or 1 gram of salt plus 49 grams of water, we can deduce that the total mass would be **50 grams**
+
+* So, a general equation of percent mass is this:
+
+### Determining Mole Fraction
+
+* The mole fraction is the number of **moles** of a solute, divided by the total **moles** of all of the solute and solvent
+
+* Remember, its units are in moles - not mass units!
+
+* The formula for finding mole fraction, assuming you only have one solute, is:
+
+$$
+M_f = \frac{M_s}{M_s + M_v}
+$$
+
+* In this equation:
+  
+  * $M_f$ is the mole fraction
+  
+  * $M_s$ is the moles of solute
+  
+  * $M_v$ is the moles of solvent
+
+* For instance, you might be asked to find the mole fraction of glucose, $\mathrm{C_6 H_{12} O_6}$, if 36 grams of glucose were dissolved in 90 grams of water
+  
+  * You've already determined that the molar mass of glucose is 180 g/mol, and the molar mass of water is 18 g/mol
+  
+  * Using the formula $n_{mol} = M \cdot \frac{1\ \mathrm{mol}}{m_r}$, we find that there are 0.2 moles of glucose, and 5.0 moles of water
+  
+  * Last, using the mole fraction formula, $M_f = \frac{0.2}{(5.0 + 0.2)}$, which gives us a final mole fraction of $\frac{1}{26}$ or around 0.0385
+
+### Boiling Point Elevations
+
+- As more solute is added to a solvent, the boiling point of a solvent **increases**
+
+- For instance, chefs often add salt when cooking noodles in boiling water
+  
+  - The salt increases the boiling point of water
+  
+  - This means the water has to be at a higher temperature in order to boil
+  
+  - So chefs can cook noodles in water even at temperatures above boiling point, allowing them to cook the noodles faster
+
+#### Calculating Boiling Point Elevations
+
+* Boiling point elevation is calculated with this equation:
+
+$$
+N_b = O_b + (k \cdot M)
+$$
+
+* In this equation:
+  
+  * $N_b$ is the boiling point of the solution (aka solvent with solute)
+  
+  * $O_b$ is the boiling point of the pure solvent
+  
+  * $k$ is the boiling point elevation constant (which is the same as the freezing point depression constant), usually provided for you
+  
+  * $M$ is the molar concentration of the solution
+
+* For instance, we might be asked to find the boiling point of a 2M solution of calcium chloride within water, and that $k = 1.86$
+  
+  * We know that the solvent is water, which has a pure boiling point ($O_b$) of 100 degrees Celcius
+  
+  * We also know that the molar concentration is 2M
+  
+  * Thus, with our equation, $N_b = 100^\circ + (1.86 \cdot 2\mathrm{M})$ which gives a final boiling point of **103.72 degrees Celcius**
+
+### Freezing Point Depressions
+
+* As more solute is added to a solvent, the freezing point of a solvent **decreases**
+
+* For instance, putting salt on winter roads decreases the freezing point of water
+  
+  * That means water needs to be at a colder temperature in order to freeze
+  
+  * So it prevents roads from freezing over with ice
+
+#### Calculating Freezing Point Depressions
+
+* Freezing point depression is calculated with the following equation:
+
+$$
+N_f = O_f - (k \cdot M)
+$$
+
+* In this equation:
+  
+  - $N_f$ is the freezing point of the solution (aka solvent with solute)
+  
+  - $O_f$ is the freezing point of the pure solvent
+  
+  - $k$ is the freezing point depression constant (which is the same as the boiling point elevation constant), usually provided for you
+  
+  - $M$ is the molar concentration of the solution
+
+* For instance, we might be asked to find the molar mass of an unknown solute if 20.0 grams of it dissolved in 100.0 grams of water lowers the freezing point to -1.45° Celcius, assuming $k = 1.86$
+  
+  * Note that in this question, we don't know the molar concentration ($M$), so we have to figure out that first
+  
+  * We know that the freezing point ($N_f$) of the solution is -1.45° Celcius, and that the normal freezing point of pure water ($O_f$) is 0° Celcius
+  
+  * Because $N_f = O_f - (k \cdot M)$, we could rearrange the equation to find that $O_f - N_f = (k \cdot M)$, and so $0 - (-1.45) = 1.45 = (k \cdot M)$
+  
+  * We also know that $k = 1.86$, so $1.45 = (1.86 \cdot M)$
+  
+  * Thus, $\frac{1.45}{1.86} = M$, and $M \approx 0.780$
+  
+  * Remember the equation for molar concentration? It is $M = \frac{M_s}{V_s}$
+    
+    * That means $0.780 = \frac{M_s}{V_s}$
+    
+    * And while we don't know molar mass, we *can* find solvent volume ($V_s$)
+    
+    * As we are told the we have 100 grams of water, we know that 100 grams is equal to 100 ml (which is also equal to 0.1 liters)
+    
+    * So that means $V_s = 0.1\ \mathrm{L}$
+    
+    * Now, substituting those two values, we find that $0.780 = \frac{M_s}{0.1\ \mathrm{L}}$
+    
+    * Rearranging that equation gives us $M_s = 0.780 \cdot 0.1\ \mathrm{L} = 0.078\ \mathrm{mol}$
+  
+  * We've got our final answer - the molar mass of the solute is 0.078 mol
