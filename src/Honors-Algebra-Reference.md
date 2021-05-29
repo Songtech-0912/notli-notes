@@ -1,6 +1,16 @@
-o# Honors Algebra Exam Reference Notes
+# Honors Algebra Exam Reference Notes
 
 *An unofficial guide from the notes of Jacky Song, a.k.a. @Songtech-0912*
+
+## All Symbols, Formulae, and Equations used in Honors Algebra
+
+* General equation of line: $y = mx + c$
+  
+  * $m$ is the slope
+  
+  * $c$ is the *y-intercept*
+
+*To be completed sometime soon...*
 
 ## Trigonometry
 
@@ -273,7 +283,7 @@ $$
 | 1 squared variable                                                 | Parabola        | Standard (smiley/frowny face): $x^2 = \pm 4ay$ if sideways: $y^2 = \pm 4ax$ | Standard (smiley/frowny face): $(x-h)^2 = 4a(y-k)$ if sideways: $(y-k)^2 = 4a(x-h)$ (remember to use the sideways form whever you encounter an equation where $y$ is squared or in the form $(y-n)^2$)                                                        | The section of a right circular cone by a plane parallel to a generator of the cone **OR** the locus of points equidistant from a focus and a directrix                                                |                          |
 | 2 squared variables with the same signs and different coefficients | Ellipse         | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} + \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) | The section of a right circular cone by a plane that is not perpendicular to the axis of symmetry and does not intersect the cone’s base **OR** the locus of points equidistant from two foci (points) |                          |
 | 2 squared variables with opposite signs                            | Hyperbola       | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} - \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) |                                                                                                                                                                                                        |                          |
-| 2 squared variables with the same signs and same coefficients      | Circle          | Standard form: $x^2 + y^2 = r^2$                                            |                                                                                                                                                                                                                                                               |                                                                                                                                                                                                        |                          |
+| 2 squared variables with the same signs and same coefficients      | Circle          | Standard form: $x^2 + y^2 = r^2$                                            |                                                                                                                                                                                                                                                               | The locus of points equidistant from one focus                                                                                                                                                         |                          |
 
 ### Focus, Vertex, and Directex
 
@@ -325,3 +335,181 @@ If we put an **ellipse** in the vertex form of $\frac{(x-h)^2}{a^2} + \frac{(y-k
 | Take half of the coefficients of the first-degree terms (and don't forget their signs!), square them, and add the squares into the appropriate spaces on both sides of the equation $(\frac{b^2}{2})$. Carry over the added squares to the other side of the equation, together with their factors. | ![Image](https://www.purplemath.com/modules/square/ellips06.gif) |
 | Simplify on the right, and convert to squared form on the left.                                                                                                                                                                                                                                     | $\frac{(x-6)^2}{9} + \frac{(y+4)^2}{4} = -4 + 4 + 4$             |
 | Divide by 4 (or whatever value you have on the right hand side)                                                                                                                                                                                                                                     | $\frac{(x-6)^2}{36} + \frac{(y+4)^2}{16} = 1$                    |
+
+## Sequences and Series
+
+* A sequence is a function whose domain is a list of positive integers
+
+* A finite sequence has a limited amount of terms
+
+* An infinite sequence is continuous and so has an unlimited amount of terms
+
+* **Arithmetic sequences** are sequences where the difference between consecutive terms is constant
+
+* **Domain** = the position of the terms e.g. $n, (n+1), (n+2)\dots$
+
+* **Range** = the values of the terms e.g. $a_1, a_2, a_3, a_4 \dots$
+
+* A **series** is the sum of the terms in a sequence, which can be finite or infinite
+
+* We can write a series using summation notation, where $k$ is the first term, $m$ is the number of total terms, and $a_n$ is equal to the nth term
+  
+  $$
+  \sum_{n=k}^{m} a_n
+  $$
+
+* For instance, if we had the sequence $\{1, 3, 5, 7, 9, \dots n\}$, we would know that the difference $d$ between each of the terms is 2, so $d = 2$
+
+* Then, because the nth term is in the format $a_1 = (d)n + x$, where $a_1$ is the value of the first term, we can substitute the equation with $n=1$,  resulting in $1 = (2)(1) + x$
+
+* We can then simplify that to $1 = 2 + x$, and so we find that $x = -1$
+
+* Therefore, our complete nth term would be $a_n = 2n + -1$, or simplified, $a_n = 2n - 1$
+
+* We know that $k$, the first term, is 1, and $m$ is infinite, so our summation notation would be:
+
+$$
+\sum_{n = 1}^{\infty} a_n = 2n -1
+$$
+
+### Word problems involving a Arithmetic Sequence
+
+* Suppose you encountered this question:
+  
+  * An auditorium has 25 rows with 10 seats in the first row, 12 seats in the second row, 14 in the third row, and so on. How many seats are in the auditorium?
+
+* We can solve it like this:
+  
+  * First, we need to use the general sum of an arithmetic sequence, where $\Sigma_n$ is the sum of the sequence, $n$ is the total number of terms, and $a_n$ is the *nth* term:
+
+$$
+\Sigma_n = \frac{n}{2} (a_1 + a_n)
+$$
+
+* We know that the first row has 10 seats, so $a_1 = 10$
+* The number of terms $n$ is the number of rows, so $n = 25$
+* However, to find the number of seats in the *last* row, we have to find the *nth* term of the sequence:
+  * We know that the general form of the *nth* term is $a_n = dn + k$
+  * In our case, $d$ is equal to the number of seats in the second row minus the number of seats in the first row, so $d = 12 - 10 = 2$
+  * We also know that $k = a_1 -d$ so $k = 10-2 = 8$
+  * Therefore, our *nth* term would be $a_n = 2n + 8$
+  * The last row's seats (the 25th row) is given by $a_{25} = 2(25) + 8$, so $a_{25} = 58$
+* Now, we simply need to plug the values in and substitute:
+  * $\Sigma_n = \frac{25}{2} (10 + 58) = 850$
+  * Therefore, there are 850 seats in the auditorium
+
+### Finding the *nth* term of a Geometric Sequence
+
+* Here is an example question you may encounter that requires you to find the Nth term of a geometric sequence:
+  
+  * Find the *nth* term of the geometric sequence $\{2, 6, 18, \dots\}$
+  * Write out the **9th term** of the sequence
+
+* In order to solve this question, here's what you can do:
+  
+  * The general equation of a geometric sequence is $a_n = a(r^{(n-1)})$, where $a$ is equal to the first term of the sequence, and $r$ is equal to $\frac{a_n}{a_n-1}$ - or, perhaps easier to remember, it's equal to the first term divided by the second term
+  * Because the first term is 2, we know that $a = 2$
+  * Because the second term (6) divided by the first term (2) is 3, we know that $r = 3$ 
+  * Substituting those terms gives us our answer of $a_n = 2\left(3^{(n-1)}\right)$ as our *nth* term
+  * To solve for the 9th term, we simply set $n=9$, so $a_9 = 2\left(3^{(9-1)}\right)=13122$
+
+* Sometime, questions on the *nth* term might be more complicated, like this:
+  
+  * Of a geometric sequence $a$, $a_2 = 7$ and $a_4 = 1575$
+  * Find the 5th term of the sequence
+
+* To solve this equation, we need to use a system of equations
+  
+  * We know that the second term is 7 and the forth term is 1575
+  
+  * We also know that the general equation of a geometric sequence is $a_n = a(r^{(n-1)})$
+  
+  * So we could express such a sequence of equations like this:
+
+$$
+\begin{cases}
+7 = a(r^{(n-1)}), n = 2 \\
+1575 = a(r^{(n-1)}), n = 4
+\end{cases}
+$$
+
+* We simply have to simplify to continue:
+
+$$
+\begin{cases}
+7 = a(r^{(2-1)}) \\
+1575 = a(r^{(4-1)})
+\end{cases}
+$$
+
+$$
+\begin{cases}
+7 = a(r) \\
+1575 = a(r^3)
+\end{cases}
+$$
+
+$$
+\begin{cases}
+\frac{7}{r} = a \\
+\frac{1575}{r^3} = a
+\end{cases}
+$$
+
+$$
+\frac{7}{r} = \frac{1575}{r^3}
+$$
+
+$$
+7r^3 = 1575r
+$$
+
+$$
+7r^2 = 1575
+$$
+
+$$
+\frac{1575}{7} = r^2
+$$
+
+$$
+r^2 = 225
+$$
+
+$$
+r = 15
+$$
+
+* Now that we know that $r=15$, we need to substitute to solve for $a$, like this:
+
+$$
+a_n = a(15^{(n-1)})
+$$
+
+$$
+a_4 = a(15^{(4-1)})
+$$
+
+$$
+1575 = a(15^{(4-1)})
+$$
+
+$$
+1575 = 3375 a
+$$
+
+$$
+a = \frac{7}{15}
+$$
+
+* Now that we know both $a$ and $r$, our final *nth* term is $a_n = \frac{7}{15}(15^{(n-1)})$
+
+* Finding the fifth term requires simply substituting with $n = 5$ into $a_{5} = \frac{7}{15}(15^{(5-1)})$,  so our final answer would be 23625
+
+### Finding the sums of finite and infinite sequences
+
+* Sums of finite and infinite sequences are denoted by the notation $\Sigma_n$
+
+* For a finite series (as mentioned above), we use the formula $\Sigma_n = \frac{n}{2}(a_1 + a_n)$, where $n$ is the number of terms we want to find (e.g. 10 terms), and $a_n$ is the last term (e.g. the 10th term is $n=10$)
+
+* For an infinite series $\Sigma_\infty = \frac{a_1}{1-r}$, where $a_1$ is the first term, and $r$ is the common ratio/difference
