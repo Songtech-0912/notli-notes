@@ -228,4 +228,148 @@ Secondly, you are encouraged to do the following:
 
 ## Unit 2: Romanticism
 
-(Transition these notes from the Romantic Era unit on Mac computer)
+Romanticism describes a wide category of literature, characterized by the embrace of emotion and the unexplored.
+
+### Features and Devices
+
+- Imagination and Escapism
+  - Optimistic depictions of society
+  - Settings of pure beauty and sheltered from harsh industrial conditions
+  - Escaping and journeying from cities
+  - Set in somewhat illogical and unrealistic places, sometimes even supernatural
+  - Prominent use of rich imagery
+- Individuality
+  - Embrace of intuition and emotion and rejection of traditional logical thought and reason
+  - Formation of new identity independent from mainland Europe
+Natural as a source of spirituality
+Looking to the past for wisdom
+Championing the common man as the hero
+
+### Notable Points
+
+Initially, the Puritans lived in fear of nature and regarded it as supernatural and dangerous. Instead, the Puritans were focused on many observances and strict, inflexible laws. Whereas American Romanticist appealed to the same spirituality, but offered a new path into spirtual fulfillment through the natural world.
+
+## Unit 3: The Odyssey
+
+### Key Features
+
+* Non-chronological - starts in the middle of the story (*in media res*)
+* It assumed that the reader already knew *some details* about Odysseus's story already
+		* For that reason, the story begins in a moment that readers could already recognize
+* At the start of the originl text, Odysseus is the sole survivor of his crew, and he has not seen home for twenty years
+* His crew is a symbol of Odysseus's negative equalities, who are shed away in order for Odysseus to become the best person he could be
+* He can no longer be the warrior he was at Troy; he has to become the husband and father and king he has to be once he goes home
+* Aeolus, god of the wind, gave Odysseus the gift of a bag of powerful winds to guide his ship home to Ithaca
+		* However, Aeolus also warns Odysseus that the bag must stay shut and the winds entrapped until the right time
+
+### Opening
+
+* Cautionary Tales:
+  * Odysseus is trapped on Ogygia with the beautiful Titan goddess Calypso
+  * Agamemnon is murdered by his wife's lover after returning home from the Trojan War
+    * Introduces and establishes the theme of infidelity
+    * Causes Odysseus to question what his wife is doing and question her fidelity
+    * How "getting home" can become a sad story as the home is no longer "home"
+    * Things at "home" were not under control and this leads to devastation
+    	* Agamemnon's household is betrayed by his wife's infidelity
+	* Warns Odysseus of the dangers of his unfaithfulness to his wife as Odysseus was having an affair with Calypso
+	* Explained away in the story by Odysseus's powerlessness in comparison to Calypso's supernatural charm and power
+
+### Odysseus and Polyphemus
+
+* Polyphemus was a man-eating cyclops (one of the sons of Poseidon)
+* Odysseus arrives on the island of Polyphemus, and does not show proper hospitality by occupying Polyphemus's cave-house and eating his food
+* Odysseus then tricks Polyphemus by calling him "nobody" and stabs him in the eye
+* Poseidon now has a grudge against Odysseus
+* Communicates that Odysseus and his crew need to rid themselves of more bad traits - in this case, greed and disrespecting hospitality - or they won't get home
+  * In Greek times, hospitality was incredibly important because travelling on the road was inherently dangerous
+  * Thus, when you arrived at any stop during travel, you relied on your host's hospitality to stay alive
+  * Being a gracious host/guest was very important because of this
+  * Teaches Odysseus a bitter lesson how to behave appropriately in a house instead of relying on the greed and selfishness that has kept him alive in war
+
+### The Winds of Aeolus
+
+* Aeolus is given a bag of winds to blow his ship home by Aeolus, the wind god
+* He steers the ship by himself for 9 days, coming within sight of Ithaca, but falls asleep of exhaustion
+* Some of his crew, believing the bag of winds to be plundered treasure, and seeing Odysseus asleep, open the bag
+* The winds blow his ship, far away
+  * Again shows that Odysseus and his crew is not ready to go home and isn't the man he needs to be
+  * Symbolizes that taking what is not yours - a warrior in the home - needs MORE work
+  * Odysseus still has to learn to be a civilized civilian
+
+### On Circe's Island
+
+* Odysseus lands on Circe's island
+* His men are turned by the sorceress Circe into pigs and beasts
+  * Literally, his men are "making pigs of themselves"
+  * Reflecting the still-uncivilized instincts of Odysseus and his crew
+  * They need refinement before returning
+* Odysseus tries to resist Circe's spells
+* However, Circe offers to free Odysseus's men and keep them safe if Odysseus becomes her lover
+* Odysseus relents to Circe's demands
+  * Odysseus technically is unfaithful
+  * However he is still "faithful" because he has no choice, and is under the influence of the sorceress's powers
+* Meanwhile, the suitors will begin to occupy Penelope's (and Odysseus's) palace
+  * They take advantage of (and abused) the customs of hospitality to dwell and live in Odysseus's palace
+  * However, Penelope remains faithful
+
+### Hard Truths from Tiresias
+
+* Odysseus is told by Circe to find the way to Ithaca by visiting the underworld and consulting the ghost of the prophet Tiresias
+* The blind prophet Tiresias to sail toward the clashing rocks and whirlpool of Scylla and Charybdis, and warns Odysseus of his arrogance and folly
+  * Tiresias's prophecies are always hard to accept and to believe
+  * But these prophecies are always true, and often doom the hero to failure
+  * It introduces the mythological motif of the wise character who is able to "see clearly"
+* Odysseus also sees his mother, who brings Odysseus news that Penelope is well
+  * But she also warns Odysseus that the suitors were coming to steal his wife and his kingdom
+* Meanwhile, Athena comes to Odysseus's palace in Ithaca to visit Odysseus's now 20-year-old son, Telemachus, and rouse him for kingship
+  * Athena transforms herself into human form, as gods cannot appear to mortals in their full form
+* Telemachus reacts when he sees Athena, even in her disguised form as a stranger - "He could almost see his magnificent father, here..."
+  * He treats Athena with hospitality and as a guest of honor
+  * Shows Telemechus has sight beyond sight - he recognizes something that others don't
+  * A motif of a "king/queen in disguise" as well
+
+### Scylla and Charybdis
+
+* As foretold by Tiresias
+* On each side, there is an invincible monster, indestructable by the sword and unshieldable
+  * On the left, is Scylla, a six-headed sea-dragon that plucks men from their ships and devours them
+  * On the right, is Charybdis, a monster that creates a massive whirlpool and sucks humans to their doom
+  * Essentially, Odysseus cannot avoid either side, and he unavoidably loses all of his men (in the original text he still had some crew members left but he loses all of them shortly after)
+
+### On Ogygia with Calypso
+
+* He washes up on Ogygia, the island of the goddess Calypso, shipwrecked and alone
+  * Remember, his crew is a representation of the types of traits and habits he needs to get rid of
+* He becomes the prisoner in the clutches of Calypso, in the same way as Circe
+  * And as with Circe, he becomes Calypso's lover
+* **This is the location of the original beginning of the *Odyssey***
+
+### Athena meets Odysseus
+
+* Odysseus is rescued by Athena, and Athena teleports him back to Ithaca
+* Athena also disguises Odysseus as an old beggar to see the condition of his household
+* His son Telemachus treats him very well and shows him proper hospitality
+* Yet Telemachus and Odysseus are shunned and mocked by the Suitors alike
+* Finally, Odysseus is "discovered" by Eurycleia, his housemaid, though he forbids her from telling
+* Penelope also shows hospitality towards Odysseus
+
+### The Contest of Odysseus
+
+* Penelope tests the Suitors with a contest for her hand in marriage:
+  * Each must have the physical strength to string Odysseus's bow
+  * Each must also have a stable hand to be able to shoot between a line of 12 axes
+  * It's meant to be an impossible contest to all but Odysseus
+  * Sets up dramatic tension for Odysseus's return
+* After all suitors fail to pass the test, Odysseus does both tasks easily
+  * His disguise is lifted and he is shown in his true glory
+  * With Telemachus, he slaughters the suitors
+  * Final cleansing of the "undeserving" suitors to restore the home of its purity
+
+### Reunited with Penelope
+
+* Finally, Penelope sees Odysseus - she questions Odysseus's identity by asking him to move their bed to another room
+* Odysseus responds that this would be impossible, because one of the legs of their bed was the trunk of a living olive tree - a symbol of loyalty and devotion
+* Penelope accepts that Odysseus, her husband, has truly returned home, and they embrace
+
+## Unit 4: Macbeth
