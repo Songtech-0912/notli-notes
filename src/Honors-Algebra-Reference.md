@@ -12,6 +12,166 @@
 
 *To be completed sometime soon...*
 
+## Solving Quadratic Equations
+
+In essence, every quadratic equation follows the following equation:
+
+$$
+ax^2 + bx^2 + c = 0
+$$
+
+And the factored form of a quadratic equation (the form we want it to be in) follows the following equation:
+
+$$
+a(x-r)(x-s) = 0
+$$
+
+What we want to find is two numbers, $r$ and $s$, which *multiply* to form *c* and *add* to form $bx^2$. All methods of solving quadratic equations effectively are ways to be able to derive $r$ and $s$.
+
+### Factoring By Grouping
+
+Suppose we have an equation that looks like this:
+
+$$
+x(x+1) - 5(x+1)
+$$
+
+Then, we know that the common factor is $(x+1)$. Hence, after factoring, it becomes:
+
+$$
+(x-5)(x+1)
+$$
+
+### Factoring By AC Method
+
+Suppose we have the equation below:
+
+$$
+2x^2 + 5x + 2 = 0
+$$
+
+We multiply the first and last terms to form special variable called $X$:
+
+$$
+\underline{2}x^2 + 5x + \underline{2} = 0
+$$
+
+$$
+X = 2 \cdot 2 = 4
+$$
+
+We also take out the coefficient $b$ in $bx^2$ to form a special variable called $Y$:
+
+$$
+2x^2 + \underline{5}x + 2 = 0
+$$
+
+$$
+Y = 5
+$$
+
+We find two numbers that *multiply* to make $X$ and *add* to make $Y$:
+
+$$
+\begin{cases}
+1 + 4 = Y \\
+1 \cdot 4 = X
+\end{cases} \\
+(1, 4)
+$$
+
+We now replace the $bx^2$ term in the original equation with our 2 factors
+
+$$
+(1, 4) = 1x + 4x
+$$
+
+$$
+2x^2 + \underline{4x + 1x} + 2 = 0
+$$
+
+We can now factor the equation out:
+
+$$
+2x(x+2) + 1(x+2)
+$$
+
+$$
+(2x + 1)(x+2) = 0
+$$
+
+### Completing the Square
+
+Suppose we have the following equation:
+
+$$
+x^2 - 6x + 8 = 0
+$$
+
+First, let's make sure that the coefficient $a$ in $ax^2$ is equal to one. In this case it already is, so no need to worry.
+
+Now, we want to space out the equation - in places we want to modify, we leave blank:
+
+$$
+(x^2 - 6x \quad\underline{\qquad}\quad) + 8 \quad\underline{\qquad} = 0
+$$
+
+For the first blank, we'll need to take the coefficient $b$ of $bx^2$, then divide it by two and square it:
+
+$$
+(x^2 - \underline{6}x \quad\underline{\qquad}\quad) + 8 \quad\underline{\qquad} = 0
+$$
+
+$$
+\left(x^2 - 6x \left(\frac{-6}{2}\right)^2\right) + 8 \quad\underline{\qquad} = 0
+$$
+
+$$
+(x^2 - 6x + 9) + 8 \quad\underline{\qquad} = 0
+$$
+
+Now that we've added the square (9 in our case), we need to subtract it from the other side to *complete* the square:
+
+$$
+(x^2 - 6x + \underline{9}) + 8 -\underline{9} = 0
+$$
+
+$$
+(x^2 -6x + 9) -1 = 0
+$$
+
+As the expression we have on the left is now a perfect square, we can easily factorize it:
+
+$$
+(x - 3)(x - 3) - 1 = 0
+$$
+
+$$
+(x-3)^2 - 1 = 0
+$$
+
+With simplification:
+
+$$
+(x-3)^2 = 1
+$$
+
+## Matching Quadratic Functions to Graphs
+
+You may be given a few equations and told to find the equation that matches a graph. Matching involves finding several things about the quadratic function in question.
+
+Firstly, for a quadratic function $f(x) = ax^2 + bx + c$, if $a > 0$ the graph opens up (frowny face) and if $a < 0$ the graph opens down (smiley face).
+
+Secondly, the vertex of the quadratic function tells you either the highest or lowest point - you can compare it to a graph. The vertex is given by:
+
+$$
+\left(- \frac{b}{2a}, f\left(-\frac{b}{2a}\right)\right)
+$$
+
+Thirdly, you can compare the x-intercepts by setting $y=0$, and y-intercepts by setting $x = 0$.
+
+Forthly, you can use the axis of symmetry.
+
 ## Trigonometry
 
 ### Things you'll need to know!
@@ -278,12 +438,12 @@ $$
 
 <img src="./images/parabola-equidistant-from-focus-directrix-animation-70percent.gif" title="" alt="Directex-And-Focus-Example" data-align="center">
 
-| Does it have?                                                      | Then it is a... | And its equation is...                                                      | Its vertex form equation is...                                                                                                                                                                                                                                | It is defined as...                                                                                                                                                                                    | Graph on Coordinate Grid |
-| ------------------------------------------------------------------ | --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
-| 1 squared variable                                                 | Parabola        | Standard (smiley/frowny face): $x^2 = \pm 4ay$ if sideways: $y^2 = \pm 4ax$ | Standard (smiley/frowny face): $(x-h)^2 = 4a(y-k)$ if sideways: $(y-k)^2 = 4a(x-h)$ (remember to use the sideways form whever you encounter an equation where $y$ is squared or in the form $(y-n)^2$)                                                        | The section of a right circular cone by a plane parallel to a generator of the cone **OR** the locus of points equidistant from a focus and a directrix                                                |                          |
-| 2 squared variables with the same signs and different coefficients | Ellipse         | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} + \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) | The section of a right circular cone by a plane that is not perpendicular to the axis of symmetry and does not intersect the cone’s base **OR** the locus of points equidistant from two foci (points) |                          |
-| 2 squared variables with opposite signs                            | Hyperbola       | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} - \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) |                                                                                                                                                                                                        |                          |
-| 2 squared variables with the same signs and same coefficients      | Circle          | Standard form: $x^2 + y^2 = r^2$                                            |                                                                                                                                                                                                                                                               | The locus of points equidistant from one focus                                                                                                                                                         |                          |
+| Diagram                                                                                                                | Does it have?                                                      | Then it is a... | And its equation is...                                                      | Its vertex form equation is...                                                                                                                                                                                                                                | It is defined as...                                                                                                                                                                                    | Graph on Coordinate Grid |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+|                                                                                                                        | 1 squared variable                                                 | Parabola        | Standard (smiley/frowny face): $x^2 = \pm 4ay$ if sideways: $y^2 = \pm 4ax$ | Standard (smiley/frowny face): $(x-h)^2 = 4a(y-k)$ if sideways: $(y-k)^2 = 4a(x-h)$ (remember to use the sideways form whever you encounter an equation where $y$ is squared or in the form $(y-n)^2$)                                                        | The section of a right circular cone by a plane parallel to a generator of the cone **OR** the locus of points equidistant from a focus and a directrix                                                |                          |
+|                                                                                                                        | 2 squared variables with the same signs and different coefficients | Ellipse         | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} + \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) | The section of a right circular cone by a plane that is not perpendicular to the axis of symmetry and does not intersect the cone’s base **OR** the locus of points equidistant from two foci (points) |                          |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Hyperbel-def-ass-e.svg/296px-Hyperbel-def-ass-e.svg.png) | 2 squared variables with opposite signs                            | Hyperbola       | Standard form: $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$                      | Standard (flat/wide): $\frac{(x-h)^2}{a^2} - \frac{(y-k)^2}{b^2} = 1$ if sideways and pointy (swap $a^2$ and $b^2$): $\frac{(x-h)^2}{b^2} - \frac{(y-k)^2}{a^2} = 1$ (remember to use the sideways form whenever you encounter an equation where $b^2 > a^2$) |                                                                                                                                                                                                        |                          |
+|                                                                                                                        | 2 squared variables with the same signs and same coefficients      | Circle          | Standard form: $x^2 + y^2 = r^2$                                            |                                                                                                                                                                                                                                                               | The locus of points equidistant from one focus                                                                                                                                                         |                          |
 
 ### Focus, Vertex, and Directex
 
@@ -513,3 +673,81 @@ $$
 * For a finite series (as mentioned above), we use the formula $\Sigma_n = \frac{n}{2}(a_1 + a_n)$, where $n$ is the number of terms we want to find (e.g. 10 terms), and $a_n$ is the last term (e.g. the 10th term is $n=10$)
 
 * For an infinite series $\Sigma_\infty = \frac{a_1}{1-r}$, where $a_1$ is the first term, and $r$ is the common ratio/difference
+
+## Describing sets of data
+
+* Statistics is the analysis of sets of data
+* We can describe any set of data according to three characteristics:
+  * *Shape* refers to the skewness and normality of data - basically, which region the data is most concentrated toward
+  * *Center* refers to the distance between the mean and media
+  * *Spread* refers to the standard deviation and whether there are outliers in the data set
+* Additionally, if our median and means tends toward the left, we consider it **negatively skewed**, and if our median and mean tends toward the right, we consider it **positively skewed**
+  * If the median mean are approximately centered at the middle, we consider the data **symmetric**
+* Additionally, we can get an idea of the average value in a data set by multiple methods:
+  * We could calculate it by finding the **mean**, or the arithmetic average, represented by $\mu$
+    * To find the mean, we add up every value in the data set, and divide by the number of values
+  * We could also calculate it by finding the **median**, or the middle value of a set of data
+    * To find the median, we list every value in the data set from smallest to greatest, and then select the number in the middle
+
+## Standard Deviation
+
+* We often want to find how a set of data is distributed
+  * Is it spread over a wide range?
+  * Or is it concentrated along a narrow range?
+* To do so, we find the **standard deviation** - the average distance from each value from the mean
+* The formula for standard deviation is the following:
+
+$$
+S_d = \sqrt{\frac{\Sigma |x-\mu|^2}{N}}
+$$
+
+* In this formula:
+  * $S_d$ is the standard deviation
+  * $\mu$ is the mean
+  * $N$ is the number of values in the data set
+  * $\Sigma | x-\mu |^2$ is the sum of the square of the distance of every value from the mean, and it is given as an absolute value because you cannot have a negative deviation
+
+### Calculating Standard Deviation in a question
+
+* A question might ask you to find the standard deviation of the set $\{6, 2, 3, 1\}$
+* First, we need to find the mean ($\mu$), which, in this case, is $\frac{6 + 2 + 3 + 1}{4}$, so $\mu =3$
+* Then, we need to find the squares of the distance of every value from the mean, like so:
+
+| Value ($x$) | Square of distance from the mean $\|x-\mu\|^2$ |
+| ----------- | ---------------------------------------------- |
+| 6           | 9                                              |
+| 2           | 1                                              |
+| 3           | 0                                              |
+| 1           | 4                                              |
+
+* Last, we need to find the sum of the squares we just found, and plug the values into the standard deviation formula
+* The sum $\Sigma | x-\mu |^2$ in our case is $9 + 1 + 0 + 4 = 14$
+* There are 4 values of the data set, so $N=4$
+* Using the equation, we can find that $S_d = \sqrt{\frac{14}{4}}$ and that $S_d \approx 1.87 \dots$
+
+## Histograms
+
+## Types of Plots
+
+### Whisker Plots
+
+### Stem and Leaf Plots
+
+### Scatter Plots
+
+## Five-Number Summary
+
+* The five-number summary is a quick way to get an understanding of the **distribution of a data set**
+* In a five-number summary:
+  * The 1st number is the smallest data value
+  * The 2nd number is the *lower quartile* (or first quartile)
+  * The 3rd number is the median
+  * The 4th number is the *upper quartile* (or third quartile)
+  * The 5th number is the largest data value
+
+## Inter-quartile Range and Outliers
+
+* The inter-quartile range ($IQR$) is the *difference* between the **upper quartile** and the **lower quartile**
+* An outlier is any data value that is, with respect to the data set:
+  * Greater than $1.5 \cdot IQR$ above the upper quartile, or
+  * Less than $1.5 \cdot IQR$ below the lower quartile

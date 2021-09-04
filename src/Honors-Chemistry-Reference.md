@@ -1337,3 +1337,59 @@ $$
     * Rearranging that equation gives us $M_s = 0.780 \cdot 0.1\ \mathrm{L} = 0.078\ \mathrm{mol}$
   
   * We've got our final answer - the molar mass of the solute is 0.078 mol
+
+## Gas Laws
+
+* When studying gases, there are 3 laws that we use all the time:
+  * Boyle's law, which relates **pressure and volume**
+  * Charles's law, which relates **temperature and volume**
+  * And Gay-Lussac's law, which relates **pressure and temperature**
+
+### Boyle's Law
+
+* Boyle's law states that a change in pressure is *inversely proportional* to the change in volume
+* It is often represented by this equation:
+
+$$
+P \propto \frac{1}{V}
+$$
+
+* Here, $P$ represents pressure, $V$ represents volume, and the $\propto$ sign means that pressure is proportional to the *inverse* of the volume (which is why it's $\frac{1}{V}$)
+* The version of Boyle's law that we commonly use for solving equations, however, is a derived form of the previous equation, and it is this:
+
+$$
+P = \frac{k}{V}
+$$
+
+* Here, we have a equation of direct equivalence (that means it's got an equal sign) where the constant of proportionality $k$ is equal to $P \cdot V$
+  * In simpler terms, we always divide the same number $k$ by $V$ to get $P$
+
+### Charles's Law
+
+* Charles's law states that a change in temperature is *directly proportional* to the change in volume
+* It is often represented by this equation:
+
+$$
+T \propto V
+$$
+
+* Here, $T$ is the temperature, and $V$ is the volume
+* We can also rewrite this equation like this:
+  * $T = k \cdot V$, where the equation is one of direct equivalence again where the constant $k$ remains the same for any temperature and any volume
+
+### Gay-Lussac's Law
+
+* Gay-Lussac's law states that when the volume is held constant, the ratio of the pressure to the temperature is also constant, so a change in pressure will cause a directly proportional change in temperature
+* Its equation is this:
+
+$$
+\frac{P}{T} = k
+$$
+
+### The Combined Gas Law
+
+* If we join the equations for the three gas laws together, we get the combined gas law:
+
+$$
+\frac{P \cdot V}{T} = k
+$$
