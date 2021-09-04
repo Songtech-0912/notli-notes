@@ -2,3 +2,5 @@
 .DS_Store
 Session.vim
 __pycache__
+docs/node_modules/*
+package-lock.json
