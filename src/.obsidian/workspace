@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "24cdceaf43c22c53",
+    "type": "split",
+    "children": [
+      {
+        "id": "5279bf0dc118f65c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Exponential and Logarithmic Functions.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f04be9552fe38a46",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8a79c130e91bdb4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd239021c04e61e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "de3405b0a5c11fff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b29d27307ead89b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bd0199125dfa025",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11a32df8ac37b2a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Exponential and Logarithmic Functions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5279bf0dc118f65c",
+  "lastOpenFiles": [
+    "Exponential and Logarithmic Functions.md",
+    "Polynomial Division.md",
+    "Additional Notes for Precalc (Transfer).md",
+    "The Great Gatsby Notes.md",
+    "Political Participation.md",
+    "Political Ideology.md",
+    "Momentum.md",
+    "Honors-Physics-Reference.md",
+    "Complex Polynomials.md",
+    "Rational Polynomials.md"
+  ]
+}

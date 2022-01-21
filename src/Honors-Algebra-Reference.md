@@ -1,16 +1,18 @@
 # Honors Algebra Exam Reference Notes
 
-*An unofficial guide from the notes of Jacky Song, a.k.a. @Songtech-0912*
+*An unofficial guide from the notes of Jacky Song.*
 
+<!--
 ## All Symbols, Formulae, and Equations used in Honors Algebra
 
 * General equation of line: $y = mx + c$
-  
+
   * $m$ is the slope
-  
+
   * $c$ is the *y-intercept*
 
 *To be completed sometime soon...*
+-->
 
 ## Solving Quadratic Equations
 
@@ -176,17 +178,12 @@ Forthly, you can use the axis of symmetry.
 
 ### Things you'll need to know!
 
-- [ ] Trigonometric Identities
-  
-  - [ ] SOH CAH TOA
-  
-  - [ ] Trig song
-  
-  - [ ] Converting radians and degrees
-  
-  - [ ] Trig inverse equivalents
-  
-  - [ ] Trig ratio rules
+- Trigonometric Identities
+  - SOH CAH TOA
+  - Trig song
+  - Converting radians and degrees
+  - Trig inverse equivalents
+  - Trig ratio rules
 
 ### SOH CAH TOA!
 
@@ -270,11 +267,13 @@ Aside from the main trigonometric ratios, we also have secants, cosecants, and c
 
 * **Cotangent** is the inverse to tangent (remember it because of the obvious name)
 
+<!--
 ### Trig Ratio Rules
 
 Several trigonometric ratios can be derived via the Pythagorean Theorem. These, unfortunately, you have to memorize (and there's no easy song for it)
 
 To be completed...
+-->
 
 ### Trig Ratios and Quadrants
 
@@ -342,9 +341,9 @@ $$
 \tan \theta = \frac{\sin \theta}{\cos \theta}
 $$
 
-## Sine vs Cosine Graphs
-
 ## Transformations of Sine/Cosine Graphs
+
+(The image here is corrupted, will fix this later!)
 
 <img src="file:///home/songtech/.config/marktext/images/2021-03-27-01-26-05-image.png" title="" alt="" data-align="center">
 
@@ -417,7 +416,7 @@ $$
 
 * Graph it out, and you'll get this!
 
-[ADD GRAPH HERE]
+<img src="./images/ferris-wheel-graph.svg" data-align="center" width=300 >
 
 ### What equation do I use for a sinusoidal graph?
 
@@ -430,7 +429,7 @@ $$
 
 ## Conic Sections
 
-![Conic Sections](https://upload.wikimedia.org/wikipedia/commons/1/11/Conic_Sections.svg)![Conics](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Conic_Sections.svg/512px-Conic_Sections.svg.png)
+![Conics](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Conic_Sections.svg/512px-Conic_Sections.svg.png)
 
 * There are four main types of conic section: parabolas, hyperbolas, ellipses, and circles
 
@@ -725,6 +724,7 @@ $$
 * There are 4 values of the data set, so $N=4$
 * Using the equation, we can find that $S_d = \sqrt{\frac{14}{4}}$ and that $S_d \approx 1.87 \dots$
 
+<!--
 ## Histograms
 
 ## Types of Plots
@@ -734,6 +734,8 @@ $$
 ### Stem and Leaf Plots
 
 ### Scatter Plots
+
+-->
 
 ## Five-Number Summary
 
