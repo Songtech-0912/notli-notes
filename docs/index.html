@@ -7,15 +7,15 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate icon" href="/favicon.ico" />
   </head>
-  <body>
-    <main>
+  <body class="w-screen h-screen overflow-auto flex flex-col items-center justify-evenly">
+    <main class="flex flex-col w-screen justify-around h-2/3">
       <a href="https://github.com/Songtech-0912/Exam-Reference-Sheets">
         <!--In my experience this banner is more annoying than useful, so I have disabled it-->
         <!--
     <img class="fork-me" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub">
 	-->
       </a>
-      <div class="mx-auto my-32 flex flex-col space-y-20" id="container">
+      <div class="mx-auto flex flex-col justify-evenly space-y-12 w-3/4 lg:w-1/2" id="container">
         <div id="header" class="flex flex-col space-y-4">
           <div class="flex flex-row space-x-5 justify-center" id="banner">
             <div id="header-svg">
@@ -26,7 +26,7 @@
             <h1
               class="m-auto uppercase text-7xl font-extralight tracking-widest text-gray-700"
             >
-              Notes
+              Notli
             </h1>
           </div>
 
@@ -37,12 +37,12 @@
 
         <section
           id="cards"
-          class="mx-auto mt-24 flex flex-col space-y-5 justify-evenly items-center"
+          class="mx-auto flex flex-col space-y-5 justify-evenly items-start"
         >
-          <a href="./pages/chemistry/index.html">
+          <a href="./pages/chemistry/index.html" class="w-full">
             <button
               id="card1"
-              class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-2 pl-6 pr-8 flex flex-row space-x-3 rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110"
+              class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-4 md:py-2 pl-6 pr-8 flex flex-row space-x-3 rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110 w-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,15 +59,15 @@
                 />
               </svg>
               <h1 class="m-auto text-xl hover:underline">
-                Open the Chemistry Reference Notes ➝
+                Open the Chemistry reference notes ➝
               </h1>
             </button>
           </a>
 
-          <a href="./pages/english-language/index.html">
+          <a href="./pages/english-language/index.html" class="w-full">
             <button
               id="card2"
-              class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-2 pl-6 pr-8 flex flex-row space-x-3 rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110"
+              class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-4 md:py-2 pl-6 pr-8 flex flex-row space-x-3 rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110 w-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,47 +84,50 @@
                 />
               </svg>
               <h1 class="m-auto text-xl hover:underline">
-                Open the AP Lang Reference Notes ➝
+                Open the AP Lang reference notes ➝
               </h1>
             </button>
           </a>
 
-          <a href="./pages/us-history/index.html">
+          <a href="./pages/us-history/index.html" class="w-full">
             <button
               id="card3"
-              class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-2 pl-6 pr-8 flex flex-row space-x-3 rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110"
+              class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-4 md:py-2 pl-6 pr-8 flex flex-row space-x-3 rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110 w-full"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                class="w-14 h-14 p-2"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" class="w-14 h-14 p-2" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z"></path>
               </svg>
               <h1 class="m-auto text-xl hover:underline">
-                Open the US History Reference Notes ➝
+                Open the US History reference notes ➝
               </h1>
             </button>
           </a>
+
+          <a href="./pages/ap-us-gov/index.html" class="w-full">
+            <button
+              id="card4"
+              class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-4 md:py-2 pl-6 pr-8 flex flex-row space-x-3 rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110 w-full"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-14 h-14 p-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9" />
+              </svg>
+              <h1 class="m-auto text-xl hover:underline">
+                Open the AP US Gov reference notes ➝
+              </h1>
+            </button>
+          </a>
+
         </section>
       </div>
-    </main>
-    <footer class="text-gray-600 body-font m-auto">
+    <footer class="text-gray-600 body-font m-auto py-12">
       <div
-        class="container px-32 py-3 mx-auto flex justify-center sm:flex-row flex-col"
+        class="container px-32 py-3 mx-auto flex justify-center items-center sm:flex-row flex-col"
       >
         <a
           href="#"
           class="flex title-font font-medium items-center md:justify-start justify-center text-grey-700"
         >
-          <span class="ml-3 text-xl">Exam Reference Notes</span>
+          <span class="ml-3 text-xl">Notli notes</span>
         </a>
         <a
           href="https://github.com/Songtech-0912"
@@ -135,5 +138,6 @@
         >
       </div>
     </footer>
+    </main>
   </body>
 </html>

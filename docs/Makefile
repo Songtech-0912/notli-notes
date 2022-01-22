@@ -10,4 +10,3 @@ dist:
 	@npm run dist
 	@echo -e "\033[32m(✓) Pages built successfully\033[0m"
 	@echo -e "\033[35mGo to http://localhost:5000 to see the result\033[0m"
-

@@ -1,10 +1,12 @@
-# Exam-Reference-Sheets
+# Notli Notes
 
  Preparing for exams? You'll find help here.
 
 Everyone knows the craziness of exam time - suddenly, you're dying to find revision books you've never bothered to read, and you can't go without a day without your notebook. But what if you lose your notebook? What if your notes go missing? You forgot to take notes on an important topic? It's easy to panic if that happens - it's happened to me many times before.
 
 That's why I've decided to digitize all of my notebooks and school notes. Just like the open-source community and the open design movement, I've decided to make all of my notes free to use and modify. Hopefully, once others benefit from these notes, they can also contribute to the notes on their own.
+
+*Note: Exam Reference Sheets has a new name: Notli! It will take some time to rename everything! So please be patient with me during this process!*
 
 ## Quick Start
 

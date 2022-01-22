@@ -2,8 +2,8 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>AP English - Exam Reference Sheets</title>
-<link rel='stylesheet' href='../chemistry/libs/css/tailwind.output.css'>
+  <title>AP US History - Exam Reference Sheets</title>
+<link rel='stylesheet' href='../../css/tailwind.output.css'>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate icon" href="/favicon.ico">
 
@@ -1619,17 +1619,19 @@ It is highly recommended to go to <https://apstudents.collegeboard.org/courses/a
 </div>
 <div id="content" class="mx-auto py-12 prose lg:prose-xl">
 </div>
-<!-- We always load MarkedJS and the markdown-to-html script FIRST -->
-<!-- This is because the script.js contains the MathJax global config which must be loaded BEFORE mathjax itself -->
-<script src='../chemistry/libs/js/marked.min.js'></script>
-<script  src="../chemistry/script.js"></script>
 
+<!--Markdown to HTML conversion script-->
+<script src='../../js/libs/marked.min.js'></script>
 <!-- Then we load the polyfill library to maximise browser support -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<!-- Finally we load Mathjax ASYNC (to not interfere with loading) -->
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+<!--KaTeX resources-->
+<link rel="stylesheet" href="../../js/libs/katex/katex.min.css">
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script src="../../js/libs/katex/katex.min.js"></script>
+<!-- To automatically render math in text elements, we include the auto-render extension -->
+<script src="../../js/libs/katex/contrib/auto-render.min.js"></script>
+<!--Finally initialize KaTeX for math equation rendering-->
+<script src="../../js/main.js"></script>
 
 </body>
 </html>

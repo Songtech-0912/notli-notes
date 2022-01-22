@@ -3,17 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>Chemistry - Exam Reference Sheets</title>
-    <link rel='stylesheet' href='./libs/css/tailwind.output.css'>
+    <link rel='stylesheet' href='../../css/tailwind.output.css'>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="alternate icon" href="/favicon.ico">
-    <!--Markdown to HTML conversion script-->
-    <script src='./libs/js/marked.min.js'></script>
-    <!--KaTeX resources-->
-    <link rel="stylesheet" href="./libs/katex/katex.min.css">
-    <!-- The loading of KaTeX is deferred to speed up page rendering -->
-    <script defer src="./libs/katex/katex.min.js"></script>
-    <!-- To automatically render math in text elements, we include the auto-render extension -->
-    <script defer src="./libs/katex/contrib/auto-render.min.js"></script>
     <!--Use this CSS style to check that the stylesheet is properly loaded-->
     <style>
         .katex-version {
@@ -24,7 +16,8 @@
         }
     </style>
   </head>
-<body>
+  <!--Was bg-gray-50-->
+<body class="w-full px-6 py-12 bg-gradient-to-r from-fuchsia-100 via-gray-50 to-teal-100">
 <!-- markdown block -->
 <div id="markdown" class="hidden">
 # Honors Chemistry Notes
@@ -1142,17 +1135,24 @@ $$
 $$
 </div>
 
-<div id="content" class="mx-auto py-12 prose lg:prose-xl"></div>
+<article id="content" class="prose prose-slate mt-16 mx-auto lg:prose-lg"></article>
 <span class="katex">
   <span class="katex-mathml">The KaTeX stylesheet is not loaded!</span>
   <span class="katex-version rule">KaTeX stylesheet version: </span>
 </span>
 
-<!-- We always load MarkedJS and the markdown-to-html script FIRST -->
-<!-- Then, we load the init script which renders the markdown and KaTeX equations-->
-<script src="./script.js"></script>
-
-</script>
+<!--Markdown to HTML conversion script-->
+<script src='../../js/libs/marked.min.js'></script>
+<!-- Then we load the polyfill library to maximise browser support -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<!--KaTeX resources-->
+<link rel="stylesheet" href="../../js/libs/katex/katex.min.css">
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script src="../../js/libs/katex/katex.min.js"></script>
+<!-- To automatically render math in text elements, we include the auto-render extension -->
+<script src="../../js/libs/katex/contrib/auto-render.min.js"></script>
+<!--Finally initialize KaTeX for math equation rendering-->
+<script src="../../js/main.js"></script>
 
 </body>
 </html>
