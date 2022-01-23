@@ -28,3 +28,7 @@ build:
 # creates a live development server for running Notli
 serve:
     npx live-server
+
+# formats code (TODO add prettier support)
+format:
+    @just notli/ format
