@@ -1,4 +1,4 @@
-# Additional Notes for Precalculus (Transfer)
+# Precalculus Notes
 
 ## Quadrants
 
