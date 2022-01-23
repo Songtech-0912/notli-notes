@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Additional Notes for Precalc (Transfer).md",
-            "mode": "preview"
+            "file": "German Notes.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Additional Notes for Precalc (Transfer).md",
+                "file": "German Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "5279bf0dc118f65c",
   "lastOpenFiles": [
+    "German Notes.md",
+    "Precalculus Notes.md",
     "Additional Notes for Precalc (Transfer).md",
     "Exponential and Logarithmic Functions.md",
     "Polynomial Division.md",
@@ -95,8 +97,6 @@
     "Political Participation.md",
     "Political Ideology.md",
     "Momentum.md",
-    "Honors-Physics-Reference.md",
-    "Complex Polynomials.md",
-    "Rational Polynomials.md"
+    "Honors-Physics-Reference.md"
   ]
 }
