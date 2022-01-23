@@ -1,0 +1,7 @@
+# default recipe to display help information
+default:
+    @just --list
+
+# runs the Notli utiltiy
+run:
+    @cargo run
