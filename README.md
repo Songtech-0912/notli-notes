@@ -39,7 +39,7 @@ The Notli source code is divided like this:
 
 I will assume you already have these installed (or know how to install these):
 
-* [Node.js and NPM](https://nodejs.dev/download)
+* [Node.js and NPM](https://nodejs.dev/download) (it is highly recommended you install [pnpm](https://pnpm.io/) as well)
 * [The Rust build tools](https://www.rust-lang.org/learn/get-started)
 * [Git](https://git-scm.com/downloads)
 
