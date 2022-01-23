@@ -187,7 +187,7 @@ Notice that our logarithmic function $f(x)$'s x-intercept is the inverse exponen
 
 In fact, if we plot the function, it's evident that $f(x)$ is essentially a reflection of the corresponding exponential function $f^{-1}(x)$ over the line $y = x$:
 
-![](./images/exp-log-graph.svg)
+![](../images/exp-log-graph.svg)
 
 (Top left is the inverse exponential function $f^{-1}$, bottom right is the logarithmic function $f$)
 
@@ -201,7 +201,7 @@ The x-intercept is found from $f(x) = 0$. In our case, that would be $0 = \ln(x-
 
 Now, we can finally start graphing!
 
-![](./images/natural-log-graph.svg)
+![](../images/natural-log-graph.svg)
 
 ## Using the one-to-one property on logarithmic functions
 
@@ -510,10 +510,10 @@ $$
 
 | Model Name | Form | Graph Demo |
 |--------------|------|---------------|
-| Exponential Growth Model | $y = ae^{bx}$ | ![](./images/log-exp-models/exp-growth.png) |
-| Exponential Decay Model | $y = ae^{-bx}$ | ![](./images/log-exp-models/exp-decay.png) |
-| Natural Logarithm Model | $y = a + b \ln x$ | ![](./images/log-exp-models/natural-log.png) |
-| Common Logarithm Model | $y = a + b \log x$ | ![](./images/log-exp-models/common-log.png) |
+| Exponential Growth Model | $y = ae^{bx}$ | ![](../images/log-exp-models/exp-growth.png) |
+| Exponential Decay Model | $y = ae^{-bx}$ | ![](../images/log-exp-models/exp-decay.png) |
+| Natural Logarithm Model | $y = a + b \ln x$ | ![](../images/log-exp-models/natural-log.png) |
+| Common Logarithm Model | $y = a + b \log x$ | ![](../images/log-exp-models/common-log.png) |
 
 ## Something...
 ---

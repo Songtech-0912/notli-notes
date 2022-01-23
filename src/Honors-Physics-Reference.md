@@ -31,7 +31,7 @@ $\mathrm{Percent\ Error} = \left(\frac{\mathrm{Experimental\ Value} - \mathrm{Pr
   * The displacement has a *magnitude* of 2m in a *positive direction*
   * The distance is 7 meters because it is the sum of +2m and -5m, so we can say that $D = \Sigma_{\Delta x}$
 
-![Displacement Diagram](../docs/images/Physics%20Displacement%20Diagrams.svg)
+![Displacement Diagram](../images/Physics%20Displacement%20Diagrams.svg)
 
 * The above is an example of **linear motion** (also called rectilinear motion) - an object moving at constant speed will displace a constant distance during each unit time interval
 
@@ -64,12 +64,12 @@ $\mathrm{Percent\ Error} = \left(\frac{\mathrm{Experimental\ Value} - \mathrm{Pr
 
 | Position Time Graph                                                 | Velocity Time Graph                                                 | Velocity (+/-)               | Acceleration (+/-/0)             | Description                                                                 |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------- | -------------------------------- | --------------------------------------------------------------------------- |
-| ![](./images/kinematics-graphs/pos-vel-no-accel-const/pos-time.png) | ![](./images/kinematics-graphs/pos-vel-no-accel-const/vel-time.png) | Positive constant velocity   | No acceleration (constant speed) | The object is moving at constant speed, neither speeding up or slowing down |
-| ![](./images/kinematics-graphs/pos-vel-inc-accel/pos-time.png)      | ![](./images/kinematics-graphs/pos-vel-inc-accel/vel-time.png)      | Positive increasing velocity | Positive acceleration            | The object is speeding up                                                   |
-| ![](./images/kinematics-graphs/pos-vel-dec-accel/pos-time.png)      | ![](./images/kinematics-graphs/pos-vel-dec-accel/vel-time.png)      | Positive decreasing velocity | Negative acceleration            | The object is slowing down                                                  |
-| ![](./images/kinematics-graphs/neg-vel-no-accel-const/pos-time.png) | ![](./images/kinematics-graphs/neg-vel-no-accel-const/vel-time.png) | Negative constant velocity   | No acceleration                  | The object is moving at constant speed, neither speeding up or slowing down |
-| ![](./images/kinematics-graphs/neg-vel-inc-accel/pos-time.png)      | ![](./images/kinematics-graphs/neg-vel-inc-accel/vel-time.png)      | Negative increasing velocity | Negative acceleration            | The object is speeding up                                                   |
-| ![](./images/kinematics-graphs/neg-vel-dec-accel/pos-time.png)      | ![](./images/kinematics-graphs/neg-vel-dec-accel/vel-time.png)      | Negative decreasing velocity | Positive acceleration            | The object is slowing down                                                  |
+| ![](../images/kinematics-graphs/pos-vel-no-accel-const/pos-time.png) | ![](../images/kinematics-graphs/pos-vel-no-accel-const/vel-time.png) | Positive constant velocity   | No acceleration (constant speed) | The object is moving at constant speed, neither speeding up or slowing down |
+| ![](../images/kinematics-graphs/pos-vel-inc-accel/pos-time.png)      | ![](../images/kinematics-graphs/pos-vel-inc-accel/vel-time.png)      | Positive increasing velocity | Positive acceleration            | The object is speeding up                                                   |
+| ![](../images/kinematics-graphs/pos-vel-dec-accel/pos-time.png)      | ![](../images/kinematics-graphs/pos-vel-dec-accel/vel-time.png)      | Positive decreasing velocity | Negative acceleration            | The object is slowing down                                                  |
+| ![](../images/kinematics-graphs/neg-vel-no-accel-const/pos-time.png) | ![](../images/kinematics-graphs/neg-vel-no-accel-const/vel-time.png) | Negative constant velocity   | No acceleration                  | The object is moving at constant speed, neither speeding up or slowing down |
+| ![](../images/kinematics-graphs/neg-vel-inc-accel/pos-time.png)      | ![](../images/kinematics-graphs/neg-vel-inc-accel/vel-time.png)      | Negative increasing velocity | Negative acceleration            | The object is speeding up                                                   |
+| ![](../images/kinematics-graphs/neg-vel-dec-accel/pos-time.png)      | ![](../images/kinematics-graphs/neg-vel-dec-accel/vel-time.png)      | Negative decreasing velocity | Positive acceleration            | The object is slowing down                                                  |
 
 * On a velocity-time graph, if (and only if) a line crosses the y-axis from +velocity to -velocity, then we can say that the object has *changed direction*
 * Lines that head away from the x-axis are speeding up; lines that head towards the x-axis are slowing down
@@ -137,7 +137,7 @@ $$
   * Remember that when the direction of the velocity and acceleration are **opposite**, the object slows down - that happens when the object moves up
   * When the direction of the velocity and acceleration are the **same**, the object speeds up - that happens when the object falls down
 
-![](./images/accel-vel-vectors.png)
+![](../images/accel-vel-vectors.png)
 
 ## Forces and motion
 
@@ -327,11 +327,11 @@ However, there is one "force" missing - the net force. In this case, it is not n
 
 So our final force diagram would be:
 
-![](./images/Slope-forces.png)
+![](../images/Slope-forces.png)
 
 ### Normal force vs. Weight
 
-![](./images/Fnorm_card12.jpg)
+![](../images/Fnorm_card12.jpg)
 
 In the above diagram, we can see that the object is at rest. Two forces are primarily acting on it: the force of gravity (weight) and the normal force. However, there is another force: the applied force of the finger.
 
@@ -419,7 +419,7 @@ Let's say that you are a skydiver. At the moment you jump out of the plane, you 
 
 Your mass is 80 kg, and you're told that you are currently at a velocity of 100 kilometers per hour. You're also told that 300 newtons of drag (air resistance) resist your movement. So let's update our force diagram below:
 
-![](./images/skydiver-falling.svg)
+![](../images/skydiver-falling.svg)
 
 But if you're just jumping out the plane, we know that you accelerate downwards - the forces on you are not balanced. So which force is the stronger force? Since the net force is equal to the sum of the forces, we know that:
 

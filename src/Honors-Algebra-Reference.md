@@ -375,7 +375,7 @@ In this equation:
 
 * Example: The Ferris wheel at the Puyallup Fair has a diameter of about 70 feet and takes 3 minutes to complete a full rotation. Passengers board from a platform 10 feet above the ground. Write an equation for a rider’s height above ground over time.
 
-<img src="images/puyallup-ferris-wheel-problem.png" title="" alt="" data-align="center">
+<img src="../images/puyallup-ferris-wheel-problem.png" title="" alt="" data-align="center">
 
 * To solve this problem, we need to find the horizontal stretch (amplitude), horizontal shift, vertical stretch (period), and vertical shift
 * Amplitude, or $A$, can be found with this formula:
@@ -416,16 +416,16 @@ $$
 
 * Graph it out, and you'll get this!
 
-<img src="./images/ferris-wheel-graph.svg" data-align="center" width=300 >
+<img src="../images/ferris-wheel-graph.svg" data-align="center" width=300 >
 
 ### What equation do I use for a sinusoidal graph?
 
 | If the graph goes like...                                                                                      | And it looks like...          | Then its formula is... | And you're looking at a...                                          |
 | -------------------------------------------------------------------------------------------------------------- | ----------------------------- | ---------------------- | ------------------------------------------------------------------- |
-| Starts at $(0,Y_{min})$, and goes up first, but never goes **lower** than its starting point                   | ![](images/cos-graph.png)     | $y = - \cos x$         | Inverse cosine graph (most commonly found in ferris wheel problems) |
-| Starts at $(0, Y_{max})$, and goes down first, but never goes **higher** than its starting point               | ![](images/inv-cos-graph.png) | $y = \cos x$           | Cosine graph                                                        |
-| Starts at $(0, Y_{midline})$, and goes up first, then goes **both higher and lower** than its starting point   | ![](images/sin-graph.png)     | $y = \sin x$           | Sine graph                                                          |
-| Starts at $(0, Y_{midline})$, and goes down first, then goes **both higher and lower** than its starting point | ![](images/inv-sin-graph.png) | $y = -\sin x$          | Inverse sine graph                                                  |
+| Starts at $(0,Y_{min})$, and goes up first, but never goes **lower** than its starting point                   | ![](../images/cos-graph.png)     | $y = - \cos x$         | Inverse cosine graph (most commonly found in ferris wheel problems) |
+| Starts at $(0, Y_{max})$, and goes down first, but never goes **higher** than its starting point               | ![](../images/inv-cos-graph.png) | $y = \cos x$           | Cosine graph                                                        |
+| Starts at $(0, Y_{midline})$, and goes up first, then goes **both higher and lower** than its starting point   | ![](../images/sin-graph.png)     | $y = \sin x$           | Sine graph                                                          |
+| Starts at $(0, Y_{midline})$, and goes down first, then goes **both higher and lower** than its starting point | ![](../images/inv-sin-graph.png) | $y = -\sin x$          | Inverse sine graph                                                  |
 
 ## Conic Sections
 
@@ -435,7 +435,7 @@ $$
 
 * All can be defined in terms of a **directex** (a fixed line) and a **focus** (a fixed point)
 
-<img src="./images/parabola-equidistant-from-focus-directrix-animation-70percent.gif" title="" alt="Directex-And-Focus-Example" data-align="center">
+<img src="../images/parabola-equidistant-from-focus-directrix-animation-70percent.gif" title="" alt="Directex-And-Focus-Example" data-align="center">
 
 | Diagram                                                                                                                | Does it have?                                                      | Then it is a... | And its equation is...                                                      | Its vertex form equation is...                                                                                                                                                                                                                                | It is defined as...                                                                                                                                                                                    | Graph on Coordinate Grid |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | --------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |

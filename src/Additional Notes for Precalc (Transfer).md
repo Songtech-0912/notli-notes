@@ -448,7 +448,7 @@ $$
   * So we can now conclusively plot the function:
 
 <p align=center>
-  <img src="images/manual-plot-polynomial.png" width=350 />
+  <img src="../images/manual-plot-polynomial.png" width=350 />
 </p>
 
 ### Zeroes and Multiplicity
