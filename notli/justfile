@@ -5,3 +5,7 @@ default:
 # runs the Notli utiltiy
 run:
     @cargo run
+
+# formats source code of Notli utility
+format:
+    @cargo fmt
