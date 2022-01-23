@@ -2,16 +2,12 @@
   "name": "exam-reference-sheets",
   "version": "1.0.0",
   "description": "Student-exchanged notes available to anyone, anywhere",
-  "scripts": {
-    "dev": "npx tailwindcss-cli@latest build ./css/tailwind.css -o ./css/tailwind.output.css",
-    "dist": "npx tailwindcss-cli@latest build ./css/tailwind.css -o ./css/tailwind.output.css"
-  },
   "author": "Songtech-0912",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@tailwindcss/typography": "^0.5.0",
-    "autoprefixer": "^10.4.0",
+    "autoprefixer": "^10.4.2",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.7"
+    "tailwindcss": "^3.0.15"
   }
 }
