@@ -166,12 +166,63 @@ $$</p>
 <p>So, the answer to the question is <strong>-5.125 m/s</strong>.</p>
 <h3>Example 2</h3>
 <p>A blue cart of unknown mass is initially moving at 3.0 m/s when it collides with a 0.70 kg red cart which is moving at -5.0 m/s.  After the collision, the blue cart is moving at 0.093 m/s, and the red cart at -0.47 m/s.  Based on this collision data, what is the mass of the blue cart?</p>
+<h4>Solution</h4>
 <p>We can use the table approach as well for this question.</p>
-<p>However, we'll need to use a bit of algebra to solve it.</p>
+<p>However, we'll need to use a bit of algebra to solve it. Will finish this later...</p>
 <h3>Example 3</h3>
 <p>A forensic scientist is tasked with determining the speed of a bullet in order to help detectives solve a crime.  The scientist uses an apparatus called a balistic pendulum, a 2.4 kg wooden block hanging from the ceiling.  After firing a bullet into the block, the pendulum swings upward.  The height of the pednulum's swing indicates the velocity of the pendulum after the bullet collides with it.</p>
-<p>In her experiment, the scientist fires the suspect's gun into the wooden block from a distance of 5.7 m - the distance between the shooter and the victim in the crime.  When the .012 kg bullet strikes the block, the block swings to a height of 0.095 m, indicating that the pendulum (bullet and block together) were moving at a velocity of 1.38 m/s immediately after the bullet's impact.</p>
+<p>In her experiment, the scientist fires the suspect's gun into the wooden block from a distance of 5.7 m - the distance between the shooter and the victim in the crime.  When the 0.012 kg bullet strikes the block, the block swings to a height of 0.095 m, indicating that the pendulum (bullet and block together) were moving at a velocity of 1.38 m/s immediately after the bullet's impact.</p>
 <p>If the scientist assumes that there were no forces external to the bullet-block system that were acting during the collision, what velocity must the bullet have had when it struck the pendulum?  (Be sure to give your answer using appropriate units)</p>
+<h4>Solution</h4>
+<p>In this question, we rely on the conservation of momentum again. We know that the combined momentum of the bullet and the block <em>before</em> the collision must be equal to the combined momentum of the bullet and the block <em>after</em> the collision.</p>
+<p>So let's make our table:</p>
+<table><thead><tr><th></th><th>Momentum before</th><th>Momentum after</th></tr></thead><tbody>
+<tr><td>Block</td><td></td><td></td></tr>
+<tr><td>Bullet</td><td></td><td></td></tr>
+<tr><td>Total</td><td></td><td></td></tr>
+</tbody></table>
+<p>We know that the block is stationary before the collision, which means that its momentum must be zero before the collision. We don't know the momentum of the bullet before the equation, so let's denote that with $x$.</p>
+<table><thead><tr><th></th><th>Momentum before</th><th>Momentum after</th></tr></thead><tbody>
+<tr><td>Block</td><td>0 ns</td><td></td></tr>
+<tr><td>Bullet</td><td>$x$</td><td></td></tr>
+<tr><td>Total</td><td>0 + $x$</td><td></td></tr>
+</tbody></table>
+<p>For the block, we know that its momentum after the collision is equal to the product of its final velocity and mass. We know that the final velocity of the block is 1.38 m/s, and its mass is 2.4 kg. Thus:</p>
+<p>$$
+P_{block} = 1.38\mathrm{\ m/s} \cdot 2.4\mathrm{\ kg} = 3.312\mathrm{\ ns}
+$$</p>
+<p>For the bullet, we can calculate its momentum after the collision in the same way:</p>
+<p>$$
+P_{bullet} = 1.38\mathrm{\ m/s} \cdot 0.012\mathrm{\ kg} = 0.017\mathrm{\ ns}
+$$</p>
+<p>The total momentum after the collision is just the sum of the final momentum of the bullet and the block, so:</p>
+<p>$$
+P_{combined} = 3.312\mathrm{\ ns} + 0.017\mathrm{\ ns} = 3.329\mathrm{\ ns}
+$$</p>
+<p>Let's put those numbers in our table:</p>
+<table><thead><tr><th></th><th>Momentum before</th><th>Momentum after</th></tr></thead><tbody>
+<tr><td>Block</td><td>0 ns</td><td>3.312 ns</td></tr>
+<tr><td>Bullet</td><td>$x$</td><td>0.017 ns</td></tr>
+<tr><td>Total</td><td>0 + $x$</td><td>3.329 ns</td></tr>
+</tbody></table>
+<p>Based on the conservation of momentum, we know that $P_{initial} = P_{final}$. Thus:</p>
+<p>$$
+0 + x = 3.329\mathrm{\ ns}
+$$</p>
+<p>$$
+x = 3.329\mathrm{\ ns}
+$$</p>
+<p>We now have a complete table:</p>
+<table><thead><tr><th></th><th>Momentum before</th><th>Momentum after</th></tr></thead><tbody>
+<tr><td>Block</td><td>0 ns</td><td>3.312 ns</td></tr>
+<tr><td>Bullet</td><td>3.329 ns</td><td>0.017 ns</td></tr>
+<tr><td>Total</td><td>3.329 ns</td><td>3.329 ns</td></tr>
+</tbody></table>
+<p>From the bullet's initial momentum, we can finally find its initial velocity. Since $P = mv$, we can also say that $v = \frac{P}{m}$, and so:</p>
+<p>$$
+v_{bullet} = \frac{3.329\mathrm{\ ns}}{0.012\mathrm{\ kg}} \approx 277.42\mathrm{\ m/s}
+$$</p>
+<p>The final answer is therefore <strong>277.42 m/s</strong>.</p>
 <h2>Collision safety</h2>
 <p>Before we understand how to make cars safer, we have to first think about the 3 collisions that happen in a car crash:</p>
 <ul>
