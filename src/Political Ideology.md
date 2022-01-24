@@ -121,3 +121,8 @@ Example:
 
 * Internal: believes that a person can make an impact on the political system
 * External: believes the government is responsive to the people's needs
+
+## Policy 
+
+* **Fiscal policy** is _how_ money is spent and what things will be in the budget
+* **Monetary policy** is control over the interest rates or the money supply
