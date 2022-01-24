@@ -56,10 +56,50 @@ Verbs that are reflexive:
 | ihr | (wünscht) euch... |
 | Sie/sie | (wünschen) sich...|
 
-## Forms of _Diese_
+## Demonstratives
+
+Demonstratives are used to refer to an object. In German, they include:
+
+* diese
+* jene
+* jede 
+* jeglich
+* manche
+* solche
+* welche
+* alle
+* beide
+
+### Adjective Endings
+
+When not using demonstratives (e.g. if you're just using _der_ or _ein_), we use these standard adjective endings:
+
+|      | Mann | Frau | Kind | Eltern |
+|----|-----|-------|------|-------|
+| Nominativ | -er | -es | -e | -e |
+| Akkusativ | -en | -es | -e | -e |
+| Dativ | -en | -en | -en | en |
+
+When using demonstratives (e.g. diese, jede, etc.), the adjective endings change slightly:
+
+|      | Mann | Frau | Kind | Eltern |
+|----|-----|-------|------|-------|
+| Nominativ | -e | -e | -e | -en |
+| Akkusativ | -en | -e | -e | -e |
+| Dativ | -en | -en | -en | en |
+
+E.g. Hier ist 
+
+### Forms of _Diese_
+
+The first one is the form of _diese_, the second is the adjective ending.
 
 |     | Mann | Frau | Kind | Eltern |
 |----|-----|-------|------|-------|
-| Nominativ | diese | diese | dieses | diese |
-| Akkusativ | diesen | diese | dieses | diese |
-| Dativ | diesem | deiser | diesem | diesen |
+| Nominativ | dieser, -e | diese, -e | dieses, -e | diese, -en |
+| Akkusativ | diesen, -en | diese, -e | dieses, -e | diese, -e |
+| Dativ | diesem, -en | deiser, -en | diesem, -en | diesen, -en |
+
+E.g. Nominativ: Hier ist dieses schöne (N.) Kind.
+
+Ich sehe d
