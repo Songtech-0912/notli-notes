@@ -71,3 +71,42 @@ Use of repeated images, symbols, phrases, and grammatical units
 
 * _"All men live lives of quiet desperation"_ -> by Henry Thoreau, one of Whitman's contemporaries
 * Whitman's writing is a rebellion against the rigid moral norms and standards of society, preferring a world in which all things are holy and good and worthy of love
+
+## Connected pieces
+
+### _Self Reliance_ by Ralph Waldo Emerson
+
+(Port notes from notebook)
+
+> "There is a time...that [every man] arrives at the conviction that **envy is ignorance; that imitation is suicide**"
+* You're not supposed to be like or do things like someone else: doing so is a suicide of the self; instead, you should be who you are
+* Being someone we are not is just as damaging to the soul as suicide
+> "Whoso would be a man, must be a **nonconformist**...nothing is at last sacred but the **integrity of your own mind**"
+* Emerson sees it necessary to not bow to any pressure or influence from others; more simply, you've got to follow yourself, and your independence is what's most imporant
+* Here comes the paradox though: what happens if you use your own power to act against society? What prevents you from taking individualism too far?
+* Thus, there has to be a balancing act where we set _limits_ on the importance of the individual
+> "No law can be sacred to me but that of my nature...the only right is what is after my constitution"
+* Conscience comes from the self, not from the labels of "good" and "bad" from other people
+* However, we could justify nearly any action by the adage "it's good because works for me" (self-serving), including societally unacceptable things
+> "What I must do is all that concerns me, not what the people think"
+* Essentially: others' opinions don't matter: if there is something that I feel is right, I need to do it
+> "...but the great man is he who in the midst of the crow keeps with perfect sweetness the independence of solitude..."
+* The great man is great because he can live among others peacefully, but still follow their inner compass
+* Whereas many others would deliberately ignore their own judgement and evidence and join in with the crowd
+
+#### Key ideas
+
+* According Emerson, we should always try to forge our own path instead of copying someone else
+* Conformity is not a virtue, it is a hindrance, and thus society has an adverse effect on people's growth
+* In other words, Emerson believed through working on ourselves, we grow to be self-reliant to the point that we no longer envy others, but measure ourself against only ourselves
+* When we become self-reliant, we focus on creating, rather than imitating
+
+#### Responses to the concept of "self-reliance"
+
+* NY Times - ["The Foul Reign of Emerson's 'self-reliance'"](https://www.nytimes.com/2011/12/04/magazine/riff-ralph-waldo-emerson.html) - some quotes:
+	* "The 'excessive love' of individual liberty over national unity"
+	* "The 'plague of devices' that keep us staring into the shallow puddle of our dopamine reactions [as verification of our own self-importance]"
+	* "...Our fetish for....the American afflication of ignoring volumes of evidence in favor of flashes that meet the eye"
+	* Idea: we've been taught to be self-interested so much that we forget the importance of the things that matter
+	* Emerson's thinking allowed us to lose the value of the real world
+	* "The larger problem with the essay...has been Emerson's tacit endorsement of a radically self-centered worldview" - that is, Emerson allows us having a self-centered worldview
