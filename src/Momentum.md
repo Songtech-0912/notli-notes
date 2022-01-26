@@ -216,9 +216,43 @@ A blue cart of unknown mass is initially moving at 3.0 m/s when it collides with
 
 #### Solution
 
-We can use the table approach as well for this question.
+Again, let's model this situation with our data table:
 
-However, we'll need to use a bit of algebra to solve it. Will finish this later...
+|    | Mass | Initial velocity | Final velocity | Initial momentum | Final momentum |
+|-----|---|---|---|---|---|
+| Red car | 0.70 kg | -5 m/s | -0.47 m/s| || 
+| Blue car | $x$ | 3 m/s | 0.093 m/s | | |
+| Total | | | | | |
+
+From the data given, we can fill out more of the blanks:
+
+|    | Mass | Initial velocity | Final velocity | Initial momentum | Final momentum |
+|-----|---|---|---|---|---|
+| Red car | 0.70 kg | -5 m/s | -0.47 m/s|  -3.5 ns| -0.329 ns | 
+| Blue car | $x$ kg | 3 m/s | 0.093 m/s | $3x$ ns | $0.093x$ ns |
+| Total | | | | $3x + (-3.5)$ ns | $0.093x + (- 0.329)$ ns |
+
+Notice, though, that in this question, there is a _lot_ more we don't know. We in fact need to solve this question algebraically.
+
+We know that:
+
+$$
+P_{initial} = P_{final}
+$$
+
+We can substitute this to:
+
+$$
+3x - 3.5 = 0.093x - 0.329
+$$
+
+And if we solve for $x$, we find:
+
+$$
+x \approx 1.09\mathrm{\ kg}
+$$
+
+So the answer to the question is that the blue cart's mass is approx. **1.09 kg**.
 
 ### Example 3
 
