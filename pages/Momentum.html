@@ -167,8 +167,32 @@ $$</p>
 <h3>Example 2</h3>
 <p>A blue cart of unknown mass is initially moving at 3.0 m/s when it collides with a 0.70 kg red cart which is moving at -5.0 m/s.  After the collision, the blue cart is moving at 0.093 m/s, and the red cart at -0.47 m/s.  Based on this collision data, what is the mass of the blue cart?</p>
 <h4>Solution</h4>
-<p>We can use the table approach as well for this question.</p>
-<p>However, we'll need to use a bit of algebra to solve it. Will finish this later...</p>
+<p>Again, let's model this situation with our data table:</p>
+<table><thead><tr><th></th><th>Mass</th><th>Initial velocity</th><th>Final velocity</th><th>Initial momentum</th><th>Final momentum</th></tr></thead><tbody>
+<tr><td>Red car</td><td>0.70 kg</td><td>-5 m/s</td><td>-0.47 m/s</td><td></td><td></td></tr>
+<tr><td>Blue car</td><td>$x$</td><td>3 m/s</td><td>0.093 m/s</td><td></td><td></td></tr>
+<tr><td>Total</td><td></td><td></td><td></td><td></td><td></td></tr>
+</tbody></table>
+<p>From the data given, we can fill out more of the blanks:</p>
+<table><thead><tr><th></th><th>Mass</th><th>Initial velocity</th><th>Final velocity</th><th>Initial momentum</th><th>Final momentum</th></tr></thead><tbody>
+<tr><td>Red car</td><td>0.70 kg</td><td>-5 m/s</td><td>-0.47 m/s</td><td>-3.5 ns</td><td>-0.329 ns</td></tr>
+<tr><td>Blue car</td><td>$x$ kg</td><td>3 m/s</td><td>0.093 m/s</td><td>$3x$ ns</td><td>$0.093x$ ns</td></tr>
+<tr><td>Total</td><td></td><td></td><td></td><td>$3x + (-3.5)$ ns</td><td>$0.093x + (- 0.329)$ ns</td></tr>
+</tbody></table>
+<p>Notice, though, that in this question, there is a <em>lot</em> more we don't know. We in fact need to solve this question algebraically.</p>
+<p>We know that:</p>
+<p>$$
+P_{initial} = P_{final}
+$$</p>
+<p>We can substitute this to:</p>
+<p>$$
+3x - 3.5 = 0.093x - 0.329
+$$</p>
+<p>And if we solve for $x$, we find:</p>
+<p>$$
+x \approx 1.09\mathrm{\ kg}
+$$</p>
+<p>So the answer to the question is that the blue cart's mass is approx. <strong>1.09 kg</strong>.</p>
 <h3>Example 3</h3>
 <p>A forensic scientist is tasked with determining the speed of a bullet in order to help detectives solve a crime.  The scientist uses an apparatus called a balistic pendulum, a 2.4 kg wooden block hanging from the ceiling.  After firing a bullet into the block, the pendulum swings upward.  The height of the pednulum's swing indicates the velocity of the pendulum after the bullet collides with it.</p>
 <p>In her experiment, the scientist fires the suspect's gun into the wooden block from a distance of 5.7 m - the distance between the shooter and the victim in the crime.  When the 0.012 kg bullet strikes the block, the block swings to a height of 0.095 m, indicating that the pendulum (bullet and block together) were moving at a velocity of 1.38 m/s immediately after the bullet's impact.</p>
