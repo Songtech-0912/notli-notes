@@ -41,14 +41,14 @@ $\mathrm{Percent\ Error} = \left(\frac{\mathrm{Experimental\ Value} - \mathrm{Pr
 ## Velocity and Acceleration
 
 * **Speed** is ratio of distance_ to the time interval; that is, $v = \frac{x}{\Delta t}$
-* **Velocity** is a ratio of _displacement_, not distance, to the time interval; that is, $v = \frac{\Delta x}{\Delta t}$
+* **Velocity** is a ratio of _displacement_, not distance, to the time interval; that is, $\vec v = \frac{\Delta x}{\Delta t}$ (note the arrow on top)
   * *Constant velocity* is a state of constant displacement per unit time interval; the standard unit of measurement is in units distance over units time, (e.g. meters per second)
     * An object in motion moves at constant speed unless acted upon by an external force (Newton's 1st law)
     * When you are asked to *describe the motion* of an object at constant velocity, then say that *"the object is in motion with a velocity of $n$ meters per second"*
     * Velocity is the **slope** of a **position-time graph** - a positive slope is a positive velocity, a negative slope is a negative velocity
     * If velocity is **positive**, we are moving forwards
     * If velocity is **negative**, we are moving backwards
-  * The **CV model** (constant velocity motion model) can be represented by $y = \frac{\Delta x}{\Delta t} + x_0$ or more simply $y = mx + b$
+  * The **CV model** (constant velocity motion model) can be represented by $y = \frac{\Delta \vec x}{\Delta t} + x_0$ or more simply $y = mx + b$
 * Speed at a certain time is the magnitude of the velocity at that moment of time
 * **Acceleration** refers to the rate of change of velocity over time - it can be positive or negative
   * Thus $A = \frac{\Delta v}{\Delta t}$ and acceleration is the **slope** of a **velocity-time graph**
@@ -64,7 +64,7 @@ $\mathrm{Percent\ Error} = \left(\frac{\mathrm{Experimental\ Value} - \mathrm{Pr
   * Remember - a negative velocity can have a positive acceleration, and a negative acceleration can have a positive velocity!
   * Negative acceleration results in a speeding up in the backwards direction because the frame of reference is positive - very unintuitive but true!
 
-### Example velocity question
+### Example velocity and speed question
 
 Suppose you were given this distance-time graph:
 
@@ -72,7 +72,7 @@ Suppose you were given this distance-time graph:
 
 Let's try to find the velocity from between 2 seconds and 12 seconds.
 
-Again, remember that $v = \frac{\Delta x}{\Delta t}$.
+Again, remember that $\vec v = \frac{\Delta x}{\Delta t}$. Velocity is $\vec v$, with that little arrow on top - don't mistake it for "plain" $v$ which is speed.
 
 $\Delta x$ is the velocity, which is the difference of position, so:
 
@@ -85,8 +85,22 @@ $\Delta t$ is the time interval, which is 12 seconds - 2 seconds = 10 seconds.
 So we can finally solve using the velocity equation:
 
 $$
-v = \frac{-1\mathrm{\ m}}{10\mathrm{\ s}} = -0.1\mathrm{\ m/s}
+\vec v = \frac{-1\mathrm{\ m}}{10\mathrm{\ s}} = -0.1\mathrm{\ m/s}
 $$
+
+Okay, so we know the velocity, what about the speed? Be careful not to confuse these two!
+
+Speed is calculated with $v = \frac{x}{\Delta t}$.
+
+We know that the total distance is 2m (forwards) + 0m + 2m (backwards), but distance doesn't care which direction they are in, which is why they are all positive. So, the total distance is 4m combined, over 10 seconds.
+
+So, we can solve using the speed (not velocity!) equation:
+
+$$
+v = \frac{4\mathrm{\ m}}{10\mathrm{\ s}} = 0.4\mathrm{\ m/s}
+$$
+
+**Disclaimer:** I am a forgetful person, and I will write _both_ velocity and speed using $v$ at times instead of using the proper $\vec v$ and $v$ distinction. Most physics uses velocity anyways, not speed. Just pretend that everytime I use $v$, I actually mean $\vec v$ (velocity).
 
 ## Examples of Velocity and Position Time Graphs
 

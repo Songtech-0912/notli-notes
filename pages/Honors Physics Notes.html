@@ -75,7 +75,7 @@
 <h2>Velocity and Acceleration</h2>
 <ul>
 <li><strong>Speed</strong> is ratio of distance_ to the time interval; that is, $v = \frac{x}{\Delta t}$</li>
-<li><strong>Velocity</strong> is a ratio of <em>displacement</em>, not distance, to the time interval; that is, $v = \frac{\Delta x}{\Delta t}$
+<li><strong>Velocity</strong> is a ratio of <em>displacement</em>, not distance, to the time interval; that is, $\vec v = \frac{\Delta x}{\Delta t}$ (note the arrow on top)
 <ul>
 <li><em>Constant velocity</em> is a state of constant displacement per unit time interval; the standard unit of measurement is in units distance over units time, (e.g. meters per second)
 <ul>
@@ -86,7 +86,7 @@
 <li>If velocity is <strong>negative</strong>, we are moving backwards</li>
 </ul>
 </li>
-<li>The <strong>CV model</strong> (constant velocity motion model) can be represented by $y = \frac{\Delta x}{\Delta t} + x_0$ or more simply $y = mx + b$</li>
+<li>The <strong>CV model</strong> (constant velocity motion model) can be represented by $y = \frac{\Delta \vec x}{\Delta t} + x_0$ or more simply $y = mx + b$</li>
 </ul>
 </li>
 <li>Speed at a certain time is the magnitude of the velocity at that moment of time</li>
@@ -113,11 +113,11 @@
 </ul>
 </li>
 </ul>
-<h3>Example velocity question</h3>
+<h3>Example velocity and speed question</h3>
 <p>Suppose you were given this distance-time graph:</p>
 <p><img src="./images/find-velocity-problem.png" alt="" /></p>
 <p>Let's try to find the velocity from between 2 seconds and 12 seconds.</p>
-<p>Again, remember that $v = \frac{\Delta x}{\Delta t}$.</p>
+<p>Again, remember that $\vec v = \frac{\Delta x}{\Delta t}$. Velocity is $\vec v$, with that little arrow on top - don't mistake it for &quot;plain&quot; $v$ which is speed.</p>
 <p>$\Delta x$ is the velocity, which is the difference of position, so:</p>
 <p>$$
 \Delta x = x_{final} - x_{initial} = x_{12s} - x_{2s} = (0) - (1) = -1
@@ -125,8 +125,16 @@ $$</p>
 <p>$\Delta t$ is the time interval, which is 12 seconds - 2 seconds = 10 seconds.</p>
 <p>So we can finally solve using the velocity equation:</p>
 <p>$$
-v = \frac{-1\mathrm{\ m}}{10\mathrm{\ s}} = -0.1\mathrm{\ m/s}
+\vec v = \frac{-1\mathrm{\ m}}{10\mathrm{\ s}} = -0.1\mathrm{\ m/s}
 $$</p>
+<p>Okay, so we know the velocity, what about the speed? Be careful not to confuse these two!</p>
+<p>Speed is calculated with $v = \frac{x}{\Delta t}$.</p>
+<p>We know that the total distance is 2m (forwards) + 0m + 2m (backwards), but distance doesn't care which direction they are in, which is why they are all positive. So, the total distance is 4m combined, over 10 seconds.</p>
+<p>So, we can solve using the speed (not velocity!) equation:</p>
+<p>$$
+v = \frac{4\mathrm{\ m}}{10\mathrm{\ s}} = 0.4\mathrm{\ m/s}
+$$</p>
+<p><strong>Disclaimer:</strong> I am a forgetful person, and I will write <em>both</em> velocity and speed using $v$ at times instead of using the proper $\vec v$ and $v$ distinction. Most physics uses velocity anyways, not speed. Just pretend that everytime I use $v$, I actually mean $\vec v$ (velocity).</p>
 <h2>Examples of Velocity and Position Time Graphs</h2>
 <table><thead><tr><th>Position Time Graph</th><th>Velocity Time Graph</th><th>Velocity (+/-)</th><th>Acceleration (+/-/0)</th><th>Description</th></tr></thead><tbody>
 <tr><td><img src="./images/kinematics-graphs/pos-vel-no-accel-const/pos-time.png" alt="" /></td><td><img src="./images/kinematics-graphs/pos-vel-no-accel-const/vel-time.png" alt="" /></td><td>Positive constant velocity</td><td>No acceleration (constant speed)</td><td>The object is moving at constant speed, neither speeding up or slowing down</td></tr>
