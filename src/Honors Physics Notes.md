@@ -19,25 +19,29 @@ $\mathrm{Percent\ Error} = \left(\frac{\mathrm{Experimental\ Value} - \mathrm{Pr
 
 ## Distance, Position, and Displacement
 
-* *Distance* is the measure of space between two points, the total distance, regardless of direction, and is represented with $x$
+* *Distance* is the measure of space between two points, the total distance, regardless of direction, and is represented with $x$ - it is _always_ positive (+)
 * *Position* is the distance and direction (+ or -) from an agreed reference point
 * *Displacement* is the difference of an object's new position from its original position, and is represented with $\Delta x$
   * To find the displacement, we subtract the *initial position* from the *final position* of the moved object
   * When you are describing a displacement, we must not forget to specify a direction - positive or negative, north or south, etc.
+  * This is because displacement is a _vector_ 
 
 ### Modeling Position and Displacement
 
-* The following model is of an object that is initially at a position of +2m and is displace by -5 m, traveling a final combined distance of 7 meters:
-  * The displacement has a *magnitude* of 2m in a *positive direction*
-  * The distance is 7 meters because it is the sum of +2m and -5m, so we can say that $D = \Sigma_{\Delta x}$
 
 ![Displacement Diagram](../images/Physics%20Displacement%20Diagrams.svg)
 
+* The following model is of an object that is initially at a position of +5m and is displaced by -2m:
+  * Because displacement is a difference between positions, $\Delta x = x_{final} - x_{initial} = (3) - (5) = -2$
+  * So, we can say that the displacement is -2m
+  * This also means that the displacement has a *magnitude* (amount) of 2m in the *negative direction*
+  * Unlike displacement, the _distance_ is 2 meters, because 2 meters is the amount of "space" between 3 and 5
 * The above is an example of **linear motion** (also called rectilinear motion) - an object moving at constant speed will displace a constant distance during each unit time interval
 
 ## Velocity and Acceleration
 
-* **Velocity** is a ratio of displacement to the time interval; that is, $v = \frac{\Delta x}{\Delta t}$
+* **Speed** is ratio of distance_ to the time interval; that is, $v = \frac{x}{\Delta t}$
+* **Velocity** is a ratio of _displacement_, not distance, to the time interval; that is, $v = \frac{\Delta x}{\Delta t}$
   * *Constant velocity* is a state of constant displacement per unit time interval; the standard unit of measurement is in units distance over units time, (e.g. meters per second)
     * An object in motion moves at constant speed unless acted upon by an external force (Newton's 1st law)
     * When you are asked to *describe the motion* of an object at constant velocity, then say that *"the object is in motion with a velocity of $n$ meters per second"*
