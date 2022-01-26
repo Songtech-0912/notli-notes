@@ -35,7 +35,7 @@ $\mathrm{Percent\ Error} = \left(\frac{\mathrm{Experimental\ Value} - \mathrm{Pr
   * Because displacement is a difference between positions, $\Delta x = x_{final} - x_{initial} = (3) - (5) = -2$
   * So, we can say that the displacement is -2m
   * This also means that the displacement has a *magnitude* (amount) of 2m in the *negative direction*
-  * Unlike displacement, the _distance_ is 2 meters, because 2 meters is the amount of "space" between 3 and 5
+  * Unlike displacement, the _distance_ is 2 meters, because 2 meters is the amount of "space" between 3 and 5, and distance can never be negative
 * The above is an example of **linear motion** (also called rectilinear motion) - an object moving at constant speed will displace a constant distance during each unit time interval
 
 ## Velocity and Acceleration
@@ -63,6 +63,30 @@ $\mathrm{Percent\ Error} = \left(\frac{\mathrm{Experimental\ Value} - \mathrm{Pr
   * When acceleration and velocity have *opposite signs* then the object is slowing down
   * Remember - a negative velocity can have a positive acceleration, and a negative acceleration can have a positive velocity!
   * Negative acceleration results in a speeding up in the backwards direction because the frame of reference is positive - very unintuitive but true!
+
+### Example velocity question
+
+Suppose you were given this distance-time graph:
+
+![](../images/find-velocity-problem.png)
+
+Let's try to find the velocity from between 2 seconds and 12 seconds.
+
+Again, remember that $v = \frac{\Delta x}{\Delta t}$.
+
+$\Delta x$ is the velocity, which is the difference of position, so:
+
+$$
+\Delta x = x_{final} - x_{initial} = x_{12s} - x_{2s} = (0) - (1) = -1
+$$
+
+$\Delta t$ is the time interval, which is 12 seconds - 2 seconds = 10 seconds.
+
+So we can finally solve using the velocity equation:
+
+$$
+v = \frac{-1\mathrm{\ m}}{10\mathrm{\ s}} = -0.1\mathrm{\ m/s}
+$$
 
 ## Examples of Velocity and Position Time Graphs
 
