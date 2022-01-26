@@ -12,3 +12,5 @@ Session.vim
 __pycache__
 node_modules*/
 package-lock.json
+# For obsidian
+workspace
