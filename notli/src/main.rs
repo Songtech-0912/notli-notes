@@ -3,7 +3,6 @@ use colored::Colorize;
 use log;
 use project_root::get_project_root;
 use pulldown_cmark::{html, Options, Parser};
-use regex::Regex;
 use simple_logger;
 use std::fs;
 use std::io::Read;
@@ -91,14 +90,6 @@ fn get_outputdir() -> AnyhowResult<PathBuf> {
     Ok(notli_output)
 }
 
-fn replace_image_paths(text: String) -> AnyhowResult<String> {
-    // Takes a string and replaces all $$...$$ with katex
-    // this ONLY replaces block maths ($$...$$) not inline
-    let re = Regex::new(r"../images")?;
-    let output = re.replace_all(&text, "./images").to_string();
-    Ok(output)
-}
-
 fn main() -> AnyhowResult<()> {
     simple_logger::init()?;
     log::info!("Starting application");
@@ -130,8 +121,6 @@ fn main() -> AnyhowResult<()> {
             "Markdown conversion successfully passed for: {}",
             format!("{}.md", &filename_no_stem).green()
         );
-        // Change image relative paths to work
-        html_output = replace_image_paths(html_output)?;
         // Wrap html in template
         let templated_html = template(&filename_no_stem, &html_output)?;
         // Create final html in pages/
