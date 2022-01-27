@@ -418,10 +418,12 @@ $$
   * For same end behavior, we would expect that $\lim_{x \rightarrow \infty} f(x)$ and $\lim_{x \rightarrow -\infty} f(x)$  are the same
   * For the opposite end behavior, we would expect that two ends are different, so $\lim_{x \rightarrow \infty} f(x) = n$ and $\lim_{x \rightarrow \infty} f(x) =-n$
 
-* Then find the coefficient of the leading term - this will decide whether the graph opens up or down
+* Then find the coefficient of the leading term - this will decide whether the graph rises or falls to the right
   
-  * If the leading coefficient is positive, then the graph falls to the left and rises to the right
-  * If the leading coefficient is negative, then the graph rises to the left and falls to the right
+  * If the leading coefficient is positive, rises to the right
+  * If the leading coefficient is negative, falls to the right
+
+* Using what we know about the degree, if the degree is even, then the end behavior to the left is the same as the right, but if the degree is odd, then the end behavior to the left is _opposite_ to the right
 
 * Find the two intercepts (x and y)
   
