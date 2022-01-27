@@ -880,7 +880,9 @@ Implied powers (not named in the Constitution):
 
 #### Free Speech and Press Clause: US v. New York Times (1971)
 
-* Write something...
+* The New York Times wanted to publish the _Pentagon Papers_, a massive set of classified government documents revealing government incompetence in the Vietnam War
+* The Nixon administration however tried to suppress the Times, citing a need to exercise **prior restraint** (censorship for the sake of security)
+* The Court ruled that the New York Times had the right to publish the papers under the freedom of speech protections under the First Amendment
 
 #### The Types of Speech protected under the 1st Amendment
 
