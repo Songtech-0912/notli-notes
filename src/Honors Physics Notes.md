@@ -170,7 +170,7 @@ $$
 | Velocity     | Always positive but not constant | Positive when going up, negative when going down |
 
 * When an object is thrown up or falls down it has **constant** acceleration because earth's gravity pulls the object towards earth with a constant acceleration. If it is thrown up its velocity decreases; if it is falling down its velocity increases.
-* Objects accelerate at a constant rate of -10m/s (if going up) or +10m/s (if falling down)
+* Objects accelerate at a net constant rate of -10m/s (if going up) or +10m/s (if falling down), because even though the acceleration of free fall is always -10m/s^s, when the object rises, the acceleration is in the opposite direction, which makes it negative, and when the object falls, the acceleration is in the same direction, which cancels out the negative
 
 ![](https://www.physicsclassroom.com/Class/1DKin/U1L5e2.gif)
 
