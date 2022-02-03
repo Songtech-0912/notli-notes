@@ -78,7 +78,7 @@ When not using demonstratives (e.g. if you're just using _der_ or _ein_), we use
 |----|-----|-------|------|-------|
 | Nominativ | -er | -es | -e | -e |
 | Akkusativ | -en | -es | -e | -e |
-| Dativ | -en | -en | -en | en |
+| Dativ | -en | -en | -en | -en |
 
 When using demonstratives (e.g. diese, jede, etc.), the adjective endings change slightly:
 
@@ -86,7 +86,7 @@ When using demonstratives (e.g. diese, jede, etc.), the adjective endings change
 |----|-----|-------|------|-------|
 | Nominativ | -e | -e | -e | -en |
 | Akkusativ | -en | -e | -e | -e |
-| Dativ | -en | -en | -en | en |
+| Dativ | -en | -en | -en | -en |
 
 E.g. Hier ist 
 
@@ -103,3 +103,36 @@ The first one is the form of _diese_, the second is the adjective ending.
 E.g. Nominativ: Hier ist dieses schöne (N.) Kind.
 
 Ich sehe d
+
+## Expressing direction
+
+We use _nach_ when we are giving directions to a place (usually a country or city) without an article.
+
+E.g. _Wir fahren nach Ulm, nach House_
+
+We use _in_ when we give directions to a place that use the definite article.
+
+E.g. _Wir fahren in die Berge, in die Alpen_
+
+We use _an_ when we refer to bodies of water.
+
+E.g. _Wir fahren an den Bodensee._
+
+We use _auf_ when we refer to high places or flat surfaces, such as specific (singular) mountains and islands.
+
+E.g. _Wir steigen auf einen Berg._
+
+We can combine _an_, _aus_, and _in_ to form contractions:
+
+| Expanded | Contraction |
+|----------|-----------|
+| an das ... | ans ... |
+| auf das... | aufs... |
+| in das... | ins... |
+
+### Wo... vs. Wohin...
+
+_Wo_ uses the dative articles, while _wohin_ uses the accusative articles.
+
+E.g. Wo bist du? Ich fahre _an den_ Starnberger See
+E.g. Wohin bist du? Ich war _an dem_ Starnberger See
