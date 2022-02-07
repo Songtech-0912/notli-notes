@@ -95,11 +95,16 @@ $$
 \theta = (\pi \cdot 1) = \pi
 $$
 
-So we find that $\theta$ is equal to $\pi$ degrees. We now have a new unit to measure degrees: the **radian**. 
+So we find that $\theta$ is equal to $\pi$ degrees. We now have a new unit to measure angles: the **radian**. 
 
-So a **radian** can be roughly defined as degrees expressed in units of $\pi$ rather than decimal units. $2 \pi$ radians is a full 360 degrees, $\pi$ radians is 180 degrees, and we can keep dividing so on. Instead of counting from 0 to 360 degrees, in radians, we count from 0 to $2\pi$. And since $\pi$ radians is equal to $180^\circ$, 1 radian is also equal to $\frac{180^\circ}{\pi}$ which resolves to approximately $57.3^\circ$.
+We also know that a **radian** can be roughly defined as degrees expressed in units of $\pi$ rather than decimal units. $2 \pi$ radians is a full 360 degrees, $\pi$ radians is 180 degrees, and we can keep dividing so on. Instead of counting from 0 to 360 degrees, in radians, we count from 0 to $2\pi$. And since $\pi$ radians is equal to $180^\circ$, 1 radian is also equal to $\frac{180^\circ}{\pi}$ which resolves to approximately $57.3^\circ$.
 
 ### Rules of radians
+
+Radians are a **unit of measurement** for angles. We can express angles in:
+
+* $\pi$ form, where we state radians in terms of $\pi$ (e.g. $2\pi \mathrm{\ rad.} = 360^\circ$)
+* Exact form, where we state radians in terms of decimal units (e.g. $1.3\mathrm{\ rad.}$)
 
 $$
 1 \mathrm{\ radian} = 1^\circ \cdot \left(\frac{\pi}{180}\right)
@@ -108,3 +113,35 @@ $$
 $$
 1^\circ = 1 \mathrm{\ radian} \cdot \left(\frac{\pi}{180}\right)
 $$
+
+| Radians ($\pi$) | Radians (exact) | Degrees |
+|---------|----------|------|
+| 0 radians | 0.0 radians | 0 degrees |
+| $\frac{\pi}{2}$ radians | ~1.57 radians | 90 degrees |
+| $\pi$ radians | ~3.14 radians | 180 degrees |
+| $\frac{3\pi}{2}$ radians | ~4.7 radians | 270 degrees |
+| $2\pi$ radians | ~6.28 radians | 360 degrees |
+
+### Radian Measures
+
+Illustration of radian measures by quadrant
+
+Illustration of the 6 radian lengths
+
+### Drawing radians in Standard Position
+
+We can use the rules of radians and coterminal angles to help us draw radians.
+
+For instance, let's try to draw $\theta = \frac{5\pi}{2}$. We know that $\frac{5\pi}{2}$ is equal to $\frac{4\pi}{2} + \frac{\pi}{2}$, so:
+
+$$
+\theta = 2\pi + \frac{\pi}{2}
+$$
+
+So, we'll need to rotate 360 degrees once (because $2\pi$ is one full revolution), and then we need to rotate by 1/4 of a revolution (because $\frac{\pi}{2}$ is 90 degrees)
+
+Now for a harder example. Let's try to draw 4 radians on the graph.
+
+### Finding coterminal angles for radians
+
+Add 2 pi, minus 2 pi...
