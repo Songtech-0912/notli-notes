@@ -58,6 +58,7 @@ Transition to less government involvement in economy
 * A **nation** is a non-concrete group formed by people with common identities
 	* A state _can_ have a national identity, but there are nations that are not a state, and states can include multiple nations
 * A **regime** is the fundamental rules decide how power exercises
+	* Regime change is a change in the style of the government
 * **Government** is the set of institutions or individuals legally empowered to make binding decisions for a state
 * **Sovereignty** is the right to self-rule
 
@@ -100,6 +101,98 @@ Transition to less government involvement in economy
 	* **Totalitarian governments** severely limit citizens’ rights to movement and free choice of employment
 	* **Military regimes** are when military leaders hold top positions of governing authority (common in Nigeria from independence through 1999 constitution)
 
-### Democratization
+## Power, Authority, and Legitimacy
 
-* Different*
+* **Power** is the ability of someone to make other(s) do something
+	* Can be negative e.g. by intimidation, bribery or positive e.g. by respect, popularity
+* **Authority** is the right for someone to do something
+* **Legitimacy** is when the people feel the government has a right to use power in the way they do
+	* Legitimacy can increase the power of a regime and government
+	* Restoring legitimacy in a country is a primary objective of a country's leaders
+
+### Sources of Power and Authority
+
+* Some countries base their power and authority from a Constitution and the consent of the governed (e.g. holding popular elections)
+* Others base their power from different means:
+	* Endorsement of the dominant political party - e.g. China, Russia
+	* Religion - e.g. Iran
+	* The military - e.g. Nigeria
+	* Nationalism - e.g. Russia
+	* Tradition and institution - e.g. the UK
+	* Government effectiveness and economic growth - e.g. 1970s China
+* The more tumultuous a country's history, the more likely a country is to favor strong (and possibly authoritarian) leaders
+* Transitions of power can affect power and authority
+	* Peaceful transitions of power e.g. in elections
+	* The political elite's backing of a strong president in Russia, creating a "managed democracy" with election rules favoring one party
+	* The UK's constitutional reforms and devolution to allow local and regional parliaments to hold some amount of power
+	* Coup/coup d'etat: a forcible takeover of governing power
+	* Revolution: the removal and long-term replacement of a form of government, e.g. in Mexico (1910), Russia (1917), China (1949), Iran (1979)
+
+### Sustaining Legitimacy
+
+* Asserting power abroad (e.g. Russia posting troops near Ukraine, US invading Iraq, etc.)
+* Holding popular elections
+* Governmental effectiveness
+* Economic growth
+* The endorsement
+* Religious/nationalist heritage
+
+### Specific sources of legitimacy for countries
+
+| Country | Source of Legitimacy |
+|---------|-----------------------|
+| China | Popular revolution, tradition, economic growth, nationalism |
+| Iran | Popular revolution, Shia Islam | 
+| Mexico | Popular revoluion, Constitution, popular elections |
+| Nigeria | Independence, Constitution, popular elections |
+| Russia | Nationalism |
+| UK | Tradition, stability, popular elections |
+
+
+### Challenges to Legitimacy
+
+* Increase in corruption, reduced electoral competition
+* Serious problems (economic issues, social conflicts, terrorism, natural disasters) and _especially_ mismanaged responses to crises
+
+## Devolution
+
+* Devolution is the **spreading out of power** to regional governments
+* This is a double-edged sword:
+	* Can promote policy innovation and allow policies to match local needs, increasing legitimacy
+	* Can also introduce contradictory policy or perpetuate inequality, decreasing legitimacy
+
+### Federal States
+
+* Federal states constitutionally divide power among different levels of government (federalism) to confer a degree of local autonomy
+* But they also reserve some powers for the national government
+* Examples: Mexico, Nigeria, Russia
+
+#### Mexican Federalism
+
+* 32 states including Mexico City
+* Strong central government
+* Policies (e.g. legal status of abortion) can vary between states
+
+#### Nigerian Federalism
+
+* 36 states
+* Also strong central government
+* 12 northern states are very rural and Muslim
+* But these states are also where oil is located
+
+### Unitary States
+
+* Concentrate power at the national level, with more uniform policies and potentially more efficient policy-making
+	* Districts have functions but do not have policy-making ability
+* E.g. China, Iran, the UK
+* Unitary doesn't necessarily mean authoritarian
+* (The UK has no constitutional guarantee of devolving power to regional governments, that's why we consider it unitary)
+
+### Changes in Allocations of Power
+
+* Although Russia's constitution establishes federalism with protected powers of regional governments, Putin has centralized power in the name of national security
+	* Why does Putin do this?
+	* Because its eastern regions (Chechnya) who are fighting for independence are also its most oil-rich regions, and essential to the Russian economy
+	* And bolstering the economy gives the Russian central government (and Putin) legitimacy and power
+* China is a unitary government but has autonomous regions (Tibet and Xinjian) and constitutional protections of ethnic minorities but the central government maintains its sovereignty in those regions
+* China also has special administrative regions (SARs) in Hong Kong and Macau which gives both significant political autonomy
