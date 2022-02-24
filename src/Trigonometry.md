@@ -114,6 +114,10 @@ $$
 1^\circ = 1 \mathrm{\ radian} \cdot \left(\frac{\pi}{180}\right)
 $$
 
+$$
+\pi \mathrm{\ rad.} = 180^\circ
+$$
+
 | Radians ($\pi$) | Radians (exact) | Degrees |
 |---------|----------|------|
 | 0 radians | 0.0 radians | 0 degrees |
@@ -127,6 +131,15 @@ $$
 Illustration of radian measures by quadrant
 
 Illustration of the 6 radian lengths
+
+
+### Counting in Radians
+
+Imagine you were given an angle $\theta = \frac{9\pi}{4}\mathrm{\ rad.}$ How would you be able to draw it?
+
+Well, we know that $\frac{9\pi}{4}$ is just $\frac{\pi}{4}$ repeated 9 times. And $\frac{\pi}{4}$ is just a 45 degree angle. So let's try counting in 45 degrees around the graph:
+
+(Add gif of counting in 45 degrees 9 times to get to the final position)
 
 ### Drawing radians in Standard Position
 
@@ -145,3 +158,49 @@ Now for a harder example. Let's try to draw 4 radians on the graph.
 ### Finding coterminal angles for radians
 
 Add 2 pi, minus 2 pi...
+
+### Arc length
+
+If we're using degrees, the arc length $s$ is given by:
+
+$$
+s = \frac{\theta}{360^\circ} \cdot 2 \pi r
+$$
+
+If we're using radians, the arc length is given by:
+
+$$
+s = r \theta
+$$
+
+where $\theta$ is in radians.
+
+### Linear and angular speeds
+
+**Linear speed** is distance travelled over time elapsed. We measure it in units of _distance_ per _time interval_ (e.g. meters per second)
+
+Linear speed is given by:
+
+$$
+v = \frac{\mathrm{arc\ length}}{\mathrm{time}} = \frac{s}{t}
+$$
+
+A **revolution** is the fraction of a circumference travelled over time elapsed. We often abbreviate this as RPM (revolutions per minute) or RPS (revolutions per second). To get from linear speed to revolutions, we use:
+
+$$
+\mathrm{revolutions} = \frac{\mathrm{circumference}}{v}
+$$
+
+**Angular speed** is the angle displaced over time elapsed. We measure it in units of _angles_ per _time interval_ (e.g. degrees per second)
+
+Angular speed is given by:
+
+$$
+\omega = \frac{v}{r} = \frac{\mathrm{linear\ speed}}{r}
+$$
+
+So the relationship between linear speed and angular speed is:
+
+$$
+v = \omega r
+$$
