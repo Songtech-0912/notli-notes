@@ -34,11 +34,28 @@ The formal imperative form uses the format _"Sie"_ form.
 
 E.g. gehen -> gehen -> _Gehen sie nach Schule bitte!_ ("please go to school!")
 
-## Dativ Prepositions
+## Dative Prepositions
 
 _Hint: Try singing this to the tune of the Blue Danube!_
 
 Aus außer bei mit, nach seit, von zu! (+ gegenüber)
+
+| Preposition | Meaning |
+|-------------|----------|
+| aus | from, out of |
+| bei | at, by, near |
+| mit | with |
+| nach | after |
+| von | from |
+| zu | to |
+| seit | since |
+| gegenüber | across from
+
+### Contractions
+
+* bei + dem = **beim**
+* zu + dem = **zum**
+* zu + der = **zur**
 
 ## Reflexive Pronouns
 
@@ -130,9 +147,25 @@ We can combine _an_, _aus_, and _in_ to form contractions:
 | auf das... | aufs... |
 | in das... | ins... |
 
+Here's a general list of locations for accusative and dative:
+
+| Wohin? (Ich fahre...) | Wo? (Ich war...) |
+|---------------|------------|
+| nach Bayern | in Bayern |
+| in die USA | in den USA |
+| an den Bodensee | an dem Bodensee |
+| auf (die Insel) Hawaii | auf (der Insel) Hawaii |
+| auf das Matterhorn | auf dem Matterhorn |
+
 ### Wo... vs. Wohin...
 
 _Wo_ uses the dative articles, while _wohin_ uses the accusative articles.
 
-E.g. Wo bist du? Ich fahre _an den_ Starnberger See
-E.g. Wohin bist du? Ich war _an dem_ Starnberger See
+E.g. Wohin bist du? Ich fahre _an den_ Starnberger See
+E.g. Wo bist du? Ich war _an dem_ Starnberger See
+
+## Conversational Tenses
+
+### Converational Past Tense
+
+We use a form of _haben_
