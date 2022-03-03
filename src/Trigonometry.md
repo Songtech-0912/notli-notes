@@ -126,13 +126,6 @@ $$
 | $\frac{3\pi}{2}$ radians | ~4.7 radians | 270 degrees |
 | $2\pi$ radians | ~6.28 radians | 360 degrees |
 
-### Radian Measures
-
-Illustration of radian measures by quadrant
-
-Illustration of the 6 radian lengths
-
-
 ### Counting in Radians
 
 Imagine you were given an angle $\theta = \frac{9\pi}{4}\mathrm{\ rad.}$ How would you be able to draw it?
@@ -152,6 +145,7 @@ $$
 $$
 
 So, we'll need to rotate 360 degrees once (because $2\pi$ is one full revolution), and then we need to rotate by 1/4 of a revolution (because $\frac{\pi}{2}$ is 90 degrees)
+
 
 Now for a harder example. Let's try to draw 4 radians on the graph.
 
@@ -188,19 +182,87 @@ $$
 A **revolution** is the fraction of a circumference travelled over time elapsed. We often abbreviate this as RPM (revolutions per minute) or RPS (revolutions per second). To get from linear speed to revolutions, we use:
 
 $$
-\mathrm{revolutions} = \frac{\mathrm{circumference}}{v}
+\mathrm{revolutions} = \frac{v}{\mathrm{circumference}}
 $$
 
 **Angular speed** is the angle displaced over time elapsed. We measure it in units of _angles_ per _time interval_ (e.g. degrees per second)
 
-Angular speed is given by:
+Angular speed in degrees is given by:
 
 $$
-\omega = \frac{v}{r} = \frac{\mathrm{linear\ speed}}{r}
+\omega = \frac{v}{\mathrm{circumference}} \cdot 360^\circ = \mathrm{revolutions} \cdot360^\circ
 $$
 
-So the relationship between linear speed and angular speed is:
+Similarly, angular speed in radians (e.g. radians per second) is given by:
 
 $$
-v = \omega r
+\omega = \frac{v}{\mathrm{circumference}} \cdot 2 \pi \mathrm{\ rad.} = \mathrm{revolutions} \cdot 2\pi \mathrm{\ rad.}
 $$
+
+## The Six Trigonometric Functions
+
+### Definitions
+
+$$
+\sin \theta = \frac{\mathrm{opposite}}{\mathrm{adjacent}}
+$$
+
+$$
+\cos \theta = \frac{\mathrm{adjacent}}{\mathrm{hypotenuse}}
+$$
+
+$$
+\tan \theta = \frac{\mathrm{opposite}}{\mathrm{hypotenuse}} = \frac{\sin \theta}{\cos \theta}
+$$
+
+The _reciprocal trigonometric functions_ are the normal trig functions but "flipped over", and they look like this:
+
+$$
+\csc \theta = \frac{1}{\sin}
+$$
+
+$$
+\sec \theta = \frac{1}{\cos}
+$$
+
+$$
+\cot \theta = \frac{1}{\tan}
+$$
+
+### Special Right Triangles
+
+In the 45-45-90 triangle, the sides are in the ratio $a: a\sqrt{2}:a$, where two sides are congruent, and the hypotenuse is $a \sqrt{2}$:
+
+<img src="https://s-media-cache-ak0.pinimg.com/736x/ea/11/9f/ea119f500fe64a0a9ba2e33f3ad3b833.jpg" width=250 />
+
+In the 30-60-90 triangle, the sides are in the ratio $a:2a:a\sqrt{3}$, where $a$ is the shortest side, and the hypotenuse is $2a$:
+
+<img src="https://useruploads.socratic.org/DXZSGzPASGC3lfbzCHRK_2000px-30-60-90_triangle.svg.png" width=250 />
+
+### Trigonometric Identities
+
+We already know that $\csc$, $\sec$, and $\cot$ are reciprocals of the three base trigonometric functions, $\sin$, $\cos$, and $\tan$. Additionally, there are several others that are helpful to know:
+
+$$
+\tan \theta = \frac{\sin \theta}{\cos \theta}
+$$
+
+$$
+\cot \theta = \frac{\cos \theta}{\sin \theta}
+$$
+
+Based on the pythagorean theorem, we can find a few others:
+
+$$
+\sin^2 \theta + \cos^2 \theta = 1
+$$
+
+$$
+1 + \tan^2 \theta = \sec^2 \theta
+$$
+
+$$
+1 + \cot^2 \theta = \csc^2 \theta
+$$
+
+Here, $\sin^2 \theta$ is equal to $(\sin \theta)^2$.
