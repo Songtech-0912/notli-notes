@@ -266,3 +266,88 @@ $$
 $$
 
 Here, $\sin^2 \theta$ is equal to $(\sin \theta)^2$.
+
+If you forget these, it's okay! You can manually derive all of them from the **unit circle**, which we'll explore next.
+
+## The Unit Circle
+
+Imagine a circle with a radius of exactly one radius. It would look something like this:
+
+![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image019.gif)
+
+Why would this be helpful, you ask? Well, a unit circle helps us to find the exact values of the trigonometric functions.
+
+Take a look at the right triangle inscribed within the unit circle:
+
+![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image022.gif)
+
+That's interesting, isn't it? If the angle is 30 degrees, then we know that $x$, $y$, and the radius form a 30-60-90 triangle. From there, we can calculate the values for all 6 trigonometric functions, from the sides of the triangle. And, we know that the point $\frac{\pi}{6}$ on the unit circle's circumference must therefore equal $\left(\frac{\sqrt{3}}{2}, \frac{1}{2}\right)$.
+
+What if the angle is 45 degrees? Same deal, just with a 45-45-90 triangle:
+
+![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image036.gif)
+
+So we know that the point $\frac{\pi}{4}$ must equal $\left(\frac{\sqrt{2}}{2}, \frac{\sqrt{2}}{2}\right)$.
+
+And we can do more, because we can use the same method to find the positions of points in other quadrants, too. For example:
+
+![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image118.gif)
+
+Here, we've found that the point $-\frac{2\pi}{3}$ is equal to $\left(-\frac{1}{2}, -\frac{\sqrt{3}}{2}\right)$. In fact, we can just remember a simple rule to "translate" the trig function measures from one quadrants to all the other ones:
+
+![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image173.jpg)
+
+| Quadrant | Sign |
+|-----------|------|
+| Quadrant I | **A**ll are positive |
+| Quadrant II | **S**ine is positive, rest are negative |
+| Quadrant III | **T**angent is positive, rest are negative |
+| Quadrant IV | **C**osine is positive, rest are negative |
+
+Finally, for whoever just wants to have a good quick reference, this is a fully labelled unit circle:
+
+![](https://etc.usf.edu/clipart/43200/43215/unit-circle7_43215_lg.gif)
+
+## The trig song
+
+_Mr. Darnbrook, wherever you are - countless students will thank you for this song you taught me 5 years ago..._
+
+One, two three!
+
+Three, two, one!
+
+Two under the bar!
+
+Square root all that's not one!
+
+Square root of three over three!
+
+One, then square root of three!
+
+Now that you know the song!
+
+You can sing it again, to me!
+
+*And this is how you get to this:*
+
+|         | 30 degrees           | 45 degrees           | 60 degrees           |
+| ------- | -------------------- | -------------------- | -------------------- |
+| sine    | $\frac{1}{2}$        | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ |
+| cosine  | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$        |
+| tangent | $\frac{\sqrt{3}}{3}$ | $1$                  | $\sqrt{3}$           |
+
+**Explanation:**
+
+"One, Two, Three" is the first row of the table
+
+"Three, Two, One" is the second row
+
+"Two under the bar" means to make 2 the denominator of every number (so 1 will become $\frac{1}{2}$, 2 will become $\frac{2}{2}$, you get the idea)
+
+"Square root all that's not one" means to add a square root to every number (in rows 1) and 2) that, as you might have guessed, is **not 1**)
+
+"Square root of three over three" is for the first column of the third row ($\tan 30^\circ$)
+
+"One, then square root of three" is for the second and third columns of the third row ($\tan 45^\circ$ and $\tan 60^\circ$)
+
+And you've got that done!
