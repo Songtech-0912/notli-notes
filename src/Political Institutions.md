@@ -10,8 +10,8 @@ _This is the second unit of the AP Comparative Politics Course_
 * Second republic 1979 (US-like system)
 * Third republic was supposed to happen after military dictatorships, but never happened
 * Fourth republic - slightly modified presidential model
-	* Strong executive
-	* Bicameral legislature - House of Representatives and Senate
+	* Strong executive, 2 four-year terms and with the authority to appoint ministers
+	* Bicameral legislature - House of Representatives and Senate, Senate confirms presidential appointments
 	* Independent judiciary
 	* Constitutional rule of law
 
@@ -49,3 +49,57 @@ _This is the second unit of the AP Comparative Politics Course_
 	- President with one six-year term
 	- Strong executive branch but with local states and governments
 	- Gender quota (30% women candidates) for Congress since 2002
+
+
+## Russia: hybrid regime
+
+### State Structure
+
+- Federal system (at least in theory)
+- 89 regions with unequal distribution of power to regions (asymmetric federalism)
+- Dual executive
+	- President (head of state) with much more power
+	- Theoretically can be impeached but has _de facto_ political immunity
+	- Prime minister (head of government) appointed by President with much less power
+- Legislature
+	- The Duma is the lower house, equivalent to the House of Reps.
+	- The Federation Council is the upper house, somewhat like the Senate, but typically does very little
+
+## Methods of improving democracy
+
+-   Establish full and complete independence of all state, federal, and appellate courts, especially for the Supreme Court, with justices prohibited from any previous ties with the government 
+-   Ensure that the Supreme Court’s ruling has the force of law by making its decisions binding and enshrining the right to judicial review in the Constitution
+-   Enshrining the freedom of information and the ability of citizens to make FOI requests in the Constitution and creating the competent institution(s) to respond to FOI requests
+-   Strengthening existing regulations over use of money by the government and public officials
+-   Creating a system of anonymous corruption reporting for all citizens to have access to
+-   Using the Supreme Court to bring drug lords to justice with the assistance of local and federal security forces
+-   Strengthening human rights by applying human rights to appropriate legislation
+-   Formally providing protections against torture or inhumane detainment in domestic military operations and conducting relevant court-martials for soldiers acting in violation of these regulations
+
+## Iran: authoritarian regime
+
+### State Structure
+
+* Majlis - democratically-elected parliament of Iran
+* President - head of government with limited power
+* Supreme Leader - head of state with near-absolute power
+* The Guardian Council
+	* An unelected body of 12 members, and has considerable influence
+	* Has the power to qualify or disqualify candidates for the Assembly of Experts, the President, and the Majlis (Iranian Parliament)
+* The Assembly of Experts
+	* An unelected body of 88 members which has the sole power to appoint the Supreme Leader
+	* Its members are chosen directly or indirectly by the Supreme Leader
+
+### Iranian Political System
+
+|           | Supreme Leader (head of state)                                                                                                                                                                              | President (head of government)                                                                                             |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Who?      | **Ayatollah Ali Khamanei** - only _second_ supreme leader in Iran's history                                                                                                                                 | **President Raisi** - background of religious cleric (hardliner), very anti-West, protegè of Khamenei + possible successor |
+| Powers    | Put forth candidates, control public opinion (to a certain extent), control public officials, and give the final say on almost all state matters                                                            | Domestic policy and a limited amount of executive power                                                                    |
+| Election? | Appointed by the Assembly of Experts (who can theoretically dismiss him, but are actually submissive), who are vetted by the Guardian council, which is itself (indirectly) appointed by the Supreme Leader | National election - winning candidate typically endorsed by Supreme Leader                                                 |
+
+### Iran-US History
+
+* The Eisenhower administration (1953) sponsors a coup overthrows popularly-elected Iranian prime minister Mossadegh, and installs the despotic but pro-West Shah
+* The Iranian Revolution (1979) overthrows the Shah
+* The Ayatollah then seizes power and turns Iran into a theocracy
