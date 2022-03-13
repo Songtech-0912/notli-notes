@@ -103,3 +103,18 @@ _This is the second unit of the AP Comparative Politics Course_
 * The Eisenhower administration (1953) sponsors a coup overthrows popularly-elected Iranian prime minister Mossadegh, and installs the despotic but pro-West Shah
 * The Iranian Revolution (1979) overthrows the Shah
 * The Ayatollah then seizes power and turns Iran into a theocracy
+
+## China: authoritarian regime
+
+### State Structure
+
+- The Communist Party of China vets all candidates
+- Legislature
+	- National People's Congress (theoretically) approves of the President and all legislation
+	- But realistically it is just a rubber-stamping body
+- Rule by law, not rule of law
+- Highly efficient policymaking but no oversight
+- Freedom and liberty is not as much of a deal for the Chinese people
+
+
+Add stuff from https://docs.google.com/presentation/d/1NDBrY8QUguEygO9565pdspjEmOUtswGYlEUzaVKENAU/edit
