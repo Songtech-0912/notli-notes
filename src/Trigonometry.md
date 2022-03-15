@@ -293,9 +293,37 @@ And we can do more, because we can use the same method to find the positions of 
 
 ![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image118.gif)
 
-Here, we've found that the point $-\frac{2\pi}{3}$ is equal to $\left(-\frac{1}{2}, -\frac{\sqrt{3}}{2}\right)$. In fact, we can just remember a simple rule to "translate" the trig function measures from one quadrants to all the other ones:
+Here, we've found that the point $-\frac{2\pi}{3}$ is equal to $\left(-\frac{1}{2}, -\frac{\sqrt{3}}{2}\right)$. 
 
-![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image173.jpg)
+Finally, for whoever just wants to have a good quick reference, this is a fully labelled unit circle:
+
+![](https://etc.usf.edu/clipart/43200/43215/unit-circle7_43215_lg.gif)
+
+## Trigonometric Functions of Any Angle on the Unit Circle
+
+We can define trigonometric functions of any angle, not just the special 30-45-60 degree angles. To do this, we write the $(x, y)$ coordinates of the terminal side of the angle at the point it intercepts the circumference of the unit circle:
+
+![](https://i.pinimg.com/474x/3d/e1/bf/3de1bf00588b6889b3ffb748884bf666--trigonometry-angles.jpg)
+
+For example, a $90^\circ$ (or $\frac{\pi}{2}$ radian) angle would have the position $(0, 1)$ on the unit circle, where the $x$ coordinate would be 0, and the $y$ coordinate would be 1. We can then use the following rules:
+
+$$
+\sin \theta = y
+$$
+
+$$
+\cos \theta = x
+$$
+
+$$
+\tan \theta = \frac{y}{x}, x \neq 0
+$$
+
+From these, we can derive the inverse variants of the trig functions as well. So, for our 90 degree angle, $\sin\theta = 1$, $\cos \theta = 0$, and $\tan \theta = \frac{1}{0} = \mathrm{undef.}$
+
+## Trigonometric Functions of Quadrant Angles
+
+![](https://etc.usf.edu/clipart/43200/43212/unit-circle4_43212_lg.gif)
 
 | Quadrant | Sign |
 |-----------|------|
@@ -304,9 +332,29 @@ Here, we've found that the point $-\frac{2\pi}{3}$ is equal to $\left(-\frac{1}{
 | Quadrant III | **T**angent is positive, rest are negative |
 | Quadrant IV | **C**osine is positive, rest are negative |
 
-Finally, for whoever just wants to have a good quick reference, this is a fully labelled unit circle:
 
-![](https://etc.usf.edu/clipart/43200/43215/unit-circle7_43215_lg.gif)
+In fact, we can just remember a simple rule to "translate" the trig function measures from one quadrants to all the other ones:
+
+![](https://www.montereyinstitute.org/courses/DevelopmentalMath/TEXTGROUP-15-19_RESOURCE/U19_L1_T3_text_final_3_files/image173.jpg)
+
+## Reference Angles
+
+A **reference angle** is the the smallest angle that the terminal side of a given angle makes with the x-axis. They are especially important in trigonometry, because a reference angle results in the same values for all the trigonometric functions as its original angle.
+
+![](https://o.quizlet.com/QIGv3i81jCgEURqMmbViVA_b.jpg)
+
+Here is an [interactive visualization](https://www.mathopenref.com/reference-angle.html) of reference angles.
+
+To find the reference angle, we will use a different formula depending on the size of the angle:
+
+1.  0° to 90°: reference angle = angle ,
+2.  90° to 180°: reference angle = 180° - angle ,
+3.  180° to 270°: reference angle = angle - 180° ,
+4.  270° to 360°: reference angle = 360° - angle
+
+(If you're working with radians, substitute 0, 90, 180, 270, and 360 degrees with $\frac{\pi}{2}$ radians, $\pi$ radians, $\frac{3\pi}{2}$ radians, and $2\pi$ radians)
+
+To find the reference angle of a negative angle, we first find the smallest positive coterminal angle of the negative angle, and then find the reference angle of the coterminal angle. For example, the smallest coterminal angle of $-245^\circ$ is $115^\circ$, and the reference angle of $115^\circ$ is $65^\circ$, so the reference angle of $-245^\circ$ is $65^\circ$.
 
 ## The trig song
 
