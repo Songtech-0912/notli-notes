@@ -356,6 +356,44 @@ To find the reference angle, we will use a different formula depending on the si
 
 To find the reference angle of a negative angle, we first find the smallest positive coterminal angle of the negative angle, and then find the reference angle of the coterminal angle. For example, the smallest coterminal angle of $-245^\circ$ is $115^\circ$, and the reference angle of $115^\circ$ is $65^\circ$, so the reference angle of $-245^\circ$ is $65^\circ$.
 
+### Reference angles
+
+For any angle $\dfrac{k\pi}{3}$, the reference angle is $\dfrac{\pi}{3}$ or $60^\circ$.
+
+For any angle $\dfrac{k\pi}{4}$, the reference angle is $\dfrac{\pi}{4}$ or $45^\circ$.
+
+For any angle $\dfrac{k\pi}{6}$, the reference angle is $\dfrac{\pi}{6}$ or $30^\circ$.
+
+### Finding the trigonometric functions from a point on the unit circle
+
+Let's say you were given a point $t = -\frac{5\pi}{4}$. How can we find the 6 trig functions from it?
+
+Well, the first part we know is that $-\frac{5\pi}{4} = -225^\circ$, which means that it will land in Quadrant 2. So, the $x$ coordinate will be negative, and the $y$ coordinate will be positive.
+
+We also know that the reference angle is $\frac{\pi}{4}$, from which we can draw a 45-45-90 triangle like this:
+
+![](../images/circle-inscribed-triangle.png)
+
+Now we can use our special right triangle to find that:
+
+$$
+\sin \left(-\frac{5\pi}{4}\right) =  \frac{\sqrt{2}}{2}
+$$
+
+$$
+\cos \left(-\frac{5\pi}{4}\right) = -\frac{\sqrt{2}}{2}
+$$
+
+$$
+\tan \left(-\frac{5\pi}{4}\right) = -1
+$$
+
+There we go!
+
+Another example know - what if the point $t = 2\pi$?
+
+sine is y, cos is x, tan is sine/cosine
+
 ## The trig song
 
 _Mr. Darnbrook, wherever you are - countless students will thank you for this song you taught me 5 years ago..._
