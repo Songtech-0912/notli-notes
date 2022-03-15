@@ -283,11 +283,13 @@ $$</p>
 </ol>
 <p>(If you're working with radians, substitute 0, 90, 180, 270, and 360 degrees with $\frac{\pi}{2}$ radians, $\pi$ radians, $\frac{3\pi}{2}$ radians, and $2\pi$ radians)</p>
 <p>To find the reference angle of a negative angle, we first find the smallest positive coterminal angle of the negative angle, and then find the reference angle of the coterminal angle. For example, the smallest coterminal angle of $-245^\circ$ is $115^\circ$, and the reference angle of $115^\circ$ is $65^\circ$, so the reference angle of $-245^\circ$ is $65^\circ$.</p>
-<h3>Reference angles</h3>
+<p>Remember that <strong>reference angles must be acute</strong>. That is, if you find a reference angle greater than $90^\circ$ or greater than $\frac{\pi}{2}$ radians, then there's probably something wrong with your calculations.</p>
+<h3>Reference angles to memorize</h3>
 <p>For any angle $\dfrac{k\pi}{3}$, the reference angle is $\dfrac{\pi}{3}$ or $60^\circ$.</p>
 <p>For any angle $\dfrac{k\pi}{4}$, the reference angle is $\dfrac{\pi}{4}$ or $45^\circ$.</p>
 <p>For any angle $\dfrac{k\pi}{6}$, the reference angle is $\dfrac{\pi}{6}$ or $30^\circ$.</p>
-<h3>Finding the trigonometric functions from a point on the unit circle</h3>
+<h2>Trigonometry with any angle</h2>
+<h3>Finding the trigonometric functions from any point on the unit circle</h3>
 <p>Let's say you were given a point $t = -\frac{5\pi}{4}$. How can we find the 6 trig functions from it?</p>
 <p>Well, the first part we know is that $-\frac{5\pi}{4} = -225^\circ$, which means that it will land in Quadrant 2. So, the $x$ coordinate will be negative, and the $y$ coordinate will be positive.</p>
 <p>We also know that the reference angle is $\frac{\pi}{4}$, from which we can draw a 45-45-90 triangle like this:</p>
@@ -303,8 +305,43 @@ $$</p>
 \tan \left(-\frac{5\pi}{4}\right) = -1
 $$</p>
 <p>There we go!</p>
-<p>Another example know - what if the point $t = 2\pi$?</p>
-<p>sine is y, cos is x, tan is sine/cosine</p>
+<h3>Worked Example 1</h3>
+<p>Find the trigonometric functions given $\sin \theta = \frac{4}{5}$ and $\tan \theta &lt; 0$:</p>
+<p>First, we know that since $\sin \theta = \frac{4}{5}$ is positive, then sine must be positive. Using our <strong>ASTC</strong> chart, that means it can't be any of the quadrants where sine is negative. Since sine is negative in quadrants 3 and 4, we can rule those out.</p>
+<p>Now, we are also told that $tan \theta &lt; 0$, so it can't be any of the quadrants where tangent is positive. Since tangent is positive in quadrant 1, we know it can't be quadrant 1. So we are left with just quadrant 2. Now, we can draw out our triangle in quadrant 2 and add in the appropriate +/- signs to each side:</p>
+<p><img src="../images/quadrant-trig.png" alt="" /></p>
+<h3>Worked Example 2</h3>
+<p>Let's evaluate the value of $\csc 0$.</p>
+<p>We know that $0^\circ$ would have the coordinates $(0, 1)$ on the unit circle. Since $\sin \theta = y$, and $\csc \theta = $\frac{1}{\sin \theta}$, we can find that $\csc \theta = \frac{1}{y} = \frac{1}{1}$. Additionally, since cosine is positive in the first quadrant, cosecant also is, and so our answer is also positive.</p>
+<p>So $\csc 0 = 1$.</p>
+<h3>Worked Example 3</h3>
+<p>Let's say you were told that $\theta = 495^\circ$, and you needed to find the values of the trig functions at $\theta$. So how would we do it?</p>
+<p>First, we can find the smallest coterminal angle of $495^\circ$, which is $135^\circ$, because trig functions output the same number from coterminal angles. Knowing that the coterminal angle is $135^\circ$, we know that it has to lie in Quadrant 2, where only sine is positive.</p>
+<p>We can then find the reference angle of $135^\circ$ to find the exact values of the trig functions. The reference angle would be $45^\circ$, so we can build a 45-45-90 triangle to solve.</p>
+<p><img src="../images/exact-values-trig.png" alt="" /></p>
+<p>Using our constructed triangle, we can finally find that:</p>
+<p>$$
+\sin \theta = \frac{\sqrt{2}}{2}
+$$</p>
+<p>$$
+\cos \theta = \frac{\sqrt{2}}{2}
+$$</p>
+<p>$$
+\tan \theta = -1
+$$</p>
+<h2>Trigonometric Identities</h2>
+<p><strong>Trigonometric identities</strong> are general rules that relate the trigonometric functions together. There are only two real trigonometric identities that are worth memorizing, because all other trigonometric identities can be derived easily from them.</p>
+<p>First, we have the Pythagorean identity:</p>
+<p>$$
+\sin ^{2} \theta+\cos ^{2} \theta=1
+$$</p>
+<p>And second, the quotient identity:</p>
+<p>$$
+\tan \theta = \frac{\sin \theta}{\cos \theta}
+$$</p>
+<p>We also have already mentioned the <em>reciprocal identities</em>, which essentially define $\csc$, $\sec$, and $\cot$ as the inverse of their parent functions.</p>
+<p>If you want a full chart of all the trig identities, here it is:</p>
+<p><img src="https://trigidentities.net/wp-content/uploads/2019/02/image1-1.jpg" alt="" /></p>
 <h2>The trig song</h2>
 <p><em>Mr. Darnbrook, wherever you are - countless students will thank you for this song you taught me 5 years ago...</em></p>
 <p>One, two three!</p>

@@ -356,7 +356,9 @@ To find the reference angle, we will use a different formula depending on the si
 
 To find the reference angle of a negative angle, we first find the smallest positive coterminal angle of the negative angle, and then find the reference angle of the coterminal angle. For example, the smallest coterminal angle of $-245^\circ$ is $115^\circ$, and the reference angle of $115^\circ$ is $65^\circ$, so the reference angle of $-245^\circ$ is $65^\circ$.
 
-### Reference angles
+Remember that **reference angles must be acute**. That is, if you find a reference angle greater than $90^\circ$ or greater than $\frac{\pi}{2}$ radians, then there's probably something wrong with your calculations.
+
+### Reference angles to memorize
 
 For any angle $\dfrac{k\pi}{3}$, the reference angle is $\dfrac{\pi}{3}$ or $60^\circ$.
 
@@ -364,7 +366,9 @@ For any angle $\dfrac{k\pi}{4}$, the reference angle is $\dfrac{\pi}{4}$ or $45^
 
 For any angle $\dfrac{k\pi}{6}$, the reference angle is $\dfrac{\pi}{6}$ or $30^\circ$.
 
-### Finding the trigonometric functions from a point on the unit circle
+## Trigonometry with any angle
+
+### Finding the trigonometric functions from any point on the unit circle
 
 Let's say you were given a point $t = -\frac{5\pi}{4}$. How can we find the 6 trig functions from it?
 
@@ -390,9 +394,71 @@ $$
 
 There we go!
 
-Another example know - what if the point $t = 2\pi$?
+### Worked Example 1
 
-sine is y, cos is x, tan is sine/cosine
+Find the trigonometric functions given $\sin \theta = \frac{4}{5}$ and $\tan \theta < 0$:
+
+First, we know that since $\sin \theta = \frac{4}{5}$ is positive, then sine must be positive. Using our **ASTC** chart, that means it can't be any of the quadrants where sine is negative. Since sine is negative in quadrants 3 and 4, we can rule those out.
+
+Now, we are also told that $tan \theta < 0$, so it can't be any of the quadrants where tangent is positive. Since tangent is positive in quadrant 1, we know it can't be quadrant 1. So we are left with just quadrant 2. Now, we can draw out our triangle in quadrant 2 and add in the appropriate +/- signs to each side:
+
+![](../images/quadrant-trig.png)
+
+### Worked Example 2
+
+Let's evaluate the value of $\csc 0$.
+
+We know that $0^\circ$ would have the coordinates $(0, 1)$ on the unit circle. Since $\sin \theta = y$, and $\csc \theta = $\frac{1}{\sin \theta}$, we can find that $\csc \theta = \frac{1}{y} = \frac{1}{1}$. Additionally, since cosine is positive in the first quadrant, cosecant also is, and so our answer is also positive.
+
+So $\csc 0 = 1$.
+
+### Worked Example 3
+
+Let's say you were told that $\theta = 495^\circ$, and you needed to find the values of the trig functions at $\theta$. So how would we do it?
+
+First, we can find the smallest coterminal angle of $495^\circ$, which is $135^\circ$, because trig functions output the same number from coterminal angles. Knowing that the coterminal angle is $135^\circ$, we know that it has to lie in Quadrant 2, where only sine is positive.
+
+We can then find the reference angle of $135^\circ$ to find the exact values of the trig functions. The reference angle would be $45^\circ$, so we can build a 45-45-90 triangle to solve.
+
+![](../images/exact-values-trig.png)
+
+Using our constructed triangle, we can finally find that:
+
+$$
+\sin \theta = \frac{\sqrt{2}}{2}
+$$
+
+$$
+\cos \theta = \frac{\sqrt{2}}{2}
+$$
+
+$$
+\tan \theta = -1
+$$
+
+## Trigonometric Identities
+
+**Trigonometric identities** are general rules that relate the trigonometric functions together. There are only two real trigonometric identities that are worth memorizing, because all other trigonometric identities can be derived easily from them.
+
+First, we have the Pythagorean identity:
+
+$$
+\sin ^{2} \theta+\cos ^{2} \theta=1
+$$
+
+And second, the quotient identity:
+
+$$
+\tan \theta = \frac{\sin \theta}{\cos \theta}
+$$
+
+We also have already mentioned the _reciprocal identities_, which essentially define $\csc$, $\sec$, and $\cot$ as the inverse of their parent functions.
+
+If you want a full chart of all the trig identities, here it is:
+
+![](https://trigidentities.net/wp-content/uploads/2019/02/image1-1.jpg)
+
+
 
 ## The trig song
 
