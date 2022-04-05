@@ -503,3 +503,79 @@ You can sing it again, to me!
 "One, then square root of three" is for the second and third columns of the third row ($\tan 45^\circ$ and $\tan 60^\circ$)
 
 And you've got that done!
+
+## Graphs of Trigonometric Functions
+
+### The Sine Graph
+
+![](https://cdn1.byjus.com/wp-content/uploads/2019/02/Sine-Function-3.png)
+
+* The "surfer" - starts at the beach $(0, 0)$ and ends at the beach $(2\pi, 0)$
+* Has a range of $-1 \geq y \geq 1$
+* Has a period of $2\pi$ (that is, it repeats every $2\pi$ radians or $360^\circ$)
+
+### The Cosine Graph
+
+![](https://bandersnatch.ca/wp-content/uploads/2018/05/cosine.png)
+
+* The "skier" - starts at the peak $(0, 1)$ and ends at the peak $(2\pi, 1)$
+* Has a range of $-1 \geq y \geq 1$
+* Has a period of $2\pi$ (that is, it repeats every $2\pi$ radians or $360^\circ$)
+
+### Transformations of Trig Function Graphs
+
+When fully simplified and factored out, the trigonometric functions follow the general pattern of:
+
+$$
+f(x) = a \sin b (x - c) + d
+$$
+
+Here:
+
+* $a$ is the vertical stretch or shrink - that is, the **amplitude**, and it is always positive (even if $a$ has a negative sign)
+* $b$ is the horizontal stretch or shrink - that is, the **frequency**, and it is related to the period with $P = \frac{2\pi}{|b|}$
+* $c$ is the horizontal shift - that is, the **phase shift**
+* $d$ is the vertical shift
+
+
+![](https://mathbitsnotebook.com/Algebra2/TrigGraphs/phasepic5.gif)
+
+It is helpful to know the five key points of cosine and sine graphs:
+
+| Sine | Cosine |
+|------|--------|
+| $(0, 0)$ | $(0, 1)$ |
+| $\left(\frac{\pi}{2}, 1\right)$ |  $\left(\frac{\pi}{2}, 0\right)$|
+| $(\pi, 0)$ | $(\pi, -1)$ |
+| $\left(\frac{3\pi}{2}, -1\right)$ | $\left(\frac{\pi}{2}, 0\right)$ |
+| $(2\pi, 0)$ | $\left(2\pi, 1\right)$ |
+
+To find the transformed version of a sinusoidal graph (sine or cosine graph), we take the original 5 points and transform each point $(x, y)$ into $\left(\frac{1}{b}(x + c), ay + d\right)$.
+
+Tip: you really just need to figure out the first row. After that, just increment the difference in the x-values between the first two rows over and over. For example, if the increment is $\frac{\pi}{2}$ between rows 1 and 2 (which is $\frac{\pi}{2} - 0$), just add that each time to get the values of the remaining rows.
+
+### Worked Example
+
+Let's try to graph out the function $f(x)= 2\cos (3x)$.
+
+First, let's find its amptitude and period. We know that $a = 2$ and $b = 3$, so the amplitude is 2, and the period is $\frac{2\pi}{b} = \frac{2\pi}{3}$.
+
+We also know that the graph is not shifted vertically or horizontally. So we don't have to worry about our $c$ or $d$ (they do not exist).
+
+Let's consider the amplitude of 2. Since the amplitude controls the vertical stretch/shrink, we know that all the y-values are going to be multiplied by the amplitude. So all the y-values from the original cosine graph are multiplied by 2.
+
+Now, let's consider the period of $\frac{2\pi}{3}$. We know that the normal cosine graph has a period of $2\pi$. This means that we are _shrinking_ the graph horizontally by 3, so all the x-values from the original cosine graph are multiplied by $\frac{1}{3}$.
+
+So we now know that our function $f(x)$ involves multiplying all the values of the original cosine graph by $\left(\frac{1}{3}x, 2y\right)$.
+
+We can now make a table of values:
+
+| Original | Transformed = $\left(\frac{1}{3}x, 2y\right)$ |
+|---------|--------------|
+| $(0, 1)$ | $(0, 2)$ |
+| $\left(\frac{\pi}{2}, 0\right)$ | $\left(\frac{\pi}{6}, 0\right)$ |
+| $(\pi, -1)$ | $\left(\frac{\pi}{3}, -2\right)$ |
+| $\left(\frac{3\pi}{2}, 0\right)$ | $\left(\frac{\pi}{2}, 0\right)$ |
+| $(2\pi, 1)$ | $\left(\frac{2\pi}{3}, 2\right)$ |
+
+And from there we can plot the graph!

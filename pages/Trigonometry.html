@@ -366,6 +366,60 @@ $$</p>
 <p>&quot;Square root of three over three&quot; is for the first column of the third row ($\tan 30^\circ$)</p>
 <p>&quot;One, then square root of three&quot; is for the second and third columns of the third row ($\tan 45^\circ$ and $\tan 60^\circ$)</p>
 <p>And you've got that done!</p>
+<h2>Graphs of Trigonometric Functions</h2>
+<h3>The Sine Graph</h3>
+<p><img src="https://cdn1.byjus.com/wp-content/uploads/2019/02/Sine-Function-3.png" alt="" /></p>
+<ul>
+<li>The &quot;surfer&quot; - starts at the beach $(0, 0)$ and ends at the beach $(2\pi, 0)$</li>
+<li>Has a range of $-1 \geq y \geq 1$</li>
+<li>Has a period of $2\pi$ (that is, it repeats every $2\pi$ radians or $360^\circ$)</li>
+</ul>
+<h3>The Cosine Graph</h3>
+<p><img src="https://bandersnatch.ca/wp-content/uploads/2018/05/cosine.png" alt="" /></p>
+<ul>
+<li>The &quot;skier&quot; - starts at the peak $(0, 1)$ and ends at the peak $(2\pi, 1)$</li>
+<li>Has a range of $-1 \geq y \geq 1$</li>
+<li>Has a period of $2\pi$ (that is, it repeats every $2\pi$ radians or $360^\circ$)</li>
+</ul>
+<h3>Transformations of Trig Function Graphs</h3>
+<p>When fully simplified and factored out, the trigonometric functions follow the general pattern of:</p>
+<p>$$
+f(x) = a \sin b (x - c) + d
+$$</p>
+<p>Here:</p>
+<ul>
+<li>$a$ is the vertical stretch or shrink - that is, the <strong>amplitude</strong>, and it is always positive (even if $a$ has a negative sign)</li>
+<li>$b$ is the horizontal stretch or shrink - that is, the <strong>frequency</strong>, and it is related to the period with $P = \frac{2\pi}{|b|}$</li>
+<li>$c$ is the horizontal shift - that is, the <strong>phase shift</strong></li>
+<li>$d$ is the vertical shift</li>
+</ul>
+<p><img src="https://mathbitsnotebook.com/Algebra2/TrigGraphs/phasepic5.gif" alt="" /></p>
+<p>It is helpful to know the five key points of cosine and sine graphs:</p>
+<table><thead><tr><th>Sine</th><th>Cosine</th></tr></thead><tbody>
+<tr><td>$(0, 0)$</td><td>$(0, 1)$</td></tr>
+<tr><td>$\left(\frac{\pi}{2}, 1\right)$</td><td>$\left(\frac{\pi}{2}, 0\right)$</td></tr>
+<tr><td>$(\pi, 0)$</td><td>$(\pi, -1)$</td></tr>
+<tr><td>$\left(\frac{3\pi}{2}, -1\right)$</td><td>$\left(\frac{\pi}{2}, 0\right)$</td></tr>
+<tr><td>$(2\pi, 0)$</td><td>$\left(2\pi, 1\right)$</td></tr>
+</tbody></table>
+<p>To find the transformed version of a sinusoidal graph (sine or cosine graph), we take the original 5 points and transform each point $(x, y)$ into $\left(\frac{1}{b}(x + c), ay + d\right)$.</p>
+<p>Tip: you really just need to figure out the first row. After that, just increment the difference in the x-values between the first two rows over and over. For example, if the increment is $\frac{\pi}{2}$ between rows 1 and 2 (which is $\frac{\pi}{2} - 0$), just add that each time to get the values of the remaining rows.</p>
+<h3>Worked Example</h3>
+<p>Let's try to graph out the function $f(x)= 2\cos (3x)$.</p>
+<p>First, let's find its amptitude and period. We know that $a = 2$ and $b = 3$, so the amplitude is 2, and the period is $\frac{2\pi}{b} = \frac{2\pi}{3}$.</p>
+<p>We also know that the graph is not shifted vertically or horizontally. So we don't have to worry about our $c$ or $d$ (they do not exist).</p>
+<p>Let's consider the amplitude of 2. Since the amplitude controls the vertical stretch/shrink, we know that all the y-values are going to be multiplied by the amplitude. So all the y-values from the original cosine graph are multiplied by 2.</p>
+<p>Now, let's consider the period of $\frac{2\pi}{3}$. We know that the normal cosine graph has a period of $2\pi$. This means that we are <em>shrinking</em> the graph horizontally by 3, so all the x-values from the original cosine graph are multiplied by $\frac{1}{3}$.</p>
+<p>So we now know that our function $f(x)$ involves multiplying all the values of the original cosine graph by $\left(\frac{1}{3}x, 2y\right)$.</p>
+<p>We can now make a table of values:</p>
+<table><thead><tr><th>Original</th><th>Transformed = $\left(\frac{1}{3}x, 2y\right)$</th></tr></thead><tbody>
+<tr><td>$(0, 1)$</td><td>$(0, 2)$</td></tr>
+<tr><td>$\left(\frac{\pi}{2}, 0\right)$</td><td>$\left(\frac{\pi}{6}, 0\right)$</td></tr>
+<tr><td>$(\pi, -1)$</td><td>$\left(\frac{\pi}{3}, -2\right)$</td></tr>
+<tr><td>$\left(\frac{3\pi}{2}, 0\right)$</td><td>$\left(\frac{\pi}{2}, 0\right)$</td></tr>
+<tr><td>$(2\pi, 1)$</td><td>$\left(\frac{2\pi}{3}, 2\right)$</td></tr>
+</tbody></table>
+<p>And from there we can plot the graph!</p>
 
     </article>
 
