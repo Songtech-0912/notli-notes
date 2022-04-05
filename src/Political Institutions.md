@@ -108,13 +108,27 @@ _This is the second unit of the AP Comparative Politics Course_
 
 ### State Structure
 
-- The Communist Party of China vets all candidates
-- Legislature
-	- National People's Congress (theoretically) approves of the President and all legislation
-	- But realistically it is just a rubber-stamping body
-- Rule by law, not rule of law
+![](https://cdn.cfr.org/sites/default/files/image/2021/07/ccp_graphic.png)
+
+- The Communist Party of China (CPC) holds supreme control over the country
+- A Constitution exists but it is not considered supreme law and is frequently amended to serve the party's interests
+- General Secretary of the CPC (as leader of the party) holds almost all executive power
+- The National People's Congress is the legislature, and theoretically can legislate and supervise the government, but in practice it is just a rubber-stamping body
+- Non-independent judiciary with issues of corruption and frequent political pressures
 - Highly efficient policymaking but no oversight
-- Freedom and liberty is not as much of a deal for the Chinese people
+- Rule by law, not rule of law
+- Freedom and liberty is not as emphasized in the minds of the Chinese people
 
+## Role of the Judiciary
 
-Add stuff from https://docs.google.com/presentation/d/1NDBrY8QUguEygO9565pdspjEmOUtswGYlEUzaVKENAU/edit
+* **Rule of law:** all individuals are equal before the law, and the law imposes meaningful restraints on the state and individuals in ruling power (i.e. "the law controls the state")
+* **Rule by law:** law is used by the state as an instrument of social control (i.e. "the state controls the law")
+
+| Country | Rule of Law or Rule by Law? | Is the judiciary independent, impartial, and effective? | What reforms, if any, are necessary to ensure the judiciary's independence and commitment to the rule of law? |
+|-------|---------|--------|---------|
+| UK | Of law | Independent judiciary, full rule of law | None required |
+| Nigeria | Mixed (more of law) | Constitution as supreme law (theoretically) but widespread corruption and political intimidation | Minimize political interference in judiciary by strictly requiring judges to be selected on the basis of legal qualifications and not hold government posts; increase power of judicial review |
+| Mexico | Mixed (more of law) | Constitution as supreme law (theoretically) but widespread corruption and political intimidation | Minimize political interference in judiciary by strictly requiring judges to be selected on the basis of legal qualifications and not hold government posts; increase power of judicial review |
+| Russia | By law | Russian courts do not uphold basic civil rights and liberties; the law routinely used to sideline potential political opponents; corruption is rampant in the political system | New Constitution with binding legal force as supreme law and the power of judicial review of the government by the Judiciary |
+| Iran | By law | The Head of the Judiciary is appointed and supervised by the Supreme Leader (so it isn't independent nor impartial); denial of access to a lawyer, arbitrary detention, convictions and sentencing are commonplace; judges are selected on the basis of political and religious beliefs rather than competence and legal qualifications | New Constitution with binding legal force as supreme law and the power of judicial review of the government by the Judiciary |
+| China | By law | Judiciary serves the interests of (and is subordinate to) the Communist Party; lawyers in China have to swear an oath of loyalty to the Communist Party of China; dissidents are often captured without a charge and rights of defendants are not protected | New Constitution with binding legal force as supreme law and the power of judicial review of the government by the Judiciary |
