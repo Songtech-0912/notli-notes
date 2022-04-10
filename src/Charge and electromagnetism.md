@@ -41,7 +41,7 @@ $$
 * Electric potential energy depends on the distance betweent he centers of the charges
 * Negative if the charges attract, positive if the charges repel
 * Zero when charges are infinite distance apart
-* This is because you need to do work (put energy _into_ the system) to pull two attracting charges apart, and you need to do work to 
+* This is because you need to do positive work (put energy _into_ the system) to pull two attracting charges apart, and you need to do negative work (take energy _out of_ the system) to push two repulsing charges together
 
 ### Diagrams of the electrostatic force and electrical potential energy
 
