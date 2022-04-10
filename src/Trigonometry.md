@@ -579,3 +579,9 @@ We can now make a table of values:
 | $(2\pi, 1)$ | $\left(\frac{2\pi}{3}, 2\right)$ |
 
 And from there we can plot the graph!
+
+## Inverse Trigonometry
+
+The $\arccos$, $\arcsin$,  and $\arctan$ are the **inverses** (not reciprocals!) of the normal sine, cosine, and tangent functions. This means that, instead of finding a side ratio from an angle, they find the angle from a side ratio, thereby _reversing_ the operation of the original trig function.
+
+Confusingly, they are represented with $\cos^{-1}$, $\sin^{-1}$, and $\tan^{-1}$ even though they are not reciprocals. Don't get them confused
