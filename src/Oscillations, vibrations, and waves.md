@@ -25,3 +25,30 @@
 |--------------|-------------------------------------------------------------------------------------------------------------------------|----------------------|---------------------|---|
 | Transverse   | ![Transverse wave gif](https://upload.wikimedia.org/wikipedia/commons/6/6d/Onde_cisaillement_impulsion_1d_30_petit.gif) | Crest                | Trough              |   |
 | Longitudinal | ![Longtd. wave gif](https://upload.wikimedia.org/wikipedia/commons/6/62/Onde_compression_impulsion_1d_30_petit.gif)     | Compression          | Rarefaction         |   |
+
+## The Wave Equation
+
+The basic wave equation is given by:
+
+$$
+v = \lambda f
+$$
+
+Here:
+
+* $v$ is the **speed** (not velocity)
+* $\lambda$ is the **wavelength**
+* $f$ is the **frequency**
+
+When using the wave equation, remember that:
+
+* All waves in the same medium travel at roughly equal speeds
+* The same wave can move at a different speed if it passes into a different medium
+* The frequency of a wave remains constant no matter the medium
+
+### Changing the variables of the wave equation
+
+-   Speed is directly proportional to frequency and wavelength, so a change to frequency and wavelength results on the same changed multiplied to speed
+    -   E.g. $2\times$ the frequency and $3\times$ the wavelength results in a $2 \cdot 3 = 6\times$ change in speed
+-   Frequency is inversely proportional to wavelength and vice-versa, so given the same speed, increasing either the wavelength or frequency will decrease the other
+    -   E.g. for the same speed, $3\times$ the frequency will result in $\frac{1}{3}\times$ the wavelength
