@@ -400,7 +400,7 @@ Find the trigonometric functions given $\sin \theta = \frac{4}{5}$ and $\tan \th
 
 First, we know that since $\sin \theta = \frac{4}{5}$ is positive, then sine must be positive. Using our **ASTC** chart, that means it can't be any of the quadrants where sine is negative. Since sine is negative in quadrants 3 and 4, we can rule those out.
 
-Now, we are also told that $tan \theta < 0$, so it can't be any of the quadrants where tangent is positive. Since tangent is positive in quadrant 1, we know it can't be quadrant 1. So we are left with just quadrant 2. Now, we can draw out our triangle in quadrant 2 and add in the appropriate +/- signs to each side:
+Now, we are also told that $\tan \theta < 0$, so it can't be any of the quadrants where tangent is positive. Since tangent is positive in quadrant 1, we know it can't be quadrant 1. So we are left with just quadrant 2. Now, we can draw out our triangle in quadrant 2 and add in the appropriate +/- signs to each side:
 
 ![](../images/quadrant-trig.png)
 
@@ -408,7 +408,7 @@ Now, we are also told that $tan \theta < 0$, so it can't be any of the quadrants
 
 Let's evaluate the value of $\csc 0$.
 
-We know that $0^\circ$ would have the coordinates $(0, 1)$ on the unit circle. Since $\sin \theta = y$, and $\csc \theta = $\frac{1}{\sin \theta}$, we can find that $\csc \theta = \frac{1}{y} = \frac{1}{1}$. Additionally, since cosine is positive in the first quadrant, cosecant also is, and so our answer is also positive.
+We know that $0^\circ$ would have the coordinates $(0, 1)$ on the unit circle. Since $\sin \theta = y$, and $\csc \theta = \frac{1}{\sin \theta}$, we can find that $\csc \theta = \frac{1}{y} = \frac{1}{1}$. Additionally, since cosine is positive in the first quadrant, cosecant also is, and so our answer is also positive.
 
 So $\csc 0 = 1$.
 
@@ -504,14 +504,14 @@ You can sing it again, to me!
 
 And you've got that done!
 
-## Graphs of Trigonometric Functions
+## Graphs of Sine and Cosine
 
 ### The Sine Graph
 
 ![](https://cdn1.byjus.com/wp-content/uploads/2019/02/Sine-Function-3.png)
 
 * The "surfer" - starts at the beach $(0, 0)$ and ends at the beach $(2\pi, 0)$
-* Has a range of $-1 \geq y \geq 1$
+* Has a range of $-1 \leq y \leq 1$
 * Has a period of $2\pi$ (that is, it repeats every $2\pi$ radians or $360^\circ$)
 
 ### The Cosine Graph
@@ -519,7 +519,7 @@ And you've got that done!
 ![](https://bandersnatch.ca/wp-content/uploads/2018/05/cosine.png)
 
 * The "skier" - starts at the peak $(0, 1)$ and ends at the peak $(2\pi, 1)$
-* Has a range of $-1 \geq y \geq 1$
+* Has a range of $-1 \leq y \leq 1$
 * Has a period of $2\pi$ (that is, it repeats every $2\pi$ radians or $360^\circ$)
 
 ### Transformations of Trig Function Graphs
@@ -584,4 +584,40 @@ And from there we can plot the graph!
 
 The $\arccos$, $\arcsin$,  and $\arctan$ are the **inverses** (not reciprocals!) of the normal sine, cosine, and tangent functions. This means that, instead of finding a side ratio from an angle, they find the angle from a side ratio, thereby _reversing_ the operation of the original trig function.
 
-Confusingly, they are represented with $\cos^{-1}$, $\sin^{-1}$, and $\tan^{-1}$ even though they are not reciprocals. Don't get them confused
+Confusingly, they are represented with $\cos^{-1}$, $\sin^{-1}$, and $\tan^{-1}$ even though they are not reciprocals. Don't get them confused!
+
+## Graphs of other trigonometric functions
+
+### The Tangent Graph
+
+![](https://www.geogebra.org/resource/GGEwG8Az/sW0eLHL7PJymUjJP/material-GGEwG8Az.png)
+
+* "Starts" low at $-\frac{\pi}{2}$ and "ends" high at $\frac{\pi}{2}$
+	* But it never touches these two points - so they are _asymptotes_
+	* This is because $\tan x = \frac{\sin x}{\cos x}$, so whenever $\cos x = 0$, the tangent function is undefined, and there is an asymptote
+* Has a range of $-\infty \leq y \leq \infty$
+* Has a period of $\pi$ (that is, it repeats every $\pi$ radians or $180^\circ$)
+	* We can find the period using $\frac{\pi}{b}$
+* Amplitude is undefined
+
+### The Cotangent Graph
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Cotangent.svg/1200px-Cotangent.svg.png)
+
+* "Starts" high at 0 and "ends" low at $\pi$
+* Has a range of $-\infty \leq y \leq \infty$
+* Has a period of $\pi$ (that is, it repeats every $\pi$ radians or $180^\circ$)
+	* We can find the period using $\frac{\pi}{b}$
+* Amplitude is undefined
+
+### Graphing the tangent and cotangent graph
+
+* For both the tangent and cotangent graphs, first find the period with $P = \frac{\pi}{b}$
+*  The left asymptote will be $x = -\frac{P}{2} - c$ (where $c$ is the phase shift)
+*  The right asymptote will be $x = \frac{P}{2} - c$ (where $c$ is the phase shift)
+*  The midpoint will be at $x = c$, which in most cases will be $(0, 0)$ if you don't have a phase shift
+*  Once you know the asymptotes:
+	*  If it is a **tangent graph**: just draw a _rising_ curve between the two asymptotes that passes through your midpoint and approaches (but doesn't touch) the asymptotes
+	*  If it is a **cotangent graph**: just draw a _falling_ curve between the two asymptotes that passes through your midpoint and approaches (but doesn't touch) the asymptotes
+
+### The Cosecant and Secant Graph
