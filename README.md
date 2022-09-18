@@ -8,7 +8,7 @@ That's why I've decided to digitize all of my notebooks and school notes. Just l
 
 *Note: Exam Reference Sheets has a new name: Notli! It will take some time to rename everything! So please be patient with me during this process!*
 
-Read the notes by going to <https://songtech-0912.github.io/Exam-Reference-Sheets/>. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well. If you want to do that, download the [zip archive](https://github.com/Songtech-0912/Exam-Reference-Sheets/archive/refs/heads/main.zip) and the markdown files will be in the `src` folder.
+Read the notes by going to <https://songtech-0912.github.io/notli-notes/>. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well. If you want to do that, download the [zip archive](https://github.com/Songtech-0912/Exam-Reference-Sheets/archive/refs/heads/main.zip) and the markdown files will be in the `src` folder.
 
 ## Overview
 
