@@ -119,7 +119,7 @@ A **time interval** is a scalar denoted by $\Delta t$, where $\Delta t = t_2 - t
 **Distance** is a scalar and is denoted by $s$, where it is the separation between two points $A$ and $B$:
 
 $$
-s = |AB| 
+s = |AB|
 $$
 
 **Position** is a vector and is denoted by $\vec x$.
@@ -214,7 +214,7 @@ The vertical vector obeys the following rules **under freefall**:
 * When $t = 0$, $\vec v_y = 0$
 
 * $\vec v_y$ undergoes a constant **acceleration** of $\vec a_y = -g$ regardless of whether the projectile is rising or falling
-  
+
   * However, remember that $\vec v_y$ still _can_ change, just with constant acceleration
 
 The vertical vector obeys the following rules **if there is an applied vertical force** (like if the projectile is shot upwards):
@@ -418,7 +418,7 @@ $$
 
 * Any orbit is an ellipse with the two orbiting masses at the two foci
 
-* A line joining the two orbiting massses sweeps out equal areas during equal intervals of time 
+* A line joining the two orbiting massses sweeps out equal areas during equal intervals of time
 
 Kepler's 3rd law (here, where $M_s$ is one solar mass):
 
@@ -526,7 +526,7 @@ The EPE only exists in a system, **never** for a single isolated charge.
 
 If the two charges are opposite charges, then the EPE is **always** negative (except at infinity, where it is zero). The EPE becomes more and more negative the closer the two charges are brought:
 
-![](https://gcdnb.pbrd.co/images/ix3HVyXRKlYf.png?o=1)
+![](https://i2.paste.pics/9aa274394d559d5ac71ac908922a5dcd.png)
 
 Meanwhile, if the charges are like charges, then the EPE is **always** positive (again, except at infinity). The EPE becomes more and more positive the closer the two charges are brought:
 
@@ -643,7 +643,7 @@ So, just substitute in the electric field or potential (whichever you're given),
 We start with the general expression of the electric field:
 
 $$
-\vec E = \int dE 
+\vec E = \int dE
 $$
 
 We substitute in the differentials into the general formula for the electric field:
@@ -811,18 +811,18 @@ $$
 We now simply need to solve the integral:
 
 $$
-\vec E = \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} 
+\vec E = \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
 k \frac{1}{r^2}\frac{Q}{\pi} d\theta \cos \theta
 $$
 
 $$
-\vec E = \frac{k Q}{R^2 \pi} 
-\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} 
+\vec E = \frac{k Q}{R^2 \pi}
+\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
 \cos \theta \, d \theta
 $$
 
 $$
-\vec E = \frac{k Q}{R^2 \pi} 
+\vec E = \frac{k Q}{R^2 \pi}
 \left[\sin \theta \right]_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
 $$
 
@@ -843,7 +843,7 @@ $$
 Gauss's law describes the electric flux flowing through a surface enclosing a charge:
 
 $$
-\Phi_E = \oint_{\mathcal{S}} \vec{E} \cdot d \vec{A} 
+\Phi_E = \oint_{\mathcal{S}} \vec{E} \cdot d \vec{A}
 = \frac{Q_{\mathrm{enc}}}{\epsilon_0}
 $$
 
@@ -851,7 +851,7 @@ The electric flux is only present when the electric field vector is non-parallel
 
 ### Electric flux for sphere
 
-**Problem:** 
+**Problem:**
 
 What is the electric flux through a sphere of radius 4m that contains a +50 microcoulomb charge at its center?
 
