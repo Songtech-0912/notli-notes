@@ -513,7 +513,7 @@ W = -U_E
 $$
 
 $$
-U_E = -\int \vec F\, dr
+U_E = -\int \vec F\  dr
 $$
 
 We see if we evaluate the previous integral, that:
@@ -547,7 +547,7 @@ The potential is positive near the positive charge, and negative near the negati
 The electric field and electrical potential are related by two formulas (which are technically one formula, just written out differently):
 
 $$
-\Delta V = -\int \vec E\, dr
+\Delta V = -\int \vec E\  dr
 $$
 
 $$
@@ -818,7 +818,7 @@ $$
 $$
 \vec E = \frac{k Q}{R^2 \pi}
 \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}
-\cos \theta \, d \theta
+\cos \theta \  d \theta
 $$
 
 $$

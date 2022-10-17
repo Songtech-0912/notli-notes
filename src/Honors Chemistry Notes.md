@@ -978,7 +978,7 @@ We often want to find the change in heat energy, $\Delta H$, within a reaction.
 - Hess's Law of Summation states that changes in enthalpy in a reaction ($\Delta H$) are independent of the pathway taken by the reactants to form the products:
 
 $$
-\Delta H = \sum \Delta H_{{{\mathrm  f}\,(reactants)}}
+\Delta H = \sum \Delta H_{{{\mathrm  f}\ (reactants)}}
 $$
 
 - This means that enthalpy changes are cumulative, and can be added after every reaction
