@@ -214,7 +214,7 @@ The vertical vector obeys the following rules **under freefall**:
 * When $t = 0$, $\vec v_y = 0$
 
 * $\vec v_y$ undergoes a constant **acceleration** of $\vec a_y = -g$ regardless of whether the projectile is rising or falling
-
+  
   * However, remember that $\vec v_y$ still _can_ change, just with constant acceleration
 
 The vertical vector obeys the following rules **if there is an applied vertical force** (like if the projectile is shot upwards):
@@ -506,7 +506,7 @@ $$
 \Delta U_E = \frac{q_1 q_2}{r}
 $$
 
-This is because the EPE can be thought of as the negative work done by the electrostatic force to _move_ a charge to its position. That is:
+This is because the EPE can be thought of as the negative work done by the electrostatic force to _move_ a charge to its position. That is, the EPE is the energy that is needed to move a charge _against_ an electric field:
 
 $$
 W = -U_E
@@ -534,10 +534,10 @@ Meanwhile, if the charges are like charges, then the EPE is **always** positive 
 
 ## Electrical Potential
 
-The **electrical potential** is the amount of potential energy, per unit charge, that a charge would feel. It is a scalar given by:
+The **electrical potential** is the amount of potential energy, per unit charge, that a charge would feel between 2 locations in an electic field. It is a scalar given by:
 
 $$
-V = \frac{U_E}{Q} = k\frac{Q}{r} =  \frac{J}{C}
+\Delta V = \frac{U_E}{Q} = k\frac{Q}{r} =  \frac{J}{C}
 $$
 
 The potential is positive near the positive charge, and negative near the negative charge. The potential field lines are also perpendicular to the electric field lines, spreading out in concentric loops around the charges:
@@ -557,6 +557,26 @@ $$
 The electric field always points towards the area of lower potential; tightly spaced **potential** lines are where the electric field has the greatest magnitude.
 
 The force on a positive charge is along the direction of the electric field. The force on a negative charge is opposite the direction of the electric field.
+
+Additionally, it is helpful to remember these general facts about the electrical potential:
+
+* If there is a positive charge, the potential would increase closer to the charge
+
+* If there is a negative charge, the potential would decrease closer to the charge
+
+* For any equipotential surface, the potential would be zero
+
+* If the electric potential is **constant**, then the electric field is zero, and vice-versa
+
+* However, if the electric potential is zero, the electric field isn't necessarily zero!
+
+## Constant Electic Fields
+
+In a **constant** electric field (which includes if $E = 0$), the electric potential is given by:
+
+$$
+\Delta V = -Ed
+$$
 
 ## Finding the electrical potential to accelerate a charge to a certain speed
 
@@ -1024,4 +1044,256 @@ $$
 
 $$
 E = \frac{\rho z}{\epsilon_0}
+$$
+
+## Conductors and insulators
+
+**Conductors** are materials that permit the flow of charge through them. **Insulators**, (also called dielectrics) meanwhile, do not. Several rules about conductors are very handy:
+
+* There is **no** net electric field inside of a conductor; conductors shield everything they enclose from all external electric fields
+
+* Any excess charge on a conductor _always_ resides on its outer surface
+
+* The entire conductor is equipotential
+
+* Any two connected conductors have the **same** electrical potential
+
+* The electric field outside of a conductor is given by:
+
+$$
+E = \frac{\sigma_{\mathrm{surface}}}{\epsilon_0} = \frac{Q}{A \epsilon_0}
+$$
+
+## Capacitance
+
+**Capacitance** is the ability for an object to hold a charge. It is given by:
+
+$$
+C = \frac{Q}{|\Delta V|}
+$$
+
+The unit for capacitance is the ferret, where one ferret is equivalent to one coulomb per volt 
+
+## Capacitance for a parallel plate capacitor
+
+Let us presume we have two parallel plates of opposite charge    , a distance $d$ apart.
+
+We use Gauss's law:
+
+$$
+\oint_s \vec E \cdot \vec {dA} = \frac{Q_\mathrm{enc}}{\epsilon_0}
+$$
+
+Recall that the electric field using Gauss's law for _one_ plate can be found like so:
+
+$$
+Q_\mathrm{enc} = \sigma A
+$$
+
+$$
+E(2A) = \frac{Q_\mathrm{enc}}{\epsilon_0}
+$$
+
+$$
+E = \frac{\sigma}{2 \epsilon_0}
+$$
+
+Thus, for the parallel plates, we have:
+
+$$
+E = 2\frac{\sigma}{2 \epsilon_0} = \frac{\sigma}{\epsilon_0} = \frac{Q}{A \epsilon_0}
+$$
+
+From there, we can find the voltage from the voltage equation:
+
+$$
+\Delta V = - \int \vec E \cdot dx
+$$
+
+$$
+\Delta V = - \int_0^d \frac{Q}{A\epsilon_0} dx
+$$
+
+$$
+\Delta V = - \frac{Q}{A\epsilon_0} \int_0^d  dx
+$$
+
+The integral evaluates to:
+
+$$
+\Delta V = -\frac{Q}{A\epsilon_0} (d)
+$$
+
+$$
+\Delta V = -\frac{Qd}{A \epsilon_0}
+$$
+
+Thus, using the capacitance equation, we have:
+
+$$
+C = \frac{Q}{|\Delta V|} = \frac{A\epsilon_0}{d}
+$$
+
+## Capacitance for a parallel plate with a dielectric
+
+For a dielectric,  we use a modified form of Gauss's law with a dielectric constant $k$ dependent on material:
+
+$$
+\oint_s \vec E \cdot \vec {dA} = \frac{Q_\mathrm{enc}}{k\epsilon_0}
+$$
+
+So the final capacitance for the parallel plate capacitor would instead be:
+
+$$
+C = \frac{Q}{|\Delta V|} = \frac{kA\epsilon_0}{d}
+$$
+
+## Capacitance for a spherical capacitor
+
+For the spherical capacitor, we once again use Gauss's law (the normal, non-dielectric variant):
+
+$$
+\oint_s \vec E \cdot \vec {dA} = \frac{Q_\mathrm{enc}}{\epsilon_0}
+$$
+
+From which we find:
+
+$$
+E(4\pi r^2) = \frac{Q}{k \epsilon_0}
+$$
+
+$$
+E = \frac{Q}{4\pi \epsilon_0 r^2}
+$$
+
+In integrating for the voltage, we set the bounds of integration from $a$ (that is, the inner sphere's radius) to $b$ (that is, the outer sphere's radius):
+
+$$
+\Delta V = -\int_{a}^{b} \frac{Q}{4\pi r^2  \epsilon_0} dr
+$$
+
+$$
+\Delta V = -\frac{Q}{4\pi  \epsilon_0} \int_{a}^{b} r^{-2}dr
+$$
+
+$$
+\Delta V = \frac{Q}{4\pi  \epsilon_0}
+\left[\frac{1}{a} - \frac{1}{b}\right]
+$$
+
+$$
+C = \frac{Q}{|\Delta V|} = \frac{4\pi \epsilon_0}{\left(\frac{1}{a} - \frac{1}{b}\right)}
+$$
+
+## Capacitance for a cylindrical capacitor
+
+Once again, we use Gauss's law (the normal, non-dielectric variant):
+
+$$
+\oint_s \vec E \cdot \vec {dA} = \frac{Q_\mathrm{enc}}{\epsilon_0}
+$$
+
+From which we find the expression for the electric field:
+
+$$
+E  = \frac{\lambda}{2\pi \epsilon_0 r}
+$$
+
+Integrating from the inner cylinder surface ($a$) to the outer cylinder surface ($b$) gives the voltage:
+
+$$
+\Delta V = -\int_a^b \frac{\lambda}{2\pi \epsilon_0 r} dr
+$$
+
+$$
+\Delta V = \frac{\lambda}{2\pi \epsilon_0} \ln\left(\frac{b}{a}\right)
+$$
+
+Writing $\lambda$ in terms of $L$ would give us the voltage as:
+
+$$
+\Delta V = \frac{Q}{2\pi L \epsilon_0} \ln\left(\frac{b}{a}\right)
+$$
+
+Thus, the capacitance would be:
+
+$$
+C = \frac{Q}{|\Delta V|} =\frac{2\pi L \epsilon_0}{
+\ln \left(\frac{b}{a}\right)}
+$$
+
+And the capacitance per unit length would be:
+
+$$
+\frac{C}{L} = \frac{2\pi \epsilon_0}{\ln \left(\frac{b}{a}\right)}
+$$
+
+## Capacitance for Circuits
+
+Electric circuits often contain combinations of capacitors. They come in two main types of arrangements:
+
+* **Parallel circuits**, where all capacitors share the same voltage
+
+* **Series circuits**, where all the capacitors share the same charge
+
+Capacitors placed together in a circuit can be summed together to find the **total capacitance**.
+
+Total capacitance in a **parallel circuit** is given by:
+
+$$
+C_T = \sum_i\frac{Q_i}{ \Delta V} =C_1 + C_2 + \dots + C_n
+$$
+
+Total capacitance in a **series circuit** is given by:
+
+$$
+C_T = \frac{1}{\sum_i\frac{ \Delta V}{Q_i}} = \frac{1}{\frac{1}{C_1} + \frac{1}{ C_2} + \dots + \frac{1}{C_n}}
+$$
+
+## Singular Parallel and Series Circuits
+
+Consider a parallel circuit with two parallel plate capacitors. Then, the total capacitance would be:
+
+$$
+C_T  = \frac{Q_1}{V_1} + \frac{Q_1}{V_2}, \quad V_1 = V_2
+$$
+
+We can then find the voltage as follows:
+
+$$
+V = \frac{Q_1}{C_1} = \frac{Q_2}{C_2}
+$$
+
+And from there, computer the total capacitance.
+
+Now, consider a series circuit with two parallel plate capacitors. Then, the total capacitance would be:
+
+$$
+C_T = \frac{1}{\frac{Q_1}{V_1} + \frac{Q_1}{V_2}}, \quad Q_1 = Q_2
+$$
+
+We can then find the charge as follows:
+
+$$
+Q = C_1 V_1 = C_2 V_2
+$$
+
+And likewise compute the total capacitance.
+
+## Mixed Parallel and Series Circuits
+
+## Capacitance Work
+
+Two metal objects have net charges of $+Q$  and $-Q$, and have a potential difference $V$. 
+
+The capacitance of the system would be equal to:
+
+$$
+C = \frac{|Q|}{V}
+$$
+
+## Electrical Potential Energy from Capacitance
+
+$$
+U_C = \frac{1}{2}C V^2
 $$
