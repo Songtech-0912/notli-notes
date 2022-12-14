@@ -80,7 +80,7 @@ $$</p>
 \frac{d[f(x) - g(x)]}{dx} = \frac{df}{dx} - \frac{dg}{dx}
 $$</p>
 <h3>Integration</h3>
-<p>Fundamental theorem of calculus</p>
+<p>Fundamental theorem of calculusElectrical</p>
 <p>$$
 I(x) = \int f(x) dx, \frac{dI}{dx} = f(x)
 $$</p>
@@ -408,20 +408,45 @@ $$</p>
 <p><img src="https://i2.paste.pics/9aa274394d559d5ac71ac908922a5dcd.png" alt="" /></p>
 <p>Meanwhile, if the charges are like charges, then the EPE is <strong>always</strong> positive (again, except at infinity). The EPE becomes more and more positive the closer the two charges are brought:</p>
 <p><img src="https://gcdnb.pbrd.co/images/kpBH2J2ZJvZS.png?o=1" alt="" /></p>
-<h2>Electrical Potential</h2>
-<p>The <strong>electrical potential</strong> is the amount of potential energy, per unit charge, that a charge would feel between 2 locations in an electic field. It is a scalar given by:</p>
+<h2>Electrical Potential &amp; Voltage</h2>
+<p>The <strong>electrical potential</strong> can be thought of as the &quot;electrical pressure&quot; at a certain location in space.</p>
+<p><strong>Voltage</strong> is the <em>difference</em> in electrical potential between two points - sort of like the &quot;electrical pressure difference&quot; between 2 points.</p>
+<p>Just like typical pressure is associated with potential energy, electrical potential is associated with electrical potential energy.</p>
+<p>And just like a <em>difference</em> in pressure can be used to do work, an electrical potential <em>difference</em> also has the <em>potential</em> to do work. </p>
+<p>Charges placed in a region of high electrical potential in an electric field naturally move towards a lower electrical potential. Thus, the electrical field does work on the charge. </p>
+<p>Given that the formula for work is:</p>
 <p>$$
-\Delta V = \frac{U_E}{Q} = k\frac{Q}{r} =  \frac{J}{C}
+W = \int \limits_a^b \vec F(x) \cdot \vec{dx}
 $$</p>
-<p>The potential is positive near the positive charge, and negative near the negative charge. The potential field lines are also perpendicular to the electric field lines, spreading out in concentric loops around the charges:</p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/VFPt_charges_plus_minus_potential%2Bcontour.svg/1280px-VFPt_charges_plus_minus_potential%2Bcontour.svg.png" alt="" /></p>
-<p>The electric field and electrical potential are related by two formulas (which are technically one formula, just written out differently):</p>
+<p>We can substitute to find:</p>
+<p>$$
+W = \int \limits_a^b q \vec E \cdot \vec{dx}
+$$</p>
+<p>Given that:</p>
+<p>$$
+\Delta U_E = -W
+$$</p>
+<p>We have:</p>
+<p>$$
+\frac{\Delta U_E}{q} = -\int \limits_a^b \vec E \cdot \vec{dx}
+$$</p>
+<p>And given:</p>
+<p>$$
+\frac{\Delta U_E}{q} = V_b - V_a = \Delta V
+$$</p>
+<p>We arrive at the voltage equation:</p>
+<p>$$
+\Delta v = -\int \limits_a^b \vec E \cdot \vec{dx}
+$$</p>
+<p>Rewritten in more general form, the relationship between voltage and the electrical field can be given as two equations:</p>
 <p>$$
 \Delta V = -\int \vec E\  dr
 $$</p>
 <p>$$
 E_x = -\frac{dV}{dx}
 $$</p>
+<p>The potential is positive near the positive charge, and negative near the negative charge. The potential field lines are also perpendicular to the electric field lines, spreading out in concentric loops around the charges:</p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/VFPt_charges_plus_minus_potential%2Bcontour.svg/1280px-VFPt_charges_plus_minus_potential%2Bcontour.svg.png" alt="" /></p>
 <p>The electric field always points towards the area of lower potential; tightly spaced <strong>potential</strong> lines are where the electric field has the greatest magnitude.</p>
 <p>The force on a positive charge is along the direction of the electric field. The force on a negative charge is opposite the direction of the electric field.</p>
 <p>Additionally, it is helpful to remember these general facts about the electrical potential:</p>
