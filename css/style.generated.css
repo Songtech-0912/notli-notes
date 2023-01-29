@@ -1,0 +1,203 @@
+/* Notli notes stylesheet, using Sass */ /* Fonts */
+/* Colors */
+/* Shadows */
+/* Styles for pages */
+.page {
+  background: white;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  width: 60%;
+  padding: 6rem 2rem;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: rgb(55, 65, 81);
+}
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  color: rgb(17, 24, 39);
+}
+article h1 {
+  font-size: 2.25rem;
+}
+article h2 {
+  font-size: 1.6rem;
+}
+article h3 {
+  font-size: 1.55rem;
+}
+article h4 {
+  font-size: 1.25rem;
+}
+article h5 {
+  font-size: 1.1rem;
+}
+article blockquote {
+  padding: 1.5rem;
+  background: rgb(229, 231, 235);
+  border-left: 5px solid rgb(55, 65, 81);
+}
+article p, article ol, article ul {
+  line-height: 175%;
+}
+article ol, article ul {
+  padding-left: 2rem;
+}
+article table {
+  border-collapse: collapse;
+}
+article table caption {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+article td, article th {
+  text-align: left;
+  padding: 0.5rem;
+}
+article tr {
+  border-bottom: 1px solid rgb(229, 231, 235);
+}
+article img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
+article a {
+  color: rgb(17, 24, 39);
+}
+
+/* General style resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Inter, Avenir, Helvetica, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, rgb(250, 232, 255), rgb(249, 250, 251), rgb(204, 251, 241));
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 0;
+}
+main #container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 75%;
+  row-gap: 3rem;
+  margin: 0 auto;
+}
+main #header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  margin-top: 3rem;
+}
+main #header h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(107, 114, 128);
+  font-weight: 500;
+  margin: 0 auto;
+}
+main #banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+main #banner #header-svg {
+  margin-right: 1rem;
+}
+main #banner h1 {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-weight: 200;
+  letter-spacing: 0.1em;
+  color: rgb(55, 65, 81);
+}
+main #cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+main #cards a {
+  width: 100%;
+}
+main #cards button {
+  /* "transition duration-500 ease-in-out  hover:bg-gray-600 hover:-translate-y-1 hover:scale-110 */
+  display: inline-flex;
+  flex-grow: 1;
+  text-decoration: none;
+  background-color: rgb(55, 65, 81);
+  padding: 1.5rem 2rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  color: rgb(156, 163, 175);
+  transition-property: transform, background-color;
+  transition-duration: 500ms;
+}
+main #cards button:hover {
+  background-color: rgb(75, 85, 99);
+  transform: translateY(-0.25rem);
+  transform: scale(1.1);
+}
+main #cards h1 {
+  margin: auto;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
+main #cards h1:hover {
+  text-decoration-line: underline;
+}
+
+footer {
+  margin: auto;
+  padding: 6rem 0;
+}
+footer a {
+  text-decoration: none;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .container .primary {
+  /* flex title-font font-medium items-center md:justify-start justify-center text-grey-700 */
+  color: rgb(55, 65, 81);
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+footer .container .secondary {
+  margin-left: 1rem;
+  color: rgb(107, 114, 128);
+}
+
+/*# sourceMappingURL=style.generated.css.map */

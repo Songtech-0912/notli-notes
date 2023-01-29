@@ -1,0 +1,83 @@
+/* Styles for pages */
+@import "utils";
+
+.page {
+	background: white;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2rem;
+	width: 60%;
+	padding: 6rem 2rem;
+	@include center-x;
+	font-size: 1rem;
+	color: $text-primary;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $text-heading;
+	}
+
+	h1 {
+		font-size: 2.25rem;
+	}
+
+	h2 {
+		font-size: 1.6rem;
+	}
+
+	h3 {
+		font-size: 1.55rem;
+	}
+
+	h4 {
+		font-size: 1.25rem;
+	}
+
+	h5 {
+		font-size: 1.1rem;
+	}
+
+	blockquote {
+		padding: 1.5rem;
+		background: $border;
+		border-left: 5px solid $text-primary;
+	}
+
+	p, ol, ul {
+		line-height: 175%;
+	}
+
+	ol, ul {
+		padding-left: 2rem;
+	}
+
+	table {
+		border-collapse: collapse;
+	}
+
+	table caption {
+		font-weight: bold;
+		margin-bottom: 0.5rem;
+	}
+
+	td, th {
+		text-align: left;
+		padding: 0.5rem;
+	}
+
+	tr {
+		border-bottom: 1px solid $border;
+	}
+
+	img {
+		display: block;
+		max-width: 80%;
+		@include center-x;
+	}
+
+	a {
+		color: $text-link;
+	}
+}
