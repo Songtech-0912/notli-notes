@@ -15,7 +15,7 @@
   flex-direction: column;
   background-color: white;
   border-radius: 0.25rem;
-  width: 50%;
+  min-width: 20%;
   padding: 3rem 2.5rem;
   overflow-y: scroll;
 }
@@ -24,6 +24,9 @@
   padding-bottom: 0.6rem;
   border-bottom: 2px solid black;
   margin: 1rem auto 2.5rem;
+}
+#sidebar a {
+  margin-bottom: 0.35rem;
 }
 #sidebar a:hover {
   text-decoration: underline;
