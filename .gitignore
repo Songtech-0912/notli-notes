@@ -17,3 +17,4 @@ workspace
 .obsidian*/
 log.txt
 tools*/
+css/style.generated.css.map
