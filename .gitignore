@@ -15,3 +15,5 @@ package-lock.json
 # For obsidian
 workspace
 .obsidian*/
+log.txt
+tools*/
