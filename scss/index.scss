@@ -1,0 +1,155 @@
+/* Notli notes stylesheet, using Sass */
+
+@import "utils";
+@import "variables";
+@import "page";
+
+/* General style resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-sans;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.25rem;
+  @include center-x;
+  background-image: linear-gradient(to right, $gradient-fuchsia, $gradient-white, $gradient-teal);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	padding: 6rem 0;
+
+	#container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		width: 75%;
+		row-gap: 3rem;
+		@include center-x;
+	}
+
+	#header {
+		display: flex;
+		flex-direction: column;
+		row-gap: 1rem;
+		margin-top: 3rem;
+
+		h2 {
+			font-size: 1.25rem;
+			line-height: 1.75rem;
+			color: $text-secondary;
+			font-weight: 500;
+			@include center-x;
+		}
+	}
+
+	#banner {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+
+		#header-svg {
+			margin-right: 1rem;
+		}
+
+		h1 {
+			text-transform: uppercase;
+			font-size: 4.5rem;
+			font-weight: 200;
+			letter-spacing: 0.1em;
+			color: $text-primary;
+		}
+	}
+
+	#cards {
+		display: flex;
+		flex-direction: column;
+		row-gap: 1.2rem;
+		justify-content: space-evenly;
+		align-items: flex-start;
+		@include center-x;
+
+		a {
+			width: 100%;
+		}
+
+		button {
+			/* "transition duration-500 ease-in-out  hover:bg-gray-600 hover:-translate-y-1 hover:scale-110 */
+			display: inline-flex;
+			flex-grow: 1;
+			text-decoration: none;
+			background-color: $button-primary;
+			padding: 1.5rem 2rem;
+			border-radius: 0.25rem;
+			border: none;
+			cursor: pointer;
+			width: 100%;
+			color: $button-text;
+			transition-property: transform, background-color;
+			transition-duration: 500ms;
+		}
+
+		button:hover {
+			background-color: $button-secondary;
+			transform: translateY(-0.25rem);
+			transform: scale(1.1);
+			
+		}
+
+		h1 {
+			margin: auto;
+			font-size: 1.25rem;
+			line-height: 1.75rem;
+			font-weight: 500;
+		}
+
+		h1:hover {
+			text-decoration-line: underline;
+		}
+	}
+}
+
+footer {
+	margin: auto;
+	padding: 6rem 0;
+	
+	a {
+		text-decoration: none;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+
+		.primary {
+			/* flex title-font font-medium items-center md:justify-start justify-center text-grey-700 */
+			color: $text-primary;
+			font-weight: 500;
+			font-size: 1.25rem;
+		}
+
+		.secondary {
+			margin-left: 1rem;
+			color: $text-secondary;
+		}
+	}
+}

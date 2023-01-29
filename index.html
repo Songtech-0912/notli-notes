@@ -4,44 +4,30 @@
 <head>
   <meta charset="UTF-8" />
   <title>Notli Notes - By Jacky</title>
-  <link rel="stylesheet" href="./css/tailwind.output.css" type="text/css" />
+  <link rel="stylesheet" href="./css/style.generated.css" type="text/css" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 </head>
 
 <body class="bg-gradient-to-r from-fuchsia-100 via-gray-50 to-teal-100">
-  <main class="flex flex-col py-24">
-    <a href="https://github.com/Songtech-0912/Exam-Reference-Sheets">
-      <!--In my experience this banner is more annoying than useful, so I have disabled it-->
-      <!--
-    <img class="fork-me" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub">
-	-->
-    </a>
-    <div class="mx-auto flex flex-col justify-evenly space-y-12 w-3/4 lg:w-1/2" id="container">
-      <div id="header" class="flex flex-col space-y-4 mt-12">
-        <div class="flex flex-row justify-center items-center" id="banner">
-          <div id="header-svg" class="mr-4">
-            <img src="assets/logo.svg" width="" />
+  <main>
+    <div id="container">
+      <div id="header">
+        <div id="banner">
+          <div id="header-svg">
+            <img src="assets/logo.svg" />
           </div>
-          <h1 class="uppercase text-7xl font-extralight tracking-widest text-gray-700">
-            Notli
-          </h1>
+          <h1>Notli</h1>
         </div>
-        <h2 class="text-xl mx-auto text-gray-500 font-medium">
-          Open-source notes for revision and studying
-        </h2>
+        <h2>Open-source notes for revision and studying</h2>
       </div>
-      <section id="cards" class="mx-auto flex flex-col space-y-5 justify-evenly items-start">
-        <!--Items dynmaically generated with JavaScript-->
+      <section id="cards">
+        <!--Items dynamically generated with JavaScript-->
       </section>
     </div>
     <footer class="text-gray-600 body-font m-auto py-12">
-      <div class="container px-32 py-3 mx-auto flex justify-center items-center sm:flex-row flex-col">
-        <a href="#" class="flex title-font font-medium items-center md:justify-start justify-center text-grey-700">
-          <span class="ml-3 text-xl">Notli notes</span>
-        </a>
-        <a href="https://github.com/Songtech-0912"
-          class="text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
-          rel="noopener noreferrer" target="_blank">By @Songtech-0912</a>
+      <div class="container">
+        <a href="#" class="primary">Notli notes</a>
+        <a href="https://github.com/Songtech-0912" rel="noopener noreferrer" target="_blank" class="secondary">By @Songtech-0912</a>
       </div>
     </footer>
   </main>
@@ -101,10 +87,8 @@
     }
     let markup = `
       <a href="${link}" class="w-full">
-          <button class="transition duration-500 ease-in-out bg-gray-700 text-gray-400 font-medium py-6 px-8 flex rounded transform hover:bg-gray-600 hover:-translate-y-1 hover:scale-110 w-full">
-              <h1 class="m-auto text-xl hover:underline">
-                ${pagename} ➝
-              </h1>
+          <button>
+              <h1>${pagename} ➝</h1>
           </button>
       </a>`;
       let element = generateElement(markup);

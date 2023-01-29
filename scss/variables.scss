@@ -1,0 +1,22 @@
+/* Fonts */
+$font-sans: Inter, Avenir, Helvetica, sans-serif;
+
+/* Colors */
+
+$gradient-fuchsia: rgb(250 232 255);
+$gradient-white: rgb(249 250 251);
+$gradient-teal: rgb(204 251 241);
+$text-primary: rgb(55 65 81);
+$text-secondary: rgb(107 114 128);
+$text-heading: rgb(17,24,39);
+$text-link: rgb(17,24,39);
+$button-primary: rgb(55 65 81);
+$button-secondary: rgb(75 85 99);
+$button-text: rgb(156 163 175);
+$border: rgb(229,231,235);
+
+/* Shadows */
+@mixin soft-shadow() {
+    // Thanks to: https://medium.com/@markbrehaut/how-to-quickly-create-a-diffused-shadow-effect-with-css-sass-and-less-4339c7668d69
+    box-shadow: 13px 13px 21px -10px rgba(0, 0, 0, 0.3);
+}
