@@ -15,7 +15,7 @@
 	background-color: white;
 	border-radius: 0.25rem;
 	min-width: 20%;
-	padding: 3rem 2.5rem;
+	padding: 5rem 2.5rem;
 	overflow-y: scroll;
 
 	label {
@@ -66,9 +66,8 @@ article {
 	display: flex;
 	flex-direction: column;
 	row-gap: 2rem;
-	width: 60%;
-	padding: 6rem 2rem;
-	@include center-x;
+	width: 80%;
+	padding: 5rem 4rem;
 	font-size: 1rem;
 	background: white;
 	overflow-y: scroll;
