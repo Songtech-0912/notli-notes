@@ -20,6 +20,7 @@
 
 	label {
 		text-transform: uppercase;
+		letter-spacing: 0.1rem;
 		padding-bottom: 0.6rem;
 		border-bottom: 2px solid black;
 		margin: 1rem auto 2.5rem;
@@ -57,7 +58,7 @@
 
 .article-container {
 	background-color: white;
-	margin-left: 0.25rem;
+	margin-left: 1px;
 	border-radius: 0.25rem;
 	overflow-y: scroll;
 }
