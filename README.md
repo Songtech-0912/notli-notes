@@ -1,6 +1,6 @@
 # Notli Notes
 
-> :warn: Notli will no longer receive any updates. The site will stay online, but no further developmental work will continue. All future notes articles will be published on my personal website, <https://songtech-0912.github.io/>
+> :warning: Notli will no longer receive any updates. The site will stay online, but no further developmental work will continue. All future notes articles will be published on my personal website, <https://songtech-0912.github.io/>
 
  Preparing for exams? You'll find help here.
 
