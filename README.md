@@ -1,5 +1,7 @@
 # Notli Notes
 
+> :warn: Notli will no longer receive any updates. The site will stay online, but no further developmental work will continue. All future notes articles will be published on my personal website, <https://songtech-0912.github.io/>
+
  Preparing for exams? You'll find help here.
 
 Everyone knows the craziness of exam time - suddenly, you're dying to find revision books you've never bothered to read, and you can't go without a day without your notebook. But what if you lose your notebook? What if your notes go missing? You forgot to take notes on an important topic? It's easy to panic if that happens - it's happened to me many times before.
