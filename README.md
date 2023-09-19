@@ -25,6 +25,7 @@ Currently, notes are available for the following subjects:
 - The Great Gatsby
 - AP US Gov
 - Honors Physics
+- AP Physics C
 
 ⚠ Note that many of these notes are still incomplete due to lapses in development, but I still aspire to a high level of quality for them.
 
@@ -122,6 +123,10 @@ This project heavily leverages a lot of other open-source projects:
 * TailwindCSS
 * KaTeX
 * Pulldown and CommonMark
+
+## Credits
+
+Some images used are my custom images, some are linked from external resources and **not** my work. I have not fully completed crediting all the external images I use. Help with this would be appreciated.
 
 ## Download
 
