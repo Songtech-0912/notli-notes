@@ -96,10 +96,12 @@ main {
 			display: inline-flex;
 			flex-grow: 1;
 			text-decoration: none;
-			background-color: $button-primary;
+			background: none;
+			// background-color: $button-primary;
 			padding: 1.5rem 2rem;
-			border-radius: 0.25rem;
-			border: none;
+			border: 3px solid rgb(89, 107, 135);
+			border-radius: 0.5rem;
+			// border: none;
 			cursor: pointer;
 			width: 100%;
 			color: $button-text;
@@ -109,9 +111,7 @@ main {
 
 		button:hover {
 			background-color: $button-secondary;
-			transform: translateY(-0.25rem);
-			transform: scale(1.1);
-			
+			transform: translateY(-0.25rem) scale(1.1);
 		}
 
 		h1 {
@@ -119,10 +119,12 @@ main {
 			font-size: 1.25rem;
 			line-height: 1.75rem;
 			font-weight: 500;
+			color: rgb(89, 107, 135);
 		}
 
 		h1:hover {
 			text-decoration-line: underline;
+			color: rgb(234, 234, 246);
 		}
 	}
 }

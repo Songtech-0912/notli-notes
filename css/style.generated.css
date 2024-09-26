@@ -57,13 +57,16 @@
 article {
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
-  width: 80%;
+  row-gap: 1rem;
+  width: auto;
   padding: 5rem 4rem;
   font-size: 1rem;
   background: white;
   overflow-y: scroll;
   color: rgb(55, 65, 81);
+}
+article > * {
+  width: 80%;
 }
 article h1, article h2, article h3, article h4, article h5, article h6 {
   color: rgb(17, 24, 39);
@@ -201,10 +204,10 @@ main #cards button {
   display: inline-flex;
   flex-grow: 1;
   text-decoration: none;
-  background-color: rgb(55, 65, 81);
+  background: none;
   padding: 1.5rem 2rem;
-  border-radius: 0.25rem;
-  border: none;
+  border: 3px solid rgb(89, 107, 135);
+  border-radius: 0.5rem;
   cursor: pointer;
   width: 100%;
   color: rgb(156, 163, 175);
@@ -213,17 +216,18 @@ main #cards button {
 }
 main #cards button:hover {
   background-color: rgb(75, 85, 99);
-  transform: translateY(-0.25rem);
-  transform: scale(1.1);
+  transform: translateY(-0.25rem) scale(1.1);
 }
 main #cards h1 {
   margin: auto;
   font-size: 1.25rem;
   line-height: 1.75rem;
   font-weight: 500;
+  color: rgb(89, 107, 135);
 }
 main #cards h1:hover {
   text-decoration-line: underline;
+  color: rgb(234, 234, 246);
 }
 
 footer {

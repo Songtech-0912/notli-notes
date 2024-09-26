@@ -66,13 +66,17 @@
 article {
 	display: flex;
 	flex-direction: column;
-	row-gap: 2rem;
-	width: 80%;
+	row-gap: 1rem;
+	width: auto;
 	padding: 5rem 4rem;
 	font-size: 1rem;
 	background: white;
 	overflow-y: scroll;
 	color: $text-primary;
+
+	> * {
+		width: 80%;
+	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: $text-heading;
