@@ -31,12 +31,14 @@ Currently, notes are available for the following subjects:
 
 ## Development
 
-The Notli source code is divided like this:
+Notli is a statically-generated site, meaning that it requires no server to run. It uses a **custom static site generator** written in Rust (`notli`) for generating the pages from its markdown source. The Notli source code is divided like this:
 
 * In the root of the repository, you'll find the base website's html, css, and js assets
 * In the [notli](notli/) folder, you'll find the Rust-based `notli` utility, which generates HTML from the markdown notes
 * In the [pages](pages/) folder, you will find the auto-generated HTML pages that `notli` creates
 * In the [images](images/) folder, you'll find the supporting images used by the notes
+
+> **Note:** while in theory cross-platform, Notli's build instructions are designed primarily for building on Unix-style operating systems (specifically macOS/Linux). They may need to be altered for developing on Windows or other platforms.
 
 ### Prerequisites
 
@@ -45,6 +47,13 @@ I will assume you already have these installed (or know how to install these):
 * [Node.js and NPM](https://nodejs.dev/download) (it is highly recommended you install [pnpm](https://pnpm.io/) as well)
 * [The Rust build tools](https://www.rust-lang.org/learn/get-started)
 * [Git](https://git-scm.com/downloads)
+
+#### Dependency versions
+
+- Just v1.41.0
+- Dart Sass v1.99.0
+- Rust 2025 edition (rustc v1.9.2)
+- Recent version of NodeJS/NPM
 
 ### Building from source
 
@@ -127,26 +136,6 @@ This project heavily leverages a lot of other open-source projects:
 ## Credits
 
 Some images used are my custom images, some are linked from external resources and **not** my work. I have not fully completed crediting all the external images I use. Help with this would be appreciated.
-
-## Download
-
-You can download these notes as PDFs if you wish.
-
-> This will be implemented soon, but you can't right now
-
-## Roadmap/Work in progress
-
-- [x] Display formulas properly with Mathjax
-  - Currently all LaTeX formulas are displayed verbatim as $$s which look horrible, which is why this is neccesary
-- [x] Host the notes online with a website
-- [x] Integrate TailwindCSS Typography to make notes look nice
-- [x] Switch to KaTeX for correct chemical/mathematical equation rendering; currently work-in-progress
-- [x] Big refactor
-- [ ] Auto-format Markdown and HTML code with Prettier
-- [ ] Full documentation on how to edit, modify or use GitHub with notes
-- [ ] Publish PDF versions in GitHub Releases
-- [ ] Include a search bar to easily find key terms in each of the notes
-- [ ] Improve UI of website and do redesign
 
 ## Contribution
 
