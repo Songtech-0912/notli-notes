@@ -31,6 +31,18 @@ body {
   min-height: 100vh;
 }
 
+#notice {
+    width: 100%;
+    text-align: center;
+    background: magenta;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 6px 2px rgba(0, 0, 0, 0.12);
+    z-index: 1000;
+}
+
 main {
 	display: flex;
 	flex-direction: column;

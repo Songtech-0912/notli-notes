@@ -56,6 +56,27 @@
 	}
 }
 
+// Hide sidebar on small screens
+@media (max-width: 960px) {
+  #sidebar {
+    display: none;
+  }
+
+  article {
+  	padding: 3rem !important;
+  }
+
+  article > * {
+  	width: 100% !important;
+  }
+}
+
+@media (max-width: 400px) {
+	article {
+		padding: 2rem !important;
+	}
+}
+
 .article-container {
 	background-color: white;
 	margin-left: 1px;

@@ -47,6 +47,22 @@
   margin-left: 2rem;
 }
 
+@media (max-width: 960px) {
+  #sidebar {
+    display: none;
+  }
+  article {
+    padding: 3rem !important;
+  }
+  article > * {
+    width: 100% !important;
+  }
+}
+@media (max-width: 400px) {
+  article {
+    padding: 2rem !important;
+  }
+}
 .article-container {
   background-color: white;
   margin-left: 1px;
@@ -144,6 +160,18 @@ body {
   background-image: linear-gradient(to right, rgb(250, 232, 255), rgb(249, 250, 251), rgb(204, 251, 241));
   line-height: 1.5;
   min-height: 100vh;
+}
+
+#notice {
+  width: 100%;
+  text-align: center;
+  background: magenta;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  box-shadow: 4px 4px 6px 2px rgba(0, 0, 0, 0.12);
+  z-index: 1000;
 }
 
 main {
