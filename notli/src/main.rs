@@ -51,6 +51,7 @@ fn template(title: &str, contents: &str) -> AnyhowResult<String> {
     </head>
 
   <body class="page">
+  	<div id="notice"><strong>This site is no longer updated.</strong> Please see <a class="underline" href="https://jackysci.com/notes">my new site</a> for my up-to-date open-source notes.</div>
   	<div class="page-container">
   		<nav id="sidebar">
   			<label for="sidebar">Outline</label>
