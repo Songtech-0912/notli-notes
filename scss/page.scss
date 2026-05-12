@@ -63,12 +63,15 @@
   }
 
   article {
-  	padding: 3rem !important;
+  	padding: 4rem !important;
   }
+}
 
-  article > * {
-  	width: 100% !important;
-  }
+// Make site more readable on large screens
+@media (min-width: 1200px) {
+	article > * {
+	  	width: 80% !important;
+	}
 }
 
 @media (max-width: 400px) {
@@ -94,10 +97,6 @@ article {
 	background: white;
 	overflow-y: scroll;
 	color: $text-primary;
-
-	> * {
-		width: 80%;
-	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: $text-heading;

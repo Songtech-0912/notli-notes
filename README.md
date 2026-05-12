@@ -1,22 +1,20 @@
 # Notli Notes
 
-> :warning: Notli will no longer receive any updates. The site will stay online, but no further developmental work will continue. All future notes articles will be published on my personal website, <https://jackysci.com/>
+> :warning: Notli will no longer receive any updates. The site will stay online, but no further developmental work will continue. All future notes articles will be published on my personal website, <https://jackysci.com/notes/>
 
  Preparing for exams? You'll find help here.
 
 Everyone knows the craziness of exam time - suddenly, you're dying to find revision books you've never bothered to read, and you can't go without a day without your notebook. But what if you lose your notebook? What if your notes go missing? You forgot to take notes on an important topic? It's easy to panic if that happens - it's happened to me many times before.
 
-That's why I've decided to digitize all of my notebooks and school notes. Just like the open-source community and the open design movement, I've decided to make all of my notes free to use and modify. Hopefully, once others benefit from these notes, they can also contribute to the notes on their own.
+That's why I've decided to digitize all of my high school notes. Just like the open-source community and the open design movement, I've decided to make all of my notes free to use and modify. Hopefully, once others benefit from these notes, they can also contribute to the notes on their own.
 
-*Note: Exam Reference Sheets has a new name: Notli! It will take some time to rename everything! So please be patient with me during this process!*
-
-Read the notes by going to <https://songtech-0912.github.io/notli-notes/>. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well. If you want to do that, download the [zip archive](https://github.com/Songtech-0912/Exam-Reference-Sheets/archive/refs/heads/main.zip) and the markdown files will be in the `src` folder.
+Read the notes by going to <https://songtech-0912.github.io/notli-notes/>. They can be downloaded as Markdown files (with the `.md` extension) and viewed offline as well. If you want to do that, download the [zip archive](https://github.com/Songtech-0912/notli-notes/archive/refs/heads/main.zip) and the markdown files will be in the `src` folder.
 
 ## Overview
 
 Notli is an **open collection** of notes on all sorts of topics, written in the plaintext [Markdown format](https://www.markdownguide.org/). The open nature of Markdown allows the notes to be accessible to anyone without specialized software. However, Markdown isn't the most fun format to view out-of-the-box, so I wrote a simple [Rust utility](notli/) to generate beautiful HTML pages from the Markdown source. The pages can be viewed online at Notli's official website [here](https://songtech-0912.github.io/Exam-Reference-Sheets). In case anyone was wondering, all of this is free and open-source!
 
-Currently, notes are available for the following subjects:
+Notes are available for the following subjects:
 
 - Honors Chemistry
 - AP US History
@@ -26,6 +24,7 @@ Currently, notes are available for the following subjects:
 - AP US Gov
 - Honors Physics
 - AP Physics C
+- And more!
 
 ⚠ Note that many of these notes are still incomplete due to lapses in development, but I still aspire to a high level of quality for them.
 
@@ -50,7 +49,7 @@ I will assume you already have these installed (or know how to install these):
 
 #### Dependency versions
 
-- Just v1.41.0
+- Just v1.41.0 (optional)
 - Dart Sass v1.99.0
 - Rust 2025 edition (rustc v1.9.2)
 - Recent version of NodeJS/NPM
@@ -64,13 +63,13 @@ If you want to make changes to Notli's source, follow these easy steps to compil
 To clone the repo, run:
 
 ```
-git clone https://github.com/songtech-0912/exam-reference-sheets.git
-cd exam-reference-sheets
+git clone https://github.com/songtech-0912/notli-notes.git
+cd notli-notes
 ```
 
-#### Get Just
+#### Get Just (optional)
 
-Just is the command-line runner Notli uses: think of it like a Makefile but compatible with all operating systems. To install it, run:
+[Just](https://just.systems/) is the command-line runner Notli uses: think of it like a Makefile but compatible with all operating systems. While it is technically optional it makes development a lot easier. To install it, run:
 
 ```
 cargo install just
@@ -82,40 +81,40 @@ Check that it works with:
 just --version
 ```
 
-#### Check all dependencies are satisfied
-
-To check for dependencies, run:
-
-```
-just checkdeps
-```
-
-If that passes without errors, you can then install all libraries used by Notli:
-
-```
-just install
-```
-
 #### Generate the docs
 
-Notli's docs are generated with the custom `notli` utility. To generate, run:
+Notli's docs are generated with the custom `notli` utility, written in Rust. To use it, run:
 
 ```
 just htmlgen
 ```
 
+Alternatively you can run the following command from the **root of the repo**:
+
+```
+cd notli/
+cargo run
+cd ..
+```
+
+Note that `notli` does **not** have live-reload ability, meaning that you'll have to run it whenever you make a change to the markdown source files.
+
 #### Compile the site and create a development server
 
-To compile the site in watch mode (every change you make updates the site), run:
+To compile the site in watch mode (so that every change you make updates the site), run:
 
 ```
 just dev
+# alternative
+sass --watch ./scss/index.scss ./css/style.generated.css
 ```
 
 However, if you want to compile in release mode, run:
 
 ```
 just build
+# alternative
+sass ./scss/index.scss ./css/style.generated.css
 ```
 
 Then, with another terminal open, run:
@@ -124,12 +123,13 @@ Then, with another terminal open, run:
 just serve
 ```
 
-## Uses
+Note that instead of `just serve` you can open the `index.html` file in the root of the repo in your web browser instead; while less convenient (since you'll have to reload the site by hand) it should be able to show the site without any issue.
+
+## Credits
 
 This project heavily leverages a lot of other open-source projects:
 
 * The Rust programming language
-* TailwindCSS
 * KaTeX
 * Pulldown and CommonMark
 

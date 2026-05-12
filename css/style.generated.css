@@ -52,10 +52,12 @@
     display: none;
   }
   article {
-    padding: 3rem !important;
+    padding: 4rem !important;
   }
+}
+@media (min-width: 1200px) {
   article > * {
-    width: 100% !important;
+    width: 80% !important;
   }
 }
 @media (max-width: 400px) {
@@ -80,9 +82,6 @@ article {
   background: white;
   overflow-y: scroll;
   color: rgb(55, 65, 81);
-}
-article > * {
-  width: 80%;
 }
 article h1, article h2, article h3, article h4, article h5, article h6 {
   color: rgb(17, 24, 39);
@@ -177,7 +176,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 main #container {
   display: flex;
@@ -191,7 +190,7 @@ main #header {
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 main #header h2 {
   font-size: 1.25rem;
